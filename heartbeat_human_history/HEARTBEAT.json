@@ -1,0 +1,58 @@
+{
+  "schema": "heartbeat.v1",
+  "t": "2026-08-30T23:30:00Z",
+  "status": "degraded",
+  "repo": "ManuelCadena/Matematica-de-la-humanidad",
+  "branch": "main",
+  "layers": ["0-lentes", "0.5-origenes", "1-fibrado", "2-mandala", "3-cono"],
+  "invariants_ok": true,
+  "corpus": {
+    "cronologia_mundial_arbol": {
+      "version": "6.2.1-origenes",
+      "n_nodes": 2259,
+      "path": "datos/cronologia_mundial_arbol.json"
+    },
+    "historia_ontologia": {
+      "version": "7.1.1-origenes",
+      "n_nodos": 2485,
+      "path": "datos/historia_ontologia.json"
+    },
+    "civilizaciones_fibras": {
+      "n": 22,
+      "path": "datos/civilizaciones_fibras.json"
+    },
+    "origenes": {
+      "species": 31,
+      "sites": 57,
+      "migrations": 13,
+      "admixture": 7,
+      "path": "datos/origenes/"
+    },
+    "sim_meta": {
+      "n_conos": 42,
+      "note": "conos politicos; kind SPEC_05 no entra"
+    }
+  },
+  "github_lag": [
+    "docs/SPEC_03-05 y referencia_modelos.py",
+    "modelo/",
+    "datos/origenes/ y JSON grandes",
+    "app/"
+  ],
+  "pending": [
+    "subir corpus grande y specs 03-05 a GitHub (issue #1)",
+    "extender conos sim_meta a todo el Holoceno con mapa",
+    "taladro dinastico restante por region"
+  ],
+  "last_session": {
+    "id": "2026-08-30-heartbeat",
+    "agent": "Grok 4.6",
+    "activity": "heartbeat",
+    "log": "log/2026-08-30_heartbeat.md"
+  },
+  "protocol": {
+    "readme": "heartbeat_human_history/README.md",
+    "skill": "skills/heartbeat-human-history/SKILL.md",
+    "agents_md": "AGENTS.md"
+  }
+}
