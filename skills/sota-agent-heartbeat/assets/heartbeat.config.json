@@ -1,0 +1,17 @@
+{
+  "schema": "heartbeat.config.v1",
+  "repo": "owner/project",
+  "pulse_schema": "heartbeat.v1.1",
+  "files": [
+    {
+      "id": "main-dataset",
+      "path": "data/example.json",
+      "hash": true,
+      "counts": [
+        {"key": "n_nodes", "pointer": "/n_nodes"}
+      ]
+    }
+  ],
+  "invariants": [],
+  "disjoint": []
+}
