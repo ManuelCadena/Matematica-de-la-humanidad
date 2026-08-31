@@ -1,7 +1,7 @@
 {
   "schema": "heartbeat.v1.1",
   "protocol_version": "1.1.0",
-  "t": "2026-08-31T01:42:00Z",
+  "t": "2026-08-31T19:10:00Z",
   "status": "degraded",
   "repo": "ManuelCadena/Matematica-de-la-humanidad",
   "branch": "main",
@@ -15,13 +15,13 @@
   "invariants_ok": true,
   "corpus": {
     "cronologia_mundial_arbol": {
-      "version": "6.3.0-gaps",
-      "n_nodes": 2296,
+      "version": "6.4.0-taladro",
+      "n_nodes": 2336,
       "path": "datos/cronologia_mundial_arbol.json"
     },
     "historia_ontologia": {
-      "version": "7.2.0-gaps",
-      "n_nodos": 2522,
+      "version": "7.3.0-taladro",
+      "n_nodos": 2562,
       "path": "datos/historia_ontologia.json"
     },
     "civilizaciones_fibras": {
@@ -47,10 +47,10 @@
   },
   "attestation": {
     "method": "validate_heartbeat.py",
-    "t": "2026-08-31T01:55:00Z",
+    "t": "2026-08-31T19:10:00Z",
     "measured": {
-      "cronologia_n_nodes": 2296,
-      "ontologia_n_nodos": 2522,
+      "cronologia_n_nodes": 2336,
+      "ontologia_n_nodos": 2562,
       "fibras": 22,
       "sim_meta_n_conos": 81,
       "origenes": {
@@ -62,10 +62,10 @@
       }
     },
     "hashes": {
-      "datos/cronologia_mundial_arbol.json": "6d5fb8a1c65c986aba72a28f5dc06d995c5897f185e8f4267f352b76ebbe5a3c",
-      "datos/historia_ontologia.json": "ae431427584d09b354f4355c6df4ee87e9311663ce31c7a0cff3eb6662d8b43d",
+      "datos/cronologia_mundial_arbol.json": "8af692749d0414803eacab41e4a007429be9f826423d6c340ad6e77731646e65",
+      "datos/historia_ontologia.json": "ac01150f26d0dcf9d5505f6cb1531699109453ca3996df48970044503a242be1",
       "datos/civilizaciones_fibras.json": "27fd1239e20168ba93e5dd05122285f3c49c73a205e2804ee59fbce3070ce5e8",
-      "datos/sim_meta.json": "021a161616dee4001356cdda80546fdd0cb05fb93fad13534b60a18d0ed74ffd",
+      "datos/sim_meta.json": "da4caf1e795c655c320b3f352556df87928103ca64cc908f6f3a25820b58c4dd",
       "datos/origenes/homininos.json": "322c467d9d6a77d1dd21d607971a8c56c1dcda97269b239978b89884813e491c",
       "datos/origenes/yacimientos.json": "d593ab349a6bf8a128cf8da643d2d164c1886491e4c7339eed929ecbc85ce753",
       "datos/origenes/migraciones.json": "d06e46e045b16b6c4ed1e6ad3e949727ca6824b73942f00d0f22dccd5bfbb793",
@@ -107,14 +107,16 @@
   "pending": [
     "GitHub corpus incompleto: faltan JSON canónicos, origenes, sim_meta, fibras, app, modelo, SPEC_04-05 íntegros, media",
     "Contents API 1MB: árbol pretty 1.48MB / ontología 1.82MB — usar compacto o git local",
-    "video_cgi_globo_conos.mp4 4.2MB no cabe por Contents API"
+    "video_cgi_globo_conos.mp4 4.2MB no cabe por Contents API",
+    "brazil-empire/brazil-rep alojados en arbol andes: decidir arbol atlantico sudamericano propio",
+    "acople kush->egypt (Dinastia XXV) documentado y pendiente de alta"
   ],
   "last_session": {
-    "id": "2026-08-31-repo-corpus-push",
-    "agent": "Grok 4.6",
-    "activity": "repo-push",
-    "log": "log/2026-08-31_repo-corpus-push.md",
-    "sha256": "e7e4cfa0b3bede053624a13811912cd9f8eb1fdca0f8208895f1f08c5b6e6ec2"
+    "id": "2026-08-31-higiene-taladro-40",
+    "agent": "Claude Fable 5",
+    "activity": "add-node",
+    "log": "log/2026-08-31_higiene-taladro-40.md",
+    "sha256": "16d96946f048faef1f7cf160d91fd05f7bf17ae6a36a1f3d9ebb1d034371623f"
   },
   "protocol": {
     "readme": "heartbeat_human_history/README.md",

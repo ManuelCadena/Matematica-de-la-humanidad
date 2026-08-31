@@ -2,6 +2,7 @@
 
 Más reciente arriba. Una línea por sesión. El archivo completo vive junto a esta lista.
 
+- `2026-08-31-higiene-taladro-40` — Claude Fable 5 — add-node — higiene (precision enum, 16 conos re-trazados src_ids, 20 notas capital≠polidad) + taladro 40 nodos; árbol 2296→2336 / ontología 2522→2562 — [log](2026-08-31_higiene-taladro-40.md)
 - `2026-08-31-repo-corpus-push` — Grok 4.6 — repo-push — SPEC_03+schema+packer en main; JSON canónicos aún fuera (lock + techo 1MB) — [log](2026-08-31_repo-corpus-push.md)
 - `2026-08-31-gaps-v7` — Grok 4.6 — add-node — taladro handbook 37 nodos; árbol 2259→2296 / ontología 2485→2522 — [log](2026-08-31_gaps-v7.md)
 - `2026-08-31-skill-repo` — Grok 4.6 — repo-push — repo público ManuelCadena/sota-agent-heartbeat; scripts pendientes por lock — [log](2026-08-31_skill-repo.md)

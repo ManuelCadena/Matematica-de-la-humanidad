@@ -270,7 +270,14 @@
       "t0": -50,
       "t1": 476,
       "peak": 1.0,
-      "src": "rome occidente 476"
+      "src": "rome-rep",
+      "src_note": "rome occidente 476",
+      "src_ids": [
+        "rome-rep",
+        "rome-prin",
+        "rome-dom"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "constantinopla",
@@ -294,7 +301,12 @@
       "t0": -500,
       "t1": 30,
       "peak": 0.55,
-      "src": "hellas clasica"
+      "src": "athens",
+      "src_note": "hellas clasica",
+      "src_ids": [
+        "athens"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "aquisgran",
@@ -306,7 +318,11 @@
       "t0": 768,
       "t1": 888,
       "peak": 0.45,
-      "src": "carolingio"
+      "src": "carolingian",
+      "src_note": "carolingio",
+      "src_ids": [
+        "carolingian"
+      ]
     },
     {
       "id": "menfis",
@@ -318,7 +334,11 @@
       "t0": -3000,
       "t1": 30,
       "peak": 0.85,
-      "src": "egypt hasta Actium"
+      "src": "egypt",
+      "src_note": "egypt hasta Actium",
+      "src_ids": [
+        "egypt"
+      ]
     },
     {
       "id": "aksum",
@@ -342,7 +362,8 @@
       "t0": -270,
       "t1": 350,
       "peak": 0.4,
-      "src": "kush"
+      "src": "kush",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "babilonia",
@@ -354,7 +375,13 @@
       "t0": -1800,
       "t1": -539,
       "peak": 0.7,
-      "src": "mesopotamia"
+      "src": "old-bab",
+      "src_note": "mesopotamia",
+      "src_ids": [
+        "old-bab",
+        "neo-bab"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "persepolis",
@@ -378,7 +405,13 @@
       "t0": -141,
       "t1": 637,
       "peak": 0.7,
-      "src": "partho-sasanida"
+      "src": "parthia",
+      "src_note": "partho-sasanida",
+      "src_ids": [
+        "parthia",
+        "sasanian"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "bagdad",
@@ -450,7 +483,13 @@
       "t0": -321,
       "t1": 550,
       "peak": 0.8,
-      "src": "maurya+gupta"
+      "src": "maurya",
+      "src_note": "maurya+gupta",
+      "src_ids": [
+        "maurya",
+        "gupta"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "delhi",
@@ -474,7 +513,15 @@
       "t0": -221,
       "t1": 907,
       "peak": 1.0,
-      "src": "qin-han-tang"
+      "src": "qin",
+      "src_note": "qin-han-tang",
+      "src_ids": [
+        "qin",
+        "han-w",
+        "han-e",
+        "tang"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "kaifeng",
@@ -486,7 +533,8 @@
       "t0": 960,
       "t1": 1127,
       "peak": 0.85,
-      "src": "song"
+      "src": "song",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "hangzhou",
@@ -498,7 +546,11 @@
       "t0": 1127,
       "t1": 1279,
       "peak": 0.8,
-      "src": "song sur"
+      "src": "song-s",
+      "src_note": "song sur",
+      "src_ids": [
+        "song-s"
+      ]
     },
     {
       "id": "dadu",
@@ -522,7 +574,8 @@
       "t0": 1368,
       "t1": 1421,
       "peak": 0.75,
-      "src": "ming"
+      "src": "ming",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "beijing-ming",
@@ -546,7 +599,13 @@
       "t0": 710,
       "t1": 1185,
       "peak": 0.5,
-      "src": "nara+heian"
+      "src": "nara",
+      "src_note": "nara+heian",
+      "src_ids": [
+        "nara",
+        "heian"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "kamakura",
@@ -618,7 +677,8 @@
       "t0": 1206,
       "t1": 1260,
       "peak": 1.0,
-      "src": "mongol"
+      "src": "mongol",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "istanbul",
@@ -630,7 +690,8 @@
       "t0": 1453,
       "t1": 1922,
       "peak": 0.95,
-      "src": "ottoman"
+      "src": "ottoman",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "isfahan",
@@ -726,7 +787,13 @@
       "t0": 1589,
       "t1": 2026,
       "peak": 0.7,
-      "src": "france-capet/bourbon"
+      "src": "bourbon-fr",
+      "src_note": "france-capet/bourbon",
+      "src_ids": [
+        "bourbon-fr",
+        "fr-revolution"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "vienna",
@@ -750,7 +817,8 @@
       "t0": 1480,
       "t1": 1917,
       "peak": 0.8,
-      "src": "muscovy"
+      "src": "muscovy",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "edo-tokyo",
@@ -762,7 +830,14 @@
       "t0": 1603,
       "t1": 2026,
       "peak": 0.85,
-      "src": "edo+meiji+japan"
+      "src": "edo",
+      "src_note": "edo+meiji+japan",
+      "src_ids": [
+        "edo",
+        "meiji",
+        "japan-now"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "beijing-qing",
@@ -870,7 +945,13 @@
       "t0": 1822,
       "t1": 2026,
       "peak": 0.55,
-      "src": "brazil"
+      "src": "brazil-empire",
+      "src_note": "brazil",
+      "src_ids": [
+        "brazil-empire",
+        "brazil-rep"
+      ],
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "asante",
@@ -918,7 +999,11 @@
       "t0": 1947,
       "t1": 2026,
       "peak": 0.7,
-      "src": "india-mod"
+      "src": "india-rep",
+      "src_note": "india-mod",
+      "src_ids": [
+        "india-rep"
+      ]
     },
     {
       "id": "cairo-mod",
@@ -930,7 +1015,8 @@
       "t0": 1805,
       "t1": 2026,
       "peak": 0.45,
-      "src": "egypt-rep"
+      "src": "egypt-rep",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "addis",
@@ -942,7 +1028,8 @@
       "t0": 1889,
       "t1": 2026,
       "peak": 0.35,
-      "src": "ethiopia-fed"
+      "src": "ethiopia-fed",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "lisboa-imp",
@@ -954,7 +1041,8 @@
       "t0": 1415,
       "t1": 1975,
       "peak": 0.6,
-      "src": "portugal"
+      "src": "portugal",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "san-lorenzo",
@@ -1026,7 +1114,8 @@
       "t0": -500,
       "t1": 850,
       "peak": 0.55,
-      "src": "monte-alban"
+      "src": "monte-alban",
+      "note": "Ventana del cono = fase de capitalidad/apogeo documentada, no la duracion total del nodo src; divergencia intencional, no error."
     },
     {
       "id": "kaminaljuyu",
@@ -1062,7 +1151,11 @@
       "t0": -4000,
       "t1": -3100,
       "peak": 0.8,
-      "src": "uruk"
+      "src": "uruk-per",
+      "src_note": "uruk",
+      "src_ids": [
+        "uruk-per"
+      ]
     },
     {
       "id": "ur",
@@ -1086,7 +1179,11 @@
       "t0": -2600,
       "t1": -1900,
       "peak": 0.7,
-      "src": "harappa"
+      "src": "mohenjo-daro",
+      "src_note": "harappa",
+      "src_ids": [
+        "mohenjo-daro"
+      ]
     },
     {
       "id": "erlitou",
@@ -1112,5 +1209,6 @@
       "peak": 0.6,
       "src": "anyang"
     }
-  ]
+  ],
+  "nota_2026_08_31": "src_ids: trazabilidad verificada contra cronologia_mundial_arbol (LLM.md §6). src conserva el primer id; src_note conserva el descriptor original."
 }
