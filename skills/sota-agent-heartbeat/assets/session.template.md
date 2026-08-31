@@ -23,7 +23,7 @@ prev_sha256:     <sha256 of that markdown or null>
 ## Used (prov:used)
 
 ```
-- role: protocol|corpus-meta|domain|derived-artefact|skill
+- role: protocol|corpus-meta|domain|derived-artefact|skill|config
   path: <path>
   why:  <one line>
 ```
@@ -31,7 +31,7 @@ prev_sha256:     <sha256 of that markdown or null>
 ## Generated (prov:generated)
 
 ```
-- role: protocol|corpus-meta|domain|derived-artefact|skill
+- role: protocol|corpus-meta|domain|derived-artefact|skill|config
   path: <path>
   change: add | fix | docs | pulse
 ```
@@ -51,13 +51,17 @@ What this extends without replacing.
 
 ## Counts
 
-Read from file meta. Never from memory.
+Read from file meta or from `--write-attestation`. Never from memory.
+
+```
+<id> <key>: <n>
+```
 
 ## Correction (only if activity=correction)
 
 ```
 corrects: <old session id>
-delta:    <what changed, from to>
+delta:    <what changed, from → to>
 ```
 
 ## Pending left for the next agent

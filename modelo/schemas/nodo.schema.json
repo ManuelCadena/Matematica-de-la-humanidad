@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ManuelCadena/Matematica-de-la-humanidad/datos/schemas/nodo.schema.json",
+  "title": "Nodo del corpus",
+  "type": "object",
+  "required": ["id", "name", "kind", "start", "end", "precision", "level"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "name_en": { "type": "string" },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "region", "period", "civilization", "culture", "polity", "empire",
+        "dynasty", "nation", "colony", "city-state", "khanate", "caliphate",
+        "sultanate", "confederation", "kingdom",
+        "event", "war", "treaty", "person", "text", "school",
+        "religion", "denomination", "canon", "council", "rite", "cosmology", "order",
+        "species", "site", "migration", "admixture", "technocomplex",
+        "climate", "invention", "pandemic", "axis"
+      ]
+    },
+    "start": { "type": "integer" },
+    "end": { "type": "integer" },
+    "precision": {
+      "type": "string",
+      "enum": ["year", "decade", "century", "millenium", "emic", "debated"]
+    },
+    "level": { "type": "integer", "minimum": 0 },
+    "parent": { "type": ["string", "null"] },
+    "region": { "type": ["string", "null"] },
+    "notes": { "type": "string" },
+    "lentes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["historico", "cientifico", "religioso", "cultural", "social"]
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "arbol": { "type": "string" }
+  }
+}

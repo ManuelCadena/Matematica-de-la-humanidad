@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "version": "7.1.0-geometria",
+    "model": "multiplex spatiotemporal graph + civilization fibers",
+    "formula": "G = (V, D, E_intra, E_inter, I, σ, φ)"
+  },
+  "matematica": {
+    "base": "B = R × T, R discreto (16 regiones + humanidad), T = ℤ años",
+    "dimensiones": [
+      "politico",
+      "historico",
+      "religioso",
+      "cientifico",
+      "cultural",
+      "social"
+    ],
+    "nodo": "v ↦ (I(v)=[t0,t1], σ(v)⊆R, φ(v)⊆D)",
+    "civilizacion": "sección W_C ⊂ B + fibras F_C(d) = {v : soporte ∩ W_C ≠ ∅, d∈φ(v)}",
+    "acople": "e = (C_i, C_j, tipo, vía, I_e, D_e) con relación de Allen sobre I",
+    "allen": [
+      "precedes",
+      "meets",
+      "overlaps",
+      "starts",
+      "during",
+      "finishes",
+      "equals",
+      "preceded_by",
+      "met_by",
+      "overlapped_by",
+      "started_by",
+      "contains",
+      "finished_by"
+    ],
+    "distancia": {
+      "d_T": "0 si I∩J≠∅; si no, gap en años",
+      "d_R": "saltos en el grafo de adyacencia regional (0 mismo, 1 frontera, …)",
+      "d_D": "0 si φ(u)∩φ(v)≠∅; 1 si no",
+      "aviso": "No hay métrica escalar canónica. Una suma ponderada αd_T+βd_R+γd_D elige valores."
+    },
+    "operaciones": {
+      "slice_t": "V_t = {v : t0 ≤ t ≤ t1}",
+      "fiber": "F(C,d) = civilizaciones_fibras[C].fibers[d]",
+      "join": "puertos entre C_i y C_j cuyo I contiene t",
+      "project": "π_D, π_T, π_R",
+      "allen": "relación temporal entre dos intervalos"
+    }
+  },
+  "regiones": {
+    "am-north": {
+      "id": "am-north",
+      "adjacentes": [
+        "meso"
+      ]
+    },
+    "meso": {
+      "id": "meso",
+      "adjacentes": [
+        "am-north",
+        "andes"
+      ]
+    },
+    "andes": {
+      "id": "andes",
+      "adjacentes": [
+        "meso"
+      ]
+    },
+    "af-west": {
+      "id": "af-west",
+      "adjacentes": [
+        "maghreb",
+        "af-nile",
+        "af-cs"
+      ]
+    },
+    "af-nile": {
+      "id": "af-nile",
+      "adjacentes": [
+        "af-west",
+        "af-cs",
+        "maghreb",
+        "near-east"
+      ]
+    },
+    "af-cs": {
+      "id": "af-cs",
+      "adjacentes": [
+        "af-west",
+        "af-nile"
+      ]
+    },
+    "maghreb": {
+      "id": "maghreb",
+      "adjacentes": [
+        "af-west",
+        "af-nile",
+        "eu-west",
+        "near-east"
+      ]
+    },
+    "eu-west": {
+      "id": "eu-west",
+      "adjacentes": [
+        "eu-east",
+        "maghreb",
+        "near-east"
+      ]
+    },
+    "eu-east": {
+      "id": "eu-east",
+      "adjacentes": [
+        "eu-west",
+        "near-east",
+        "iran-steppe"
+      ]
+    },
+    "near-east": {
+      "id": "near-east",
+      "adjacentes": [
+        "eu-west",
+        "eu-east",
+        "maghreb",
+        "af-nile",
+        "iran-steppe"
+      ]
+    },
+    "iran-steppe": {
+      "id": "iran-steppe",
+      "adjacentes": [
+        "near-east",
+        "eu-east",
+        "sasia",
+        "easia"
+      ]
+    },
+    "sasia": {
+      "id": "sasia",
+      "adjacentes": [
+        "iran-steppe",
+        "easia",
+        "seasia"
+      ]
+    },
+    "easia": {
+      "id": "easia",
+      "adjacentes": [
+        "sasia",
+        "iran-steppe",
+        "seasia"
+      ]
+    },
+    "seasia": {
+      "id": "seasia",
+      "adjacentes": [
+        "sasia",
+        "easia",
+        "oceania"
+      ]
+    },
+    "oceania": {
+      "id": "oceania",
+      "adjacentes": [
+        "seasia"
+      ]
+    },
+    "humanidad": {
+      "id": "humanidad",
+      "adjacentes": []
+    }
+  },
+  "dimensiones": {
+    "politico": "Polidades, dinastías, imperios, colonias.",
+    "historico": "Hechos públicos datados (guerras, tratados, eventos).",
+    "religioso": "Sistemas de sentido sacralizado (émico + instituciones).",
+    "cientifico": "Datación, técnica, clima, especie.",
+    "cultural": "Formas: lengua, canon, estilo, escuela.",
+    "social": "Trabajo, género, casta, imperio-como-sociedad, demografía."
+  },
+  "consultas": {
+    "fibra_egipto_religiosa": "civilizaciones_fibras.json → egypt.fibers.religioso",
+    "acoples_sahel": "[e for e in acoples if 'sahel' in (e['from'], e['to'])]",
+    "corte_800": "nodos con start<=800<=end en ontologia + lentes"
+  }
+}

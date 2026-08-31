@@ -38,30 +38,115 @@ atan al objeto de estudio:
 
 1. **Claimed vs attested.** El pulso declara conteos (`corpus`). El
    validador los *mide* otra vez (`attestation.measured`) y firma
-   `sha256` de cada JSON.
+   `sha256` de cada JSON. Un número que el agente recuerda no cuenta.
+   (Respuesta al *provenance paradox*: lo auto-declarado no se usa
+   para decidir estado.)
 2. **Cadena append-only.** Cada sesión apunta a `prev_session_id` +
-   `prev_sha256` del markdown anterior.
+   `prev_sha256` del markdown anterior. Reescribir un log viejo rompe
+   la cadena. No es un ledger con Merkle de runtime; es integridad
+   verificable con un editor de texto.
 3. **Invariantes ejecutables.** Teotihuacan = `[-100, 650]` y apagada
    en t=700. `species|site|migration|admixture` no comparte `id` con
-   un cono político.
-4. **Roles tipados + evidencia.** `used` / `generated` llevan `role`.
+   un cono político. El validador las corre; no son un checklist
+   decorativo.
+4. **Roles tipados + evidencia.** `used` / `generated` llevan
+   `role`. Una sesión `add-node|add-origin|fix-date|add-cone` exige
+   fuente. Eso es evidence-tracing aplicado a historiografía, no a
+   traces de tools.
 
 Lo que **no** adoptamos, a propósito: collector OTel, DID/VC,
-RDF/PROV-O, ledger criptográfico.
+RDF/PROV-O, ledger criptográfico. No hay backend. El isomorfismo
+PROV basta para proyectar después.
 
 ---
 
 ## Contrato (obligatorio)
 
-1. Leer `HEARTBEAT.json`.
+Antes de declarar una sesión terminada:
+
+1. Leer `HEARTBEAT.json` (estado actual).
 2. Hacer el trabajo siguiendo `LLM.md`.
-3. Copiar la plantilla de sesión a `log/YYYY-MM-DD_<slug>.md`.
+3. Copiar `../skills/heartbeat-human-history/assets/session.template.md`
+   a `log/YYYY-MM-DD_<slug>.md` y llenarlo (incluye `chain` y roles).
 4. Añadir una línea al tope de `log/INDEX.md`.
-5. Medir con `validate_heartbeat.py --write-attestation`.
-6. Reescribir `HEARTBEAT.json` (`schema=heartbeat.v1.1`).
-7. CHANGELOG si hay versión de corpus.
-8. Validador sin flags. Exit 0.
+5. Medir, no recordar:
+
+   ```
+   python skills/heartbeat-human-history/scripts/validate_heartbeat.py --write-attestation
+   ```
+
+6. Reescribir `HEARTBEAT.json` (`schema=heartbeat.v1.1`, `t`,
+   `last_session`, `corpus` = measured, `attestation`, `chain`,
+   `pending`).
+7. Si el cambio es una **versión de corpus**, entrada en `CHANGELOG.md`.
+8. Correr el validador sin flags. Exit 0.
+
+Una sesión sin log es una sesión que el siguiente modelo no puede auditar.
+
+---
+
+## Mapa
+
+```
+heartbeat_human_history/
+  README.md                 este protocolo
+  HEARTBEAT.json            pulso (claimed cache + attestation)
+  heartbeat.schema.json     contrato draft-07 (v1 y v1.1)
+  CHANGELOG.md              versiones del corpus
+  log/INDEX.md              índice, más reciente arriba
+  log/YYYY-MM-DD_slug.md    una sesión = un archivo
+```
+
+Skill portable (progressive disclosure):
+
+```
+skills/heartbeat-human-history/SKILL.md
+```
+
+---
+
+## Semántica PROV (reducida)
+
+Cada sesión es una **Activity**. El modelo es el **Agent**.
+Los JSON/md tocados son **Entities**.
+
+| Campo de la sesión | PROV |
+|---|---|
+| `agent` | `prov:Agent` |
+| `activity.type` | `prov:Activity` |
+| `used` + `role` | `prov:used` + tipo |
+| `generated` + `role` | `prov:generated` + tipo |
+| `started` / `ended` | `prov:startedAtTime` / `endedAtTime` |
+| `derived_from` / `chain` | `prov:wasDerivedFrom` / `wasInformedBy` |
+| `attestation.hashes` | integridad de Entity |
+
+No exportamos RDF.
+
+---
+
+## Status
+
+`ok` · `degraded` · `diverged` · `blocked`
+
+`degraded` es el estado honesto cuando el workspace está más
+adelante que GitHub. No lo pintes `ok` para quedar bien.
+`diverged` si `corpus` ≠ `attestation.measured` o un hash no calza.
+
+---
+
+## Qué no registrar
+
+- Transcripciones de chat.
+- Secretos, tokens, rutas locales de la máquina del usuario.
+- Opiniones sobre el usuario.
+- Conteos inventados. Lee `meta` del JSON o `--write-attestation`.
+
+---
+
+## Cómo comprobar
 
 ```
 python skills/heartbeat-human-history/scripts/validate_heartbeat.py
 ```
+
+Debe salir `heartbeat ok`. Exit 2 = diverged.

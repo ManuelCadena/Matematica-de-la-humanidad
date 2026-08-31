@@ -1,0 +1,1114 @@
+{
+  "meta": {
+    "version": "7.3.0-origenes",
+    "fecha": "2026-08-30",
+    "tesis": "Las seis lentes (político, histórico, religioso, científico, cultural, social) son el espacio ambiente. Cada civilización tiene además dimensiones constitutivas que su propia historiografía considera irreductibles. No son adornos: sin ellas el objeto se falsifica. Capa 0.5: las dimensiones de Hominina (bipedismo, dispersión, introgresión, nicho) explican el soporte geográfico sobre el que se sientan las civilizaciones.",
+    "comparativa_academica": [
+      "Trigger, Understanding Early Civilizations",
+      "Eisenstadt, The Civilizational Dimension",
+      "Hodgson, The Venture of Islam (islamicate)",
+      "Pollock, The Language of the Gods (Sanskrit cosmopolis)",
+      "Wolters, History, Culture, and Region in Southeast Asian Perspectives (mandala)",
+      "Murra, El control vertical de un máximo de pisos ecológicos",
+      "Assmann, Ma'at / The Mind of Egypt",
+      "Barfield / Di Cosmo (steppe-sown)",
+      "Kirch, On the Road of the Winds"
+    ]
+  },
+  "espacio_ambiente": {
+    "politico": "Forma de autoridad y territorio.",
+    "historico": "Hechos públicos datables.",
+    "religioso": "Sentido sacralizado (émico + institución).",
+    "cientifico": "Base material y método (ecología, técnica, datación).",
+    "cultural": "Formas simbólicas, lengua, canon, estilo.",
+    "social": "Parentesco, trabajo, clase, género, agregados."
+  },
+  "dimensiones_comparativas": [
+    {
+      "id": "ecologia-subsistencia",
+      "nombre": "Ecología y subsistencia",
+      "lente": "cientifico"
+    },
+    {
+      "id": "forma-politica",
+      "nombre": "Forma política (Estado, imperio, segmentario, mandala)",
+      "lente": "politico"
+    },
+    {
+      "id": "realeza-sacra",
+      "nombre": "Realeza y legitimidad",
+      "lente": "politico"
+    },
+    {
+      "id": "cosmovision",
+      "nombre": "Cosmovisión y rito",
+      "lente": "religioso"
+    },
+    {
+      "id": "sistema-registro",
+      "nombre": "Escritura / quipu / wampum / odu",
+      "lente": "cultural"
+    },
+    {
+      "id": "computo-tiempo",
+      "nombre": "Cómputo del tiempo",
+      "lente": "cultural"
+    },
+    {
+      "id": "parentesco-genero",
+      "nombre": "Parentesco y género",
+      "lente": "social"
+    },
+    {
+      "id": "economia-tributo",
+      "nombre": "Economía política (tributo, mercado, don)",
+      "lente": "social"
+    },
+    {
+      "id": "urbanismo",
+      "nombre": "Urbanismo y paisaje ritual",
+      "lente": "cultural"
+    },
+    {
+      "id": "frontera-otro",
+      "nombre": "Frontera y figura del otro",
+      "lente": "historico"
+    },
+    {
+      "id": "canon-memoria",
+      "nombre": "Canon y memoria",
+      "lente": "cultural"
+    },
+    {
+      "id": "derecho",
+      "nombre": "Derecho y norma",
+      "lente": "social"
+    },
+    {
+      "id": "tecnica",
+      "nombre": "Técnica y saber experto",
+      "lente": "cientifico"
+    },
+    {
+      "id": "dispersion-hominina",
+      "nombre": "Dispersión hominina (pulsos OoA, no una flecha)",
+      "lente": "social"
+    },
+    {
+      "id": "introgresion",
+      "nombre": "Introgresión con arcaicos",
+      "lente": "cientifico"
+    },
+    {
+      "id": "nicho-pleistoceno",
+      "nombre": "Nicho ecológico pleistoceno",
+      "lente": "cientifico"
+    },
+    {
+      "id": "technocomplex",
+      "nombre": "Technocomplex (Olduvayense → UP)",
+      "lente": "cultural"
+    }
+  ],
+  "civilizaciones": {
+    "egypt": {
+      "nombre": "Egipto nilótico",
+      "campo": [
+        "Assmann",
+        "Baines",
+        "Kemp",
+        "Trigger",
+        "Shaw"
+      ],
+      "dimensiones": [
+        {
+          "id": "nilo",
+          "nombre": "Régimen del Nilo (inundación, cuenca, Fayum)",
+          "lente": "cientifico",
+          "por_que": "La economía y el calendario ritual dependen del ciclo hidrológico, no de una 'irrigación despótica' genérica."
+        },
+        {
+          "id": "maat",
+          "nombre": "Maat y realeza",
+          "lente": "religioso",
+          "por_que": "La legitimidad del rey es cósmica (mantener maat), no solo dinástica."
+        },
+        {
+          "id": "templo-economia",
+          "nombre": "Economía templaria",
+          "lente": "social",
+          "por_que": "El templo es unidad agraria, archivo y culto a la vez."
+        },
+        {
+          "id": "mas-alla",
+          "nombre": "Más allá y cuerpo (ka, ba, momificación)",
+          "lente": "religioso",
+          "por_que": "Dimensión funeraria constitutiva; no es 'ornamento' de la política."
+        },
+        {
+          "id": "escritura-eg",
+          "nombre": "Jeroglífico / hierático / demótico",
+          "lente": "cultural",
+          "por_que": "Tres registros de lengua y soporte; el Estado escribe en piedra y papiro."
+        },
+        {
+          "id": "monumentalidad",
+          "nombre": "Paisaje monumental (pirámide, templo-pilono)",
+          "lente": "cultural"
+        },
+        {
+          "id": "dos-tierras",
+          "nombre": "Alto / Bajo Egipto como dualidad política",
+          "lente": "politico"
+        }
+      ]
+    },
+    "kush-nubia": {
+      "nombre": "Kerma–Kush–Meroe",
+      "campo": [
+        "Edwards",
+        "Török",
+        "Welsby"
+      ],
+      "dimensiones": [
+        {
+          "id": "nilo-medio",
+          "nombre": "Nilo medio y corredor oro-marfil",
+          "lente": "cientifico"
+        },
+        {
+          "id": "kerma-tumulos",
+          "nombre": "Túmulos y Deffufa (urbanismo propio, no copia egipcia)",
+          "lente": "cultural"
+        },
+        {
+          "id": "realeza-kush",
+          "nombre": "Realeza napatea/meroítica y dinastía XXV",
+          "lente": "politico"
+        },
+        {
+          "id": "escritura-meroitica",
+          "nombre": "Escritura meroítica (aún no leída del todo)",
+          "lente": "cultural"
+        },
+        {
+          "id": "amon-napata",
+          "nombre": "Amón de Napata / Yebel Barkal",
+          "lente": "religioso"
+        }
+      ]
+    },
+    "aksum-et": {
+      "nombre": "Aksum / Etiopía",
+      "campo": [
+        "Munro-Hay",
+        "Phillipson",
+        "Kaplan"
+      ],
+      "dimensiones": [
+        {
+          "id": "mar-rojo",
+          "nombre": "Eje Adulis–Mar Rojo–Índico",
+          "lente": "social"
+        },
+        {
+          "id": "estelas-aksum",
+          "nombre": "Estelas y realeza monumental",
+          "lente": "politico"
+        },
+        {
+          "id": "geez-iglesia",
+          "nombre": "Geʿez y cristianismo tewahedo",
+          "lente": "religioso"
+        },
+        {
+          "id": "salomonico",
+          "nombre": "Ideología salomónica (Kebra Nagast)",
+          "lente": "cultural"
+        },
+        {
+          "id": "altitud-agricola",
+          "nombre": "Agricultura de altiplano (tef, ensete)",
+          "lente": "cientifico"
+        }
+      ]
+    },
+    "mesopotamia": {
+      "nombre": "Mesopotamia",
+      "campo": [
+        "Postgate",
+        "Van de Mieroop",
+        "Oppenheim",
+        "Liverani"
+      ],
+      "dimensiones": [
+        {
+          "id": "aluvion",
+          "nombre": "Aluvión Tigris–Éufrates e irrigación",
+          "lente": "cientifico"
+        },
+        {
+          "id": "ciudad-templo",
+          "nombre": "Ciudad-templo y dios-patrón",
+          "lente": "politico"
+        },
+        {
+          "id": "cuneiforme",
+          "nombre": "Cuneiforme como técnica y archivo",
+          "lente": "cultural"
+        },
+        {
+          "id": "realeza-me",
+          "nombre": "Realeza y me (poderes cósmicos)",
+          "lente": "religioso"
+        },
+        {
+          "id": "codigo-ley",
+          "nombre": "Tradición jurídica (Ur-Namma, Hammurabi)",
+          "lente": "social"
+        },
+        {
+          "id": "bilingue-sum-ak",
+          "nombre": "Bilingüismo sumerio–acadio",
+          "lente": "cultural"
+        }
+      ]
+    },
+    "levante": {
+      "nombre": "Levante",
+      "campo": [
+        "Liverani",
+        "Finkelstein",
+        "Markoe",
+        "Niehr"
+      ],
+      "dimensiones": [
+        {
+          "id": "corredor",
+          "nombre": "Corredor Egipto–Anatolia–Mesopotamia",
+          "lente": "historico"
+        },
+        {
+          "id": "ciudad-portuaria",
+          "nombre": "Ciudad portuaria (Tiro, Ugarit, Biblos)",
+          "lente": "politico"
+        },
+        {
+          "id": "alfabeto",
+          "nombre": "Alfabeto lineal / fenicio",
+          "lente": "cultural"
+        },
+        {
+          "id": "yahvismo",
+          "nombre": "Yahvismo en contexto cananeo",
+          "lente": "religioso"
+        },
+        {
+          "id": "templo-jerusalen",
+          "nombre": "Templo de Jerusalén y destierro",
+          "lente": "religioso"
+        }
+      ]
+    },
+    "iran": {
+      "nombre": "Iranias",
+      "campo": [
+        "Boyce",
+        "Daryaee",
+        "Gnoli",
+        "Yarshater"
+      ],
+      "dimensiones": [
+        {
+          "id": "altiplano-iran",
+          "nombre": "Altiplano y meseta como base imperial",
+          "lente": "cientifico"
+        },
+        {
+          "id": "satrapia",
+          "nombre": "Satrapía aqueménida / shahanshah",
+          "lente": "politico"
+        },
+        {
+          "id": "mazdeismo",
+          "nombre": "Mazdeísmo / Avesta",
+          "lente": "religioso"
+        },
+        {
+          "id": "dualismo-etico",
+          "nombre": "Dualismo ético (asha / druj)",
+          "lente": "religioso"
+        },
+        {
+          "id": "ruta-seda-iran",
+          "nombre": "Cruce de la Ruta de la Seda",
+          "lente": "social"
+        },
+        {
+          "id": "persa-medio-nuevo",
+          "nombre": "Persa antiguo / medio / nuevo como lengua de corte",
+          "lente": "cultural"
+        }
+      ]
+    },
+    "hellas": {
+      "nombre": "Mundo griego",
+      "campo": [
+        "Hansen",
+        "Finley",
+        "Vernant",
+        "Morris",
+        "Ober"
+      ],
+      "dimensiones": [
+        {
+          "id": "polis",
+          "nombre": "Pólis (ciudad-Estado ciudadana)",
+          "lente": "politico"
+        },
+        {
+          "id": "mar-egeo",
+          "nombre": "Mar Egeo y colonización",
+          "lente": "cientifico"
+        },
+        {
+          "id": "oikos-esclavitud",
+          "nombre": "Oikos y esclavitud",
+          "lente": "social"
+        },
+        {
+          "id": "agon",
+          "nombre": "Agón (competencia cívica y atlético-poética)",
+          "lente": "cultural"
+        },
+        {
+          "id": "mythos-logos",
+          "nombre": "Paso mythos–logos (categoría moderna, no un evento)",
+          "lente": "cultural"
+        },
+        {
+          "id": "culto-civico",
+          "nombre": "Culto cívico y panhelénico",
+          "lente": "religioso"
+        },
+        {
+          "id": "escritura-alfabetica",
+          "nombre": "Alfabeto griego y paideia",
+          "lente": "cultural"
+        }
+      ]
+    },
+    "rome": {
+      "nombre": "Roma",
+      "campo": [
+        "Hopkins",
+        "Ando",
+        "Woolf",
+        "Scheidel",
+        "Beard"
+      ],
+      "dimensiones": [
+        {
+          "id": "ciudad-imperio",
+          "nombre": "De ciudad-Estado a imperio territorial",
+          "lente": "politico"
+        },
+        {
+          "id": "derecho-romano",
+          "nombre": "Ius civile / ius gentium",
+          "lente": "social"
+        },
+        {
+          "id": "ciudadania",
+          "nombre": "Ciudadanía extensible",
+          "lente": "social"
+        },
+        {
+          "id": "ejercito-logistica",
+          "nombre": "Ejército y fiscalidad",
+          "lente": "politico"
+        },
+        {
+          "id": "latin-griego",
+          "nombre": "Bilingüismo latín–griego",
+          "lente": "cultural"
+        },
+        {
+          "id": "culto-imperial",
+          "nombre": "Culto imperial y luego cristianismo de Estado",
+          "lente": "religioso"
+        },
+        {
+          "id": "urbanismo-romano",
+          "nombre": "Red urbana y calzada",
+          "lente": "cientifico"
+        }
+      ]
+    },
+    "latin-west": {
+      "nombre": "Occidente latino",
+      "campo": [
+        "Brown",
+        "Le Goff",
+        "Wickham",
+        "Moore",
+        "Eisenstein"
+      ],
+      "dimensiones": [
+        {
+          "id": "iglesia-lat",
+          "nombre": "Iglesia latina como infraestructura",
+          "lente": "religioso"
+        },
+        {
+          "id": "feudalidad",
+          "nombre": "Señorío / feudalidad (categoría debatida)",
+          "lente": "social"
+        },
+        {
+          "id": "universidad",
+          "nombre": "Universidad y derecho canónico",
+          "lente": "cultural"
+        },
+        {
+          "id": "imprenta",
+          "nombre": "Imprenta y Reforma",
+          "lente": "cientifico"
+        },
+        {
+          "id": "estado-moderno",
+          "nombre": "Estado moderno y sistema westfaliano",
+          "lente": "politico"
+        },
+        {
+          "id": "capitalismo-atl",
+          "nombre": "Capitalismo y proyección atlántica",
+          "lente": "social"
+        }
+      ]
+    },
+    "islamicate": {
+      "nombre": "Campo islamicate",
+      "campo": [
+        "Hodgson",
+        "Lapidus",
+        "Bulliet",
+        "Berkey",
+        "Al-Azmeh"
+      ],
+      "dimensiones": [
+        {
+          "id": "umma-sultan",
+          "nombre": "Umma / califato / sultanato (distintos planos)",
+          "lente": "politico"
+        },
+        {
+          "id": "sharia-fiqh",
+          "nombre": "Sharīʿa y fiqh (madhāhib)",
+          "lente": "religioso"
+        },
+        {
+          "id": "arabe-persa",
+          "nombre": "Árabe (canon) + persa (corte) + turco (espada)",
+          "lente": "cultural"
+        },
+        {
+          "id": "waqf",
+          "nombre": "Waqf como economía institucional",
+          "lente": "social"
+        },
+        {
+          "id": "ulama",
+          "nombre": "ʿUlamāʾ y madrasa",
+          "lente": "social"
+        },
+        {
+          "id": "sufismo-tariqa",
+          "nombre": "Tasawwuf / ṭarīqa",
+          "lente": "religioso"
+        },
+        {
+          "id": "ciudad-islamica",
+          "nombre": "Ciudad (mezquita-zoco-hammam) no como 'despotismo urbano'",
+          "lente": "cultural"
+        }
+      ]
+    },
+    "sahel": {
+      "nombre": "Sahel occidental",
+      "campo": [
+        "Levtzion",
+        "Hunwick",
+        "McIntosh",
+        "Gomez",
+        "Kane"
+      ],
+      "dimensiones": [
+        {
+          "id": "sahel-ecologia",
+          "nombre": "Ecología saheliana (níger, mijo, trashumancia)",
+          "lente": "cientifico"
+        },
+        {
+          "id": "oro-sal",
+          "nombre": "Eje oro–sal–kola",
+          "lente": "social"
+        },
+        {
+          "id": "imperio-segmentario",
+          "nombre": "Imperio segmentario (Ghana–Mali–Songhai)",
+          "lente": "politico"
+        },
+        {
+          "id": "islam-sahel",
+          "nombre": "Islam de corte y de ṭarīqa (no 'conversión total')",
+          "lente": "religioso"
+        },
+        {
+          "id": "ajami-manuscrito",
+          "nombre": "Manuscritos de Timbuktú / ʿajamī",
+          "lente": "cultural"
+        },
+        {
+          "id": "linaje-clanes",
+          "nombre": "Linajes, griots, castas ocupacionales",
+          "lente": "social"
+        }
+      ]
+    },
+    "india": {
+      "nombre": "Campo índico",
+      "campo": [
+        "Thapar",
+        "Pollock",
+        "Trautmann",
+        "Dirks",
+        "Bronkhorst"
+      ],
+      "dimensiones": [
+        {
+          "id": "monzon",
+          "nombre": "Monzón y cuenca indo-gangética / Decán",
+          "lente": "cientifico"
+        },
+        {
+          "id": "varna-jati",
+          "nombre": "Varṇa / jāti (no reducir a 'casta eterna')",
+          "lente": "social"
+        },
+        {
+          "id": "dharma",
+          "nombre": "Dharma como norma plural",
+          "lente": "religioso"
+        },
+        {
+          "id": "sanskrito-cosmopolis",
+          "nombre": "Cosmópolis sánscrita (Pollock)",
+          "lente": "cultural"
+        },
+        {
+          "id": "templo-indio",
+          "nombre": "Templo como economía y señorío",
+          "lente": "social"
+        },
+        {
+          "id": "sramana-bhakti",
+          "nombre": "Eje śramaṇa → bhakti",
+          "lente": "religioso"
+        },
+        {
+          "id": "sultanato-mughal",
+          "nombre": "Sultanato / Mughal como capa islamicate sobre el campo índico",
+          "lente": "politico"
+        }
+      ]
+    },
+    "china": {
+      "nombre": "Campo sínico",
+      "campo": [
+        "Elvin",
+        "Skinner",
+        "Lewis",
+        "Needham",
+        "Brook",
+        "Pomeranz"
+      ],
+      "dimensiones": [
+        {
+          "id": "cuencas-cn",
+          "nombre": "Cuencas del Amarillo y del Yangtsé",
+          "lente": "cientifico"
+        },
+        {
+          "id": "mandato-cielo",
+          "nombre": "Mandato del Cielo",
+          "lente": "politico"
+        },
+        {
+          "id": "buro-examen",
+          "nombre": "Burocracia y examen imperial",
+          "lente": "social"
+        },
+        {
+          "id": "sanjiao",
+          "nombre": "Sanjiao (Ru–Dao–Fo) + religión popular",
+          "lente": "religioso"
+        },
+        {
+          "id": "escritura-cn",
+          "nombre": "Escritura sinográfica como imperio cultural",
+          "lente": "cultural"
+        },
+        {
+          "id": "frontera-interna",
+          "nombre": "Frontera interior / exterior (steppe, sur)",
+          "lente": "historico"
+        },
+        {
+          "id": "economia-jiangnan",
+          "nombre": "Economía del Jiangnan y mercado interno",
+          "lente": "social"
+        }
+      ]
+    },
+    "japan-civ": {
+      "nombre": "Japón",
+      "campo": [
+        "Amino",
+        "Ooms",
+        "Totman",
+        "Berry"
+      ],
+      "dimensiones": [
+        {
+          "id": "archipielago",
+          "nombre": "Archipiélago y riesgo sísmico-volcánico",
+          "lente": "cientifico"
+        },
+        {
+          "id": "tenno-baku",
+          "nombre": "Tennō / bakufu (doble soberanía)",
+          "lente": "politico"
+        },
+        {
+          "id": "kami-hotoke",
+          "nombre": "Kami y hotoke (combinación, no 'shintō eterno')",
+          "lente": "religioso"
+        },
+        {
+          "id": "estamentos-edo",
+          "nombre": "Orden estamental Tokugawa",
+          "lente": "social"
+        },
+        {
+          "id": "escritura-triple",
+          "nombre": "Kanji / hiragana / katakana",
+          "lente": "cultural"
+        },
+        {
+          "id": "islas-frente",
+          "nombre": "Islas como frontera (Ezo, Ryūkyū)",
+          "lente": "historico"
+        }
+      ]
+    },
+    "korea-civ": {
+      "nombre": "Corea",
+      "campo": [
+        "Deuchler",
+        "Breuker",
+        "Seth"
+      ],
+      "dimensiones": [
+        {
+          "id": "peninsula",
+          "nombre": "Península entre imperio sínico y archipiélago",
+          "lente": "historico"
+        },
+        {
+          "id": "yangban",
+          "nombre": "Yangban y confucianismo de Estado",
+          "lente": "social"
+        },
+        {
+          "id": "hangul",
+          "nombre": "Hangul como reforma gráfica",
+          "lente": "cultural"
+        },
+        {
+          "id": "budismo-mu",
+          "nombre": "Budismo + muísmo",
+          "lente": "religioso"
+        }
+      ]
+    },
+    "seasia-civ": {
+      "nombre": "Mandala del SE asiático",
+      "campo": [
+        "Wolters",
+        "Reid",
+        "Lieberman",
+        "Kulke"
+      ],
+      "dimensiones": [
+        {
+          "id": "mandala",
+          "nombre": "Mandala (poder centrado, fronteras blandas)",
+          "lente": "politico"
+        },
+        {
+          "id": "monzon-est",
+          "nombre": "Monzón y estrechos",
+          "lente": "cientifico"
+        },
+        {
+          "id": "indianizacion",
+          "nombre": "Indianización / sanscritización selectiva",
+          "lente": "cultural"
+        },
+        {
+          "id": "theravada-islam-se",
+          "nombre": "Theravāda en tierra firme / islam en el archipiélago",
+          "lente": "religioso"
+        },
+        {
+          "id": "esclavitud-deuda",
+          "nombre": "Esclavitud por deuda y mano de obra",
+          "lente": "social"
+        }
+      ]
+    },
+    "mesoamerica": {
+      "nombre": "Mesoamérica",
+      "campo": [
+        "Kirchhoff",
+        "López Austin",
+        "Carrasco",
+        "Marcus",
+        "Martin-Grube"
+      ],
+      "dimensiones": [
+        {
+          "id": "maiz",
+          "nombre": "Maíz como eje agro-cosmológico",
+          "lente": "cientifico"
+        },
+        {
+          "id": "calendario-dual",
+          "nombre": "Calendario dual (260 / 365) y cuenta larga",
+          "lente": "cultural"
+        },
+        {
+          "id": "escritura-meso",
+          "nombre": "Escritura glífica (maya; otras tradiciones)",
+          "lente": "cultural"
+        },
+        {
+          "id": "altepetl",
+          "nombre": "Altepetl / ajawlel (ciudad-señorío)",
+          "lente": "politico"
+        },
+        {
+          "id": "sacrificio",
+          "nombre": "Sacrificio y deuda cósmica",
+          "lente": "religioso"
+        },
+        {
+          "id": "nahualismo",
+          "nombre": "Nahualismo / tonalismo",
+          "lente": "religioso"
+        },
+        {
+          "id": "guerra-florida",
+          "nombre": "Guerra y captura (no solo territorio)",
+          "lente": "politico"
+        }
+      ]
+    },
+    "andes-civ": {
+      "nombre": "Andes centrales",
+      "campo": [
+        "Murra",
+        "Rostworowski",
+        "Zuidema",
+        "D'Altroy",
+        "Quilter"
+      ],
+      "dimensiones": [
+        {
+          "id": "pisos-ecologicos",
+          "nombre": "Control vertical de pisos ecológicos",
+          "lente": "cientifico"
+        },
+        {
+          "id": "ayllu",
+          "nombre": "Ayllu y dualidad (hanan/hurin)",
+          "lente": "social"
+        },
+        {
+          "id": "mita-recipro",
+          "nombre": "Mita / ayni / recíproco estatal",
+          "lente": "social"
+        },
+        {
+          "id": "huaca-ceque",
+          "nombre": "Huaca y ceques",
+          "lente": "religioso"
+        },
+        {
+          "id": "khipu",
+          "nombre": "Khipu como registro",
+          "lente": "cultural"
+        },
+        {
+          "id": "tawantinsuyu-4",
+          "nombre": "Cuatro suyus (no 'imperio' europeo)",
+          "lente": "politico"
+        }
+      ]
+    },
+    "am-woodland": {
+      "nombre": "Bosques orientales de Norteamérica",
+      "campo": [
+        "Pauketat",
+        "Trigger",
+        "Richter",
+        "Mann"
+      ],
+      "dimensiones": [
+        {
+          "id": "monticulos",
+          "nombre": "Complejos de montículos (Hopewell, Cahokia)",
+          "lente": "cultural"
+        },
+        {
+          "id": "maiz-norte",
+          "nombre": "Adopción tardía del maíz",
+          "lente": "cientifico"
+        },
+        {
+          "id": "confederacion",
+          "nombre": "Confederaciones (Haudenosaunee)",
+          "lente": "politico"
+        },
+        {
+          "id": "wampum",
+          "nombre": "Wampum como registro y tratado",
+          "lente": "cultural"
+        },
+        {
+          "id": "cosmov-bosque",
+          "nombre": "Cosmologías del bosque y agricultura de tala",
+          "lente": "religioso"
+        }
+      ]
+    },
+    "steppe": {
+      "nombre": "Estepa euroasiática",
+      "campo": [
+        "Barfield",
+        "Di Cosmo",
+        "Golden",
+        "Allsen"
+      ],
+      "dimensiones": [
+        {
+          "id": "pastoralismo",
+          "nombre": "Pastoralismo nómada y caballo",
+          "lente": "cientifico"
+        },
+        {
+          "id": "confederacion-khan",
+          "nombre": "Confederación de khanatos",
+          "lente": "politico"
+        },
+        {
+          "id": "steppe-sown",
+          "nombre": "Eje steppe–sown (nómada / agrario)",
+          "lente": "historico"
+        },
+        {
+          "id": "tengri-islam-bud",
+          "nombre": "Tengri / islam / budismo como opciones de corte",
+          "lente": "religioso"
+        },
+        {
+          "id": "movilidad",
+          "nombre": "Movilidad como infraestructura (posta, ordo)",
+          "lente": "social"
+        }
+      ]
+    },
+    "oceania-civ": {
+      "nombre": "Sahul / Lapita / Polinesia",
+      "campo": [
+        "Kirch",
+        "Sahlins",
+        "Spriggs",
+        "Bellwood"
+      ],
+      "dimensiones": [
+        {
+          "id": "navegacion",
+          "nombre": "Navegación de altura y poblamiento",
+          "lente": "cientifico"
+        },
+        {
+          "id": "mana-tapu",
+          "nombre": "Mana / tapu / atua",
+          "lente": "religioso"
+        },
+        {
+          "id": "jefatura",
+          "nombre": "Jefatura y talasocracia (tuʻi tonga)",
+          "lente": "politico"
+        },
+        {
+          "id": "horticultura-isla",
+          "nombre": "Horticultura insular y límites ecológicos (Rapa Nui)",
+          "lente": "cientifico"
+        },
+        {
+          "id": "genealogia-oral",
+          "nombre": "Genealogía oral como archivo",
+          "lente": "cultural"
+        }
+      ]
+    },
+    "atlantic-mod": {
+      "nombre": "Sistema atlántico moderno",
+      "campo": [
+        "Mintz",
+        "Thornton",
+        "Eltis",
+        "Gilroy",
+        "Crosby"
+      ],
+      "dimensiones": [
+        {
+          "id": "trata",
+          "nombre": "Trata atlántica y plantación",
+          "lente": "social"
+        },
+        {
+          "id": "imperio-oceanico",
+          "nombre": "Imperio oceánico (flota, factoría, virreinato)",
+          "lente": "politico"
+        },
+        {
+          "id": "intercambio-colombino",
+          "nombre": "Intercambio colombino (biota, patógenos)",
+          "lente": "cientifico"
+        },
+        {
+          "id": "derecho-indias",
+          "nombre": "Derecho de Indias / racismo de casta colonial",
+          "lente": "social"
+        },
+        {
+          "id": "cristianizacion",
+          "nombre": "Cristianización y sistemas de culto afroamericanos",
+          "lente": "religioso"
+        },
+        {
+          "id": "economia-azucar",
+          "nombre": "Azúcar, plata y capitalismo mercante",
+          "lente": "social"
+        }
+      ]
+    },
+    "hominina": {
+      "nombre": "Hominina / Homo (capa de origen, no Estado)",
+      "campo": [
+        "Wood & Boyle",
+        "Hublin",
+        "Stringer",
+        "Scerri",
+        "Ragsdale",
+        "Hawks",
+        "Reich"
+      ],
+      "dimensiones": [
+        {
+          "id": "bipedismo",
+          "nombre": "Bipedismo y locomoción",
+          "lente": "cientifico",
+          "por_que": "El rasgo que abre el clado; debatido en Sahelanthropus."
+        },
+        {
+          "id": "encefalizacion",
+          "nombre": "Encefalización y dieta",
+          "lente": "cientifico",
+          "por_que": "No es una rampa lineal: naledi y floresiensis rompen el relato."
+        },
+        {
+          "id": "technocomplex-h",
+          "nombre": "Technocomplex (Olduvayense, Acheulense, MSA, Musteriense, UP)",
+          "lente": "cultural",
+          "por_que": "La cultura material no coincide 1:1 con la especie."
+        },
+        {
+          "id": "dispersion-h",
+          "nombre": "Pulsos de salida de África",
+          "lente": "social",
+          "por_que": "OoA-I no explica a los vivos; OoA-II sí. Los pulsos 194/120/85 ka no son el tronco no africano."
+        },
+        {
+          "id": "introgresion-h",
+          "nombre": "Introgresión neandertal / denisovana / ghosts africanos",
+          "lente": "cientifico",
+          "por_que": "La especie actual no es un linaje limpio."
+        },
+        {
+          "id": "nicho-h",
+          "nombre": "Ampliación de nicho desde ~70 ka",
+          "lente": "cientifico",
+          "por_que": "Hallett 2025: el éxito de OoA-II coincide con flexibilidad ecológica, no con un 'gen de la conquista'."
+        },
+        {
+          "id": "pan-africano",
+          "nombre": "Origen pan-africano + fusión de stems ~300 ka",
+          "lente": "cientifico",
+          "por_que": "No hay jardín de Edén único. Ragsdale 2023; Irhoud + Florisbad + Omo."
+        }
+      ]
+    }
+  },
+  "culturas_distintas_dentro": {
+    "nota": "La investigación no trata estas unidades como meros subapartados.",
+    "maya": {
+      "parent": "mesoamerica",
+      "dimensiones": [
+        "escritura glífica + cuenta larga",
+        "ajaw divino",
+        "colapso clásico como proceso regional no único",
+        "vigencia colonial y republicana"
+      ]
+    },
+    "mexica": {
+      "parent": "mesoamerica",
+      "dimensiones": [
+        "altepetl triple",
+        "guerra florida",
+        "Tenochtitlan lacustre",
+        "teotl"
+      ]
+    },
+    "yoruba": {
+      "parent": "sahel",
+      "dimensiones": [
+        "Ifá/odu como canon oral",
+        "ciudad-reino (Ilé-Ifẹ̀, Ọ̀yọ́)",
+        "diáspora atlántica"
+      ]
+    },
+    "swahili": {
+      "parent": "af-nile / índico",
+      "dimensiones": [
+        "ciudad-Estado litoral",
+        "kiswahili + islam",
+        "comercio oro-marfil-esclavos"
+      ]
+    }
+  }
+}

@@ -3,7 +3,7 @@ name: sota-agent-heartbeat
 description: Install and operate a SOTA-plus agentic provenance layer in any repository. Use when adding AGENTS.md, SKILL.md, session logs, an attested pulse, a hash chain, heartbeat protocol, or reusable agent documentation that other models must follow.
 metadata:
   type: workflow
-  version: "1.1.0"
+  version: "1.2.0"
   protocol: heartbeat.v1.1
   portable: "true"
 license: MIT
@@ -16,7 +16,8 @@ Not git. Not OpenTelemetry. A W3C-PROV-shaped pulse + append-only
 session log that an agent can write with a text editor.
 
 Generic form of the three-layer stack (AGENTS.md + SKILL.md +
-attested heartbeat). Domain invariants stay in the target repo.
+attested heartbeat). Domain invariants stay in the target repo
+via `heartbeat.config.json`. This skill has no project-specific facts.
 
 ## When to use
 
@@ -28,13 +29,14 @@ attested heartbeat). Domain invariants stay in the target repo.
 ## Do this in order
 
 1. Read `references/install.md` for the file map.
-2. Read `references/sota.md` only if you must justify the design.
-3. Run the init script against the target repo root.
-4. Fill `heartbeat.config.json` (what to count, which invariants).
-5. Keep `AGENTS.md` under 80 lines. Domain rules go in a separate
-   contract file.
-6. After every session that writes files, append a log, update
-   the pulse from `--write-attestation`, run the validator.
+2. Read `references/protocol.md` for the contract an agent must keep.
+3. Read `references/sota.md` only if you must justify the design.
+4. Run the init script against the target repo root.
+5. Fill `heartbeat.config.json` (what to count, which invariants).
+6. Keep `AGENTS.md` under 80 lines. Domain rules go in a separate
+   contract file (`LLM.md`, `CONTRIBUTING.md`, `SPEC_*.md`).
+7. After every session that writes files, append a log, update
+   the pulse from `--write-pulse`, run the validator.
 
 ## Three layers that must not collapse
 
@@ -64,33 +66,46 @@ Status values: `ok` | `degraded` | `diverged` | `blocked`.
 ## Init
 
 ```
-python skills/sota-agent-heartbeat/scripts/init_heartbeat.py --root /path/to/repo
+python skills/sota-agent-heartbeat/scripts/init_heartbeat.py --root /path/to/repo --repo owner/name
 ```
 
 Creates `AGENTS.md` if missing, `heartbeat/`, `heartbeat.config.json`,
-and a copy of the validator. Does not overwrite a non-empty `AGENTS.md`.
+a copy of the validator, and (optional) `skills/sota-agent-heartbeat/`.
+Does not overwrite a non-empty `AGENTS.md`.
 
 ## Validate
 
 ```
 python heartbeat/validate_heartbeat.py --write-attestation
+python heartbeat/validate_heartbeat.py --write-pulse
 python heartbeat/validate_heartbeat.py
 ```
 
-Exit 0 = pulse matches files. Exit 2 = diverged.
+`--write-attestation` prints measured counts/hashes to stdout.
+`--write-pulse` writes those into `heartbeat/HEARTBEAT.json` and
+refreshes `t`. Then run with no flags. Exit 0 = pulse matches files.
+Exit 2 = diverged.
 
 ## Config
 
 `heartbeat.config.json` is the only project-specific file the
 validator needs. Example in `assets/heartbeat.config.json`.
 
-Declare files to hash, JSON pointers for counts, and optional
-equality invariants. Do not put domain facts in this skill.
+Declare files to hash, JSON pointers for counts, optional equality
+invariants, and optional disjoint id-sets. Do not put domain
+essays in this skill.
 
 ## Session file
 
 Copy `assets/session.template.md` to
 `heartbeat/log/YYYY-MM-DD_<slug>.md`. Fill chain, roles, evidence.
+
+Generic `activity` values:
+
+`read` `add` `fix` `docs` `repo-push` `schema` `app` `heartbeat` `refactor` `correction`
+
+A project may add its own verbs. Mutation of domain data still
+requires an Evidence line.
 
 ## What not to do
 
@@ -100,3 +115,4 @@ Copy `assets/session.template.md` to
 - Do not add a collector, DID stack, or RDF export unless the
   user asked for infrastructure. This protocol is text-first.
 - Do not grow `AGENTS.md` past about 80 lines. Link out.
+- Do not hard-code another project's invariants in this skill.

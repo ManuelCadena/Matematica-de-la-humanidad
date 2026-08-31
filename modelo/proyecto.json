@@ -1,0 +1,43 @@
+{
+  "nombre": "Modelo Matematico de la Humanidad",
+  "fecha_integracion": "2026-08-30",
+  "idioma": "es",
+  "tesis": "Historia como fibrado multicapa sobre R×T, realizado en la Tierra como campos-mandala / conos datados, asentado sobre una capa de origen de la especie.",
+  "contrato_llm": "LLM.md",
+  "capas": [
+    {"id": 0, "nombre": "lentes", "doc": "ONTOLOGIA_LENTES.md"},
+    {"id": 0.5, "nombre": "origenes", "doc": "../docs/SPEC_05_ORIGENES_MIGRACIONES.md", "datos": "datos/origenes/"},
+    {"id": 1, "nombre": "fibrado", "doc": "MODELO_MATEMATICO.md", "doc2": "GEOMETRIA_HISTORIA.md"},
+    {"id": 2, "nombre": "campo-mandala", "doc": "MODELO_MANDALA_CAMPOS.md"},
+    {"id": 3, "nombre": "cono-sabana", "doc": "MODELO_CONO_TOPOGRAFICO.md"}
+  ],
+  "prohibiciones": [
+    "metrica escalar canonica de cercania historica",
+    "frontera westfaliana donde hay mandala",
+    "cono eterno de una civilizacion",
+    "A^n u vendido como destino",
+    "cono politico para kind species|migration|site|admixture",
+    "un solo Out of Africa",
+    "jardin de Eden unico para sapiens"
+  ],
+  "regla_cono": {
+    "unidad": "polidad datada [t0,t1] del JSON",
+    "rampa_anos": 40,
+    "ejemplo": {
+      "teotihuacan": [-100, 650],
+      "tula": [900, 1150],
+      "tenochtitlan": [1325, 1521]
+    }
+  },
+  "datos_raiz": {
+    "cronologia_mundial_arbol.json": "capa politica + humanidad ~2259 nodos v6.2.1",
+    "historia_ontologia.json": "lentes + religion + origenes ~2485 nodos v7.1.1",
+    "civilizaciones_fibras.json": "22 secciones",
+    "acoples_multicapa.json": "39 puertos",
+    "modelo_espacio_tiempo.json": "notacion y Allen",
+    "dimensiones_por_civilizacion.json": "dimensiones constitutivas + hominina",
+    "sim_meta.json": "42 conos, t=0..1500 paso 50",
+    "origenes/": "homininos, migraciones, yacimientos, introgresion"
+  },
+  "operaciones": ["slice(t)", "fiber(C,d)", "join(Ci,Cj,t)", "allen(I,J)", "Phi(x,t)", "especie_en(t)", "rutas_en(t)", "introgresion_en(t)"]
+}

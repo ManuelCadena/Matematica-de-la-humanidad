@@ -1,0 +1,657 @@
+{
+  "meta": {
+    "version": "7.1.0",
+    "n_acoples": 39,
+    "tipos": [
+      "coexist",
+      "conquest",
+      "contact",
+      "conversion",
+      "diaspora",
+      "diffusion",
+      "exchange",
+      "expansion",
+      "fusion",
+      "succession",
+      "trade",
+      "translation",
+      "treaty",
+      "war"
+    ]
+  },
+  "tipos": {
+    "exchange": "Intercambio sin jerarquía clara.",
+    "trade": "Circuito mercantil.",
+    "war": "Conflicto armado.",
+    "treaty": "Pacto datado.",
+    "conquest": "Incorporación política.",
+    "fusion": "Hibridación institucional o cultural.",
+    "succession": "Continuidad de una fibra en otra polidad.",
+    "translation": "Paso de un canon / saber de un campo a otro.",
+    "diffusion": "Propagación sin conquista necesaria.",
+    "conversion": "Cambio de pertenencia religiosa (proceso social+émico).",
+    "diaspora": "Transporte de una fibra religiosa/social a otro soporte.",
+    "contact": "Primer contacto documentado.",
+    "expansion": "Proyección de un sistema sobre otros soportes.",
+    "coexist": "Simultaneidad sin acople fuerte (mismo T, R lejanos)."
+  },
+  "acoples": [
+    {
+      "from": "egypt",
+      "to": "mesopotamia",
+      "type": "exchange",
+      "via": "byblos",
+      "interval": {
+        "t0": -2500,
+        "t1": -1200
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico",
+        "cultural"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "egypt",
+      "to": "levante",
+      "type": "war",
+      "via": "kadesh",
+      "interval": {
+        "t0": -1274,
+        "t1": -1259
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "historico",
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "egypt",
+      "to": "levante",
+      "type": "treaty",
+      "via": "kadesh-treaty",
+      "interval": {
+        "t0": -1259,
+        "t1": -1259
+      },
+      "allen_vs_point": "equals",
+      "dims": [
+        "historico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "egypt",
+      "to": "hellas",
+      "type": "fusion",
+      "via": "alexandria-lib",
+      "interval": {
+        "t0": -280,
+        "t1": -30
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "cultural",
+        "cientifico"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "egypt",
+      "to": "rome",
+      "type": "conquest",
+      "via": "egy-ptol",
+      "interval": {
+        "t0": -30,
+        "t1": -30
+      },
+      "allen_vs_point": "equals",
+      "dims": [
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "egypt",
+      "to": "islamicate",
+      "type": "conquest",
+      "via": "islam",
+      "interval": {
+        "t0": 639,
+        "t1": 642
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico",
+        "religioso"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "mesopotamia",
+      "to": "iran",
+      "type": "conquest",
+      "via": "achaemenid",
+      "interval": {
+        "t0": -539,
+        "t1": -539
+      },
+      "allen_vs_point": "equals",
+      "dims": [
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "levante",
+      "to": "iran",
+      "type": "conquest",
+      "via": "cyrus-cylinder",
+      "interval": {
+        "t0": -539,
+        "t1": -539
+      },
+      "allen_vs_point": "equals",
+      "dims": [
+        "historico",
+        "religioso"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "iran",
+      "to": "hellas",
+      "type": "war",
+      "via": "gaugamela",
+      "interval": {
+        "t0": -331,
+        "t1": -331
+      },
+      "allen_vs_point": "equals",
+      "dims": [
+        "historico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "iran",
+      "to": "rome",
+      "type": "war",
+      "via": "edessa-260",
+      "interval": {
+        "t0": 260,
+        "t1": 260
+      },
+      "allen_vs_point": "equals",
+      "dims": [
+        "historico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "iran",
+      "to": "islamicate",
+      "type": "conquest",
+      "via": "qadisiyya",
+      "interval": {
+        "t0": 636,
+        "t1": 651
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico",
+        "religioso"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "hellas",
+      "to": "rome",
+      "type": "conquest",
+      "via": "rome-rep",
+      "interval": {
+        "t0": -146,
+        "t1": -30
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico",
+        "cultural"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "hellas",
+      "to": "india",
+      "type": "fusion",
+      "via": "indo-greek",
+      "interval": {
+        "t0": -180,
+        "t1": -10
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "cultural",
+        "politico"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "rome",
+      "to": "latin-west",
+      "type": "succession",
+      "via": "rome-476",
+      "interval": {
+        "t0": 476,
+        "t1": 476
+      },
+      "allen_vs_point": "equals",
+      "dims": [
+        "politico",
+        "cultural"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "rome",
+      "to": "islamicate",
+      "type": "war",
+      "via": "1453-constantinople",
+      "interval": {
+        "t0": 1453,
+        "t1": 1453
+      },
+      "allen_vs_point": "equals",
+      "dims": [
+        "historico",
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "india",
+      "to": "china",
+      "type": "translation",
+      "via": "fo-chino",
+      "interval": {
+        "t0": 65,
+        "t1": 800
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "religioso",
+        "cultural"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "india",
+      "to": "seasia-civ",
+      "type": "diffusion",
+      "via": "angkor",
+      "interval": {
+        "t0": 802,
+        "t1": 1431
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "religioso",
+        "cultural",
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "india",
+      "to": "islamicate",
+      "type": "conquest",
+      "via": "delhi",
+      "interval": {
+        "t0": 1206,
+        "t1": 1526
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico",
+        "religioso"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "china",
+      "to": "japan-civ",
+      "type": "diffusion",
+      "via": "budismo-jp",
+      "interval": {
+        "t0": 538,
+        "t1": 800
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "religioso",
+        "cultural"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "china",
+      "to": "korea-civ",
+      "type": "diffusion",
+      "via": "budismo",
+      "interval": {
+        "t0": 300,
+        "t1": 700
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "religioso",
+        "cultural"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "china",
+      "to": "steppe",
+      "type": "war",
+      "via": "xiongnu",
+      "interval": {
+        "t0": -200,
+        "t1": 100
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "steppe",
+      "to": "china",
+      "type": "conquest",
+      "via": "yuan-ch",
+      "interval": {
+        "t0": 1271,
+        "t1": 1368
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "steppe",
+      "to": "islamicate",
+      "type": "conquest",
+      "via": "baghdad-1258",
+      "interval": {
+        "t0": 1258,
+        "t1": 1258
+      },
+      "allen_vs_point": "equals",
+      "dims": [
+        "historico",
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "steppe",
+      "to": "latin-west",
+      "type": "war",
+      "via": "golden-horde",
+      "interval": {
+        "t0": 1240,
+        "t1": 1480
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "sahel",
+      "to": "islamicate",
+      "type": "trade",
+      "via": "awdaghost",
+      "interval": {
+        "t0": 900,
+        "t1": 1600
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "social",
+        "politico"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "sahel",
+      "to": "islamicate",
+      "type": "conversion",
+      "via": "mansa-musa-hajj",
+      "interval": {
+        "t0": 1324,
+        "t1": 1325
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "religioso",
+        "social",
+        "historico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "aksum-et",
+      "to": "levante",
+      "type": "trade",
+      "via": "adulis",
+      "interval": {
+        "t0": 100,
+        "t1": 700
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico",
+        "social"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "aksum-et",
+      "to": "islamicate",
+      "type": "war",
+      "via": "aksum-himyar",
+      "interval": {
+        "t0": 518,
+        "t1": 570
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "historico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "mesoamerica",
+      "to": "andes-civ",
+      "type": "coexist",
+      "via": null,
+      "interval": {
+        "t0": -2000,
+        "t1": 1521
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "cultural"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "mesoamerica",
+      "to": "atlantic-mod",
+      "type": "conquest",
+      "via": "fall-tenochtitlan",
+      "interval": {
+        "t0": 1519,
+        "t1": 1521
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico",
+        "historico",
+        "social"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "andes-civ",
+      "to": "atlantic-mod",
+      "type": "conquest",
+      "via": "cajamarca",
+      "interval": {
+        "t0": 1532,
+        "t1": 1572
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico",
+        "historico",
+        "social"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "sahel",
+      "to": "atlantic-mod",
+      "type": "trade",
+      "via": "atl-slave-trade",
+      "interval": {
+        "t0": 1501,
+        "t1": 1867
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "social",
+        "historico"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "latin-west",
+      "to": "atlantic-mod",
+      "type": "expansion",
+      "via": "1492-columbus",
+      "interval": {
+        "t0": 1492,
+        "t1": 1800
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "politico",
+        "social"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "latin-west",
+      "to": "islamicate",
+      "type": "war",
+      "via": "first-crusade",
+      "interval": {
+        "t0": 1096,
+        "t1": 1291
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "religioso",
+        "historico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "latin-west",
+      "to": "islamicate",
+      "type": "translation",
+      "via": "ibn-rushd",
+      "interval": {
+        "t0": 1126,
+        "t1": 1250
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "cientifico",
+        "cultural"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "india",
+      "to": "sahel",
+      "type": "trade",
+      "via": "swahili",
+      "interval": {
+        "t0": 800,
+        "t1": 1500
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "social"
+      ],
+      "symmetric": true
+    },
+    {
+      "from": "seasia-civ",
+      "to": "islamicate",
+      "type": "conversion",
+      "via": "malacca",
+      "interval": {
+        "t0": 1400,
+        "t1": 1511
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "religioso",
+        "politico"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "oceania-civ",
+      "to": "atlantic-mod",
+      "type": "contact",
+      "via": "cook-voyages",
+      "interval": {
+        "t0": 1768,
+        "t1": 1779
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "historico",
+        "social"
+      ],
+      "symmetric": false
+    },
+    {
+      "from": "sahel",
+      "to": "atlantic-mod",
+      "type": "diaspora",
+      "via": "candomble",
+      "interval": {
+        "t0": 1600,
+        "t1": 1900
+      },
+      "allen_vs_point": "overlaps",
+      "dims": [
+        "religioso",
+        "social"
+      ],
+      "symmetric": false
+    }
+  ]
+}

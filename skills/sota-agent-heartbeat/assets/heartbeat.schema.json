@@ -13,8 +13,43 @@
     "corpus": { "type": "object" },
     "invariants_ok": { "type": "boolean" },
     "pending": { "type": "array", "items": { "type": "string" } },
-    "last_session": { "type": "object" },
-    "chain": { "type": "object" },
-    "attestation": { "type": "object" }
-  }
+    "last_session": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "agent": { "type": "string" },
+        "activity": { "type": "string" },
+        "log": { "type": "string" },
+        "sha256": { "type": "string" }
+      }
+    },
+    "chain": {
+      "type": "object",
+      "properties": {
+        "prev_session_id": { "type": ["string", "null"] },
+        "prev_sha256": { "type": ["string", "null"] }
+      }
+    },
+    "attestation": {
+      "type": "object",
+      "properties": {
+        "method": { "type": "string" },
+        "t": { "type": "string" },
+        "measured": { "type": "object" },
+        "hashes": { "type": "object" },
+        "invariants": { "type": "object" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "schema": { "const": "heartbeat.v1.1" } },
+        "required": ["schema"]
+      },
+      "then": {
+        "required": ["attestation", "chain"]
+      }
+    }
+  ]
 }

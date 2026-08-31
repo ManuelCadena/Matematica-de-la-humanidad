@@ -9,14 +9,17 @@ No es una ley de la historia. Es un estado `s ∈ R⁺⁶`, un operador de
 transferencia `A_t` armado con acoples, y una geometría que se apaga
 cuando el JSON dice que la polidad murió.
 
-**Si eres un modelo de lenguaje: abre `LLM.md` ahora.**
+**Si eres un modelo de lenguaje: abre `AGENTS.md`, luego `LLM.md`, luego el pulso en `heartbeat_human_history/HEARTBEAT.json`. Al terminar, registra la sesión.**
 
 ## Mapa del repositorio
 
 ```
-LLM.md                 contrato para cualquier IA (leer primero)
+AGENTS.md              ToC para agentes (estándar AAIF)
+LLM.md                 contrato e invariantes
 README.md              esta página
 CITATIONS.md           piso académico
+heartbeat_human_history/  pulso + log obligatorio de cada sesión
+skills/heartbeat-human-history/  skill portable (SKILL.md)
 docs/
   00_LEEME_IMPLEMENTADOR.md
   SPEC_01_LENTES.md
@@ -29,11 +32,17 @@ modelo/                cartas matemáticas
   CARTA.md  proyecto.json  MODELO_*.md  ONTOLOGIA_LENTES.md
 datos/
   schemas/nodo.schema.json
-  cronologia_mundial_arbol.json  (~2260 nodos)
-  historia_ontologia.json        (~2485 nodos)
-  civilizaciones_fibras.json     22 secciones + hominina en dimensiones
-  origenes/{homininos,migraciones,yacimientos,introgresion}.json
-app/index.html         analizador Φ(x,t)
+  cronologia_mundial_arbol.json  (2296 nodos, v6.3.0-gaps)
+  historia_ontologia.json        (2522 nodos, v7.2.0-gaps)
+  civilizaciones_fibras.json     22 secciones
+  sim_meta.json                  81 conos −4000…2026
+  acoples_multicapa.json         39 puertos
+  origenes/{homininos,yacimientos,migraciones,introgresion,anclas_regionales}.json
+  ontologia_nodos.jsonl          nodos ontología uno por línea
+  cronologia_mundial_flat.jsonl  árbol plano uno por línea
+app/index.html         analizador Φ(x,t) −4000…2026
+scripts/pack_ontologia.py
+media/                 figuras y videos del modelo
 ```
 
 ## Capas

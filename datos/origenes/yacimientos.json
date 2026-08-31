@@ -1,0 +1,1051 @@
+{
+  "meta": {
+    "version": "1.1.0",
+    "fecha": "2026-08-31",
+    "capa": "0.5-sitios",
+    "crs": "WGS84"
+  },
+  "n": 41,
+  "items": [
+    {
+      "id": "site-tm266",
+      "name": "Toumaï / TM 266 (Djurab)",
+      "name_en": "Toumaï / TM 266 (Djurab)",
+      "kind": "site",
+      "start": -7200000,
+      "end": -6800000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "sahelanthropus",
+      "region": "humanidad",
+      "notes": "Holotipo de S. tchadensis.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 17.97,
+      "lat": 16.25
+    },
+    {
+      "id": "site-tugen",
+      "name": "Lukeino / Tugen Hills",
+      "name_en": "Lukeino / Tugen Hills",
+      "kind": "site",
+      "start": -6100000,
+      "end": -5500000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "orrorin",
+      "region": "humanidad",
+      "notes": "Holotipo de O. tugenensis.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 35.8,
+      "lat": 0.75
+    },
+    {
+      "id": "site-ardi",
+      "name": "Aramis / Ardi",
+      "name_en": "Aramis / Ardi",
+      "kind": "site",
+      "start": -4400000,
+      "end": -4300000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "ardipithecus",
+      "region": "humanidad",
+      "notes": "ARA-VP-6/500.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 40.3,
+      "lat": 10.3
+    },
+    {
+      "id": "site-kanapoi",
+      "name": "Kanapoi",
+      "name_en": "Kanapoi",
+      "kind": "site",
+      "start": -4200000,
+      "end": -3900000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "anamensis",
+      "region": "humanidad",
+      "notes": "Holotipo de Au. anamensis.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 36.12,
+      "lat": 4.2
+    },
+    {
+      "id": "site-hadar",
+      "name": "Hadar (Lucy)",
+      "name_en": "Hadar (Lucy)",
+      "kind": "site",
+      "start": -3300000,
+      "end": -3000000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "afarensis",
+      "region": "humanidad",
+      "notes": "AL 288-1, 1974.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 40.63,
+      "lat": 11.29
+    },
+    {
+      "id": "site-laetoli",
+      "name": "Laetoli (huellas)",
+      "name_en": "Laetoli (huellas)",
+      "kind": "site",
+      "start": -3660000,
+      "end": -3660000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "afarensis",
+      "region": "humanidad",
+      "notes": "Rastro de bipedismo 3.66 Ma.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 35.18,
+      "lat": -3.22
+    },
+    {
+      "id": "site-dikika",
+      "name": "Dikika (Selam)",
+      "name_en": "Dikika (Selam)",
+      "kind": "site",
+      "start": -3300000,
+      "end": -3300000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "afarensis",
+      "region": "humanidad",
+      "notes": "DIK-1-1, niña.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 40.58,
+      "lat": 11.08
+    },
+    {
+      "id": "site-taung",
+      "name": "Taung",
+      "name_en": "Taung",
+      "kind": "site",
+      "start": -2800000,
+      "end": -2500000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "africanus",
+      "region": "humanidad",
+      "notes": "Dart 1924.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 24.83,
+      "lat": -27.62
+    },
+    {
+      "id": "site-sterkfontein",
+      "name": "Sterkfontein",
+      "name_en": "Sterkfontein",
+      "kind": "site",
+      "start": -3300000,
+      "end": -2100000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "africanus",
+      "region": "humanidad",
+      "notes": "Mrs Ples; Member 4. Cuna de la humanidad sudafricana.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 27.72,
+      "lat": -26.02
+    },
+    {
+      "id": "site-malapa",
+      "name": "Malapa",
+      "name_en": "Malapa",
+      "kind": "site",
+      "start": -2000000,
+      "end": -1800000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "a-sediba",
+      "region": "humanidad",
+      "notes": "MH1 / MH2.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 27.67,
+      "lat": -25.9
+    },
+    {
+      "id": "site-olduvai",
+      "name": "Olduvai",
+      "name_en": "Olduvai",
+      "kind": "site",
+      "start": -1800000,
+      "end": -40000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "paleolitico",
+      "region": "humanidad",
+      "notes": "OH 5, OH 7, secuencia Olduvayense–Acheulense–MSA.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 35.35,
+      "lat": -2.99
+    },
+    {
+      "id": "site-koobi-fora",
+      "name": "Koobi Fora",
+      "name_en": "Koobi Fora",
+      "kind": "site",
+      "start": -2000000,
+      "end": -1400000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "ER 1470, ER 1813, ER 3733.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 36.37,
+      "lat": 3.95
+    },
+    {
+      "id": "site-nariokotome",
+      "name": "Nariokotome (Turkana Boy)",
+      "name_en": "Nariokotome (Turkana Boy)",
+      "kind": "site",
+      "start": -1600000,
+      "end": -1500000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "ergaster",
+      "region": "humanidad",
+      "notes": "KNM-WT 15000.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 36.27,
+      "lat": 4.14
+    },
+    {
+      "id": "site-dmanisi",
+      "name": "Dmanisi",
+      "name_en": "Dmanisi",
+      "kind": "site",
+      "start": -1850000,
+      "end": -1770000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "dmanisi-georgicus",
+      "region": "humanidad",
+      "notes": "Cinco cráneos; industria de núcleos y lascas.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 44.42,
+      "lat": 41.14
+    },
+    {
+      "id": "site-sangiran",
+      "name": "Sangiran",
+      "name_en": "Sangiran",
+      "kind": "site",
+      "start": -1800000,
+      "end": -1000000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "erectus-asia",
+      "region": "humanidad",
+      "notes": "Serie clásica de Java.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 110.84,
+      "lat": -7.45
+    },
+    {
+      "id": "site-zhoukoudian",
+      "name": "Zhoukoudian (Hombre de Pekín)",
+      "name_en": "Zhoukoudian (Hombre de Pekín)",
+      "kind": "site",
+      "start": -770000,
+      "end": -400000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "erectus-asia",
+      "region": "humanidad",
+      "notes": "Localidad 1. Fechas revisadas ~770–400 ka.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 115.92,
+      "lat": 39.69
+    },
+    {
+      "id": "site-ngandong",
+      "name": "Ngandong",
+      "name_en": "Ngandong",
+      "kind": "site",
+      "start": -117000,
+      "end": -108000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "erectus-asia",
+      "region": "humanidad",
+      "notes": "Últimos erectus de Java.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 111.3,
+      "lat": -7.15
+    },
+    {
+      "id": "site-atapuerca-td6",
+      "name": "Atapuerca Gran Dolina TD6",
+      "name_en": "Atapuerca Gran Dolina TD6",
+      "kind": "site",
+      "start": -1200000,
+      "end": -800000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "antecessor",
+      "region": "humanidad",
+      "notes": "Holotipo de H. antecessor.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": -3.52,
+      "lat": 42.35
+    },
+    {
+      "id": "site-sima-huesos",
+      "name": "Sima de los Huesos",
+      "name_en": "Sima de los Huesos",
+      "kind": "site",
+      "start": -430000,
+      "end": -430000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "neanderthal",
+      "region": "humanidad",
+      "notes": "Linaje neandertal temprano; ADN nuclear.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": -3.52,
+      "lat": 42.35
+    },
+    {
+      "id": "site-kabwe",
+      "name": "Kabwe / Broken Hill",
+      "name_en": "Kabwe / Broken Hill",
+      "kind": "site",
+      "start": -300000,
+      "end": -240000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "rhodesiensis",
+      "region": "humanidad",
+      "notes": "~299 ka (Grün 2020).",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 28.72,
+      "lat": -14.44
+    },
+    {
+      "id": "site-rising-star",
+      "name": "Rising Star (naledi)",
+      "name_en": "Rising Star (naledi)",
+      "kind": "site",
+      "start": -335000,
+      "end": -236000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "naledi",
+      "region": "humanidad",
+      "notes": "Cámara Dinaledi.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 27.71,
+      "lat": -25.92
+    },
+    {
+      "id": "site-liang-bua",
+      "name": "Liang Bua",
+      "name_en": "Liang Bua",
+      "kind": "site",
+      "start": -190000,
+      "end": -50000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "floresiensis",
+      "region": "humanidad",
+      "notes": "Holotipo LB1.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 120.43,
+      "lat": -8.53
+    },
+    {
+      "id": "site-callao",
+      "name": "Cueva Callao",
+      "name_en": "Cueva Callao",
+      "kind": "site",
+      "start": -67000,
+      "end": -50000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "luzonensis",
+      "region": "humanidad",
+      "notes": "Holotipo de H. luzonensis.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 121.22,
+      "lat": 16.31
+    },
+    {
+      "id": "site-denisova-cave",
+      "name": "Cueva Denisova",
+      "name_en": "Cueva Denisova",
+      "kind": "site",
+      "start": -200000,
+      "end": -40000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "denisova",
+      "region": "humanidad",
+      "notes": "Dedo, molares, ADN.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 84.68,
+      "lat": 51.4
+    },
+    {
+      "id": "site-jebel-irhoud",
+      "name": "Jebel Irhoud",
+      "name_en": "Jebel Irhoud",
+      "kind": "site",
+      "start": -315000,
+      "end": -286000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "sapiens",
+      "region": "humanidad",
+      "notes": "Sapiens más antiguos publicados (2017).",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": -8.87,
+      "lat": 31.85
+    },
+    {
+      "id": "site-florisbad",
+      "name": "Florisbad",
+      "name_en": "Florisbad",
+      "kind": "site",
+      "start": -260000,
+      "end": -260000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "sapiens",
+      "region": "humanidad",
+      "notes": "Cráneo ~260 ka, Estado Libre.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 26.07,
+      "lat": -28.77
+    },
+    {
+      "id": "site-omo",
+      "name": "Omo Kibish",
+      "name_en": "Omo Kibish",
+      "kind": "site",
+      "start": -233000,
+      "end": -196000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "sapiens",
+      "region": "humanidad",
+      "notes": "Omo I, forma moderna.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 35.97,
+      "lat": 4.79
+    },
+    {
+      "id": "site-herto",
+      "name": "Herto Bouri",
+      "name_en": "Herto Bouri",
+      "kind": "site",
+      "start": -160000,
+      "end": -154000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "sapiens",
+      "region": "humanidad",
+      "notes": "BOU-VP-16/1, idaltu.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 40.55,
+      "lat": 10.25
+    },
+    {
+      "id": "site-skhul",
+      "name": "Es-Skhul",
+      "name_en": "Es-Skhul",
+      "kind": "site",
+      "start": -130000,
+      "end": -100000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "sapiens-skhul-qafzeh",
+      "region": "humanidad",
+      "notes": "Carmel. Sapiens de MIS 5.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 34.97,
+      "lat": 32.67
+    },
+    {
+      "id": "site-qafzeh",
+      "name": "Qafzeh",
+      "name_en": "Qafzeh",
+      "kind": "site",
+      "start": -120000,
+      "end": -90000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "sapiens-skhul-qafzeh",
+      "region": "humanidad",
+      "notes": "Galilea. Enterramientos.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 35.32,
+      "lat": 32.68
+    },
+    {
+      "id": "site-blombos",
+      "name": "Blombos",
+      "name_en": "Blombos",
+      "kind": "site",
+      "start": -100000,
+      "end": -70000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "middle-stone-afr",
+      "region": "humanidad",
+      "notes": "Ocre grabado, cuentas, pressure flaking.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 21.22,
+      "lat": -34.41
+    },
+    {
+      "id": "site-pinnacle-point",
+      "name": "Pinnacle Point",
+      "name_en": "Pinnacle Point",
+      "kind": "site",
+      "start": -164000,
+      "end": -70000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "middle-stone-afr",
+      "region": "humanidad",
+      "notes": "Explotación costera MSA.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 22.09,
+      "lat": -34.2
+    },
+    {
+      "id": "site-ranis",
+      "name": "Ilsenhöhle Ranis",
+      "name_en": "Ilsenhöhle Ranis",
+      "kind": "site",
+      "start": -45000,
+      "end": -43000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "peopling-europe-up",
+      "region": "humanidad",
+      "notes": "Genomas tempranos no africanos.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 11.57,
+      "lat": 50.66
+    },
+    {
+      "id": "site-zlaty-kun",
+      "name": "Zlatý kůň",
+      "name_en": "Zlatý kůň",
+      "kind": "site",
+      "start": -45000,
+      "end": -43000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "peopling-europe-up",
+      "region": "humanidad",
+      "notes": "Mismo grupo pequeño que Ranis.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 14.16,
+      "lat": 49.91
+    },
+    {
+      "id": "site-mungo",
+      "name": "Lake Mungo",
+      "name_en": "Lake Mungo",
+      "kind": "site",
+      "start": -42000,
+      "end": -20000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "peopling-sahul",
+      "region": "humanidad",
+      "notes": "Mungo Man / Lady; cremación temprana.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 142.85,
+      "lat": -33.73
+    },
+    {
+      "id": "site-madjedbebe",
+      "name": "Madjedbebe",
+      "name_en": "Madjedbebe",
+      "kind": "site",
+      "start": -65000,
+      "end": -50000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "peopling-sahul",
+      "region": "humanidad",
+      "notes": "Fecha alta 65 ka debatida.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 132.87,
+      "lat": -12.48
+    },
+    {
+      "id": "site-anzick",
+      "name": "Anzick-1",
+      "name_en": "Anzick-1",
+      "kind": "site",
+      "start": -12800,
+      "end": -12600,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "peopling-americas",
+      "region": "humanidad",
+      "notes": "Clovis, Montana. Genoma ancestral de nativos.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": -110.7,
+      "lat": 45.98
+    },
+    {
+      "id": "site-mal'ta",
+      "name": "Mal'ta (MA-1)",
+      "name_en": "Mal'ta (MA-1)",
+      "kind": "site",
+      "start": -24000,
+      "end": -24000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "peopling-americas",
+      "region": "humanidad",
+      "notes": "Siberia; ANE. Componente de nativos americanos.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [],
+      "lon": 103.0,
+      "lat": 52.8
+    },
+    {
+      "id": "site-xiahe",
+      "name": "Xiahe / Baishiya",
+      "name_en": "Xiahe mandible (Baishiya)",
+      "kind": "site",
+      "start": -160000,
+      "end": -100000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "denisova",
+      "region": "humanidad",
+      "notes": "Mandíbula de Xiahe. Proteína denisovana (Chen et al. 2019 Nature). Identidad fósil sigue abierta.",
+      "status": "open",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Chen et al. 2019 Nature",
+          "claim": "Xiahe mandible Denisovan protein ~160 ka"
+        }
+      ],
+      "lon": 102.57,
+      "lat": 35.45
+    },
+    {
+      "id": "site-harbin",
+      "name": "Harbin (cráneo)",
+      "name_en": "Harbin cranium",
+      "kind": "site",
+      "start": -300000,
+      "end": -130000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "denisova",
+      "region": "humanidad",
+      "notes": "Cráneo de Harbin / Homo longi (Ni et al. 2021). Candidato denisovano; sin consenso de especie.",
+      "status": "open",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Ni et al. 2021 The Innovation",
+          "claim": "Harbin cranium named Homo longi; Denisovan affinity debated"
+        }
+      ],
+      "lon": 126.63,
+      "lat": 45.75
+    },
+    {
+      "id": "site-shangchen",
+      "name": "Shangchen",
+      "name_en": "Shangchen",
+      "kind": "site",
+      "start": -2120000,
+      "end": -1260000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "ooa-0-tools",
+      "region": "humanidad",
+      "notes": "Loess de Lantian. Industrias ~2.12 Ma (Zhu et al. 2018). Fabricante no identificado.",
+      "status": "open",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "yacimiento"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Zhu et al. 2018 Nature",
+          "claim": "Shangchen artefacts ~2.12 Ma"
+        }
+      ],
+      "lon": 109.48,
+      "lat": 34.22
+    }
+  ]
+}

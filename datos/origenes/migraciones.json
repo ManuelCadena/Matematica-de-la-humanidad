@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "fecha": "2026-08-30",
+    "capa": "0.5-rutas",
+    "nota": "Pulsos. ooa-ii-exitosa es el único que explica no africanos actuales."
+  },
+  "n": 14,
+  "items": [
+    {
+      "id": "migraciones-hominina",
+      "name": "Migraciones homininas",
+      "name_en": "Migraciones homininas",
+      "kind": "period",
+      "start": -2100000,
+      "end": 1500,
+      "precision": "millenium",
+      "level": 1,
+      "parent": "humanidad",
+      "region": "humanidad",
+      "notes": "Pulsos, no una flecha. Solo ooa-ii-exitosa + Sahul/Américas explican la geografía de los vivos extra-africanos.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes",
+        "migracion"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "ooa-0-tools",
+      "name": "Industria asiática previa a Dmanisi",
+      "name_en": "Industria asiática previa a Dmanisi",
+      "kind": "migration",
+      "start": -2120000,
+      "end": -1800000,
+      "precision": "debated",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Shangchen (Loess Plateau) ~2.12 Ma; herramientas en Jordania ~2.5 Ma según algunos. Sin fósil diagnóstico. No implica éxito demográfico.",
+      "status": "open",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Zhu et al. 2018 Nature",
+          "claim": "Shangchen 2.12 Ma"
+        }
+      ]
+    },
+    {
+      "id": "ooa-i-erectus",
+      "name": "Out of Africa I (erectus s.l.)",
+      "name_en": "Out of Africa I (erectus s.l.)",
+      "kind": "migration",
+      "start": -1850000,
+      "end": -1500000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Dmanisi 1.85–1.77 Ma; Java Sangiran ~1.8–1.5; China temprano. Ruta Nilo–Levante–Cáucaso y/o costera. Sin aporte genético a sapiens actuales.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Ferring / Lordkipanidze",
+          "claim": "Dmanisi 1.85–1.77 Ma"
+        },
+        {
+          "cite": "Sémah / Cosmo Java 2022",
+          "claim": "Sangiran ~1.8 Ma"
+        }
+      ]
+    },
+    {
+      "id": "heidelbergensis-europa",
+      "name": "Dispersión del grado medio a Europa",
+      "name_en": "Dispersión del grado medio a Europa",
+      "kind": "migration",
+      "start": -700000,
+      "end": -500000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Mauer, Boxgrove, Petralona, Atapuerca. Alimenta el linaje neandertal, no el tronco sapiens extra-africano.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "sapiens-misliya",
+      "name": "Sapiens en Misliya (Levante)",
+      "name_en": "Sapiens en Misliya (Levante)",
+      "kind": "migration",
+      "start": -194000,
+      "end": -177000,
+      "precision": "debated",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Maxilar Misliya-1, Israel ~194–177 ka. Pulso temprano; no el ancestro de no africanos actuales.",
+      "status": "open",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Hershkovitz et al. 2018 Science",
+          "claim": "Misliya ~185 ka"
+        }
+      ],
+      "lon": 34.97,
+      "lat": 32.74
+    },
+    {
+      "id": "sapiens-skhul-qafzeh",
+      "name": "Ocupación Skhul / Qafzeh",
+      "name_en": "Ocupación Skhul / Qafzeh",
+      "kind": "migration",
+      "start": -130000,
+      "end": -90000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Sapiens anatómicamente modernos en cuevas del Carmelo y Galilea. Coexisten / alternan con neandertales. Linaje extra-africano de estos grupos no persiste.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Valladas / Stringer",
+          "claim": "Skhul-Qafzeh MIS 5"
+        }
+      ],
+      "lon": 35.0,
+      "lat": 32.6
+    },
+    {
+      "id": "sapiens-al-wusta",
+      "name": "Sapiens en Al Wusta (Arabia)",
+      "name_en": "Sapiens en Al Wusta (Arabia)",
+      "kind": "migration",
+      "start": -90000,
+      "end": -80000,
+      "precision": "debated",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Falange datada ~85 ka, paleolago Nefud. Humedad de MIS 5 abre el interior arábigo.",
+      "status": "open",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Groucutt et al. 2018 Nat Ecol Evol",
+          "claim": "Al Wusta ~85 ka"
+        }
+      ],
+      "lon": 45.6,
+      "lat": 22.2
+    },
+    {
+      "id": "ooa-ii-exitosa",
+      "name": "Out of Africa II (dispersión exitosa)",
+      "name_en": "Out of Africa II (dispersión exitosa)",
+      "kind": "migration",
+      "start": -70000,
+      "end": -50000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Tronco de todos los no africanos actuales. Precedida por expansión de nicho africano desde ~70 ka (Hallett 2025). Sustituye al nodo genérico out-of-africa como descriptor preciso.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Hallett et al. 2025 Nature",
+          "claim": "nicho se ensancha 70–50 ka"
+        },
+        {
+          "cite": "Prüfer / Fewlass 2025 Nature",
+          "claim": "no africanos post 50 ka + admixture 49–45"
+        }
+      ]
+    },
+    {
+      "id": "peopling-sahul",
+      "name": "Poblamiento de Sahul",
+      "name_en": "Poblamiento de Sahul",
+      "kind": "migration",
+      "start": -65000,
+      "end": -50000,
+      "precision": "debated",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Australia + Nueva Guinea unidas. Madjedbebe ~65 ka (debatido) vs umbral ~50 ka. Navegación obligatoria de Wallacea.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Clarkson et al. 2017 Nature",
+          "claim": "Madjedbebe 65 ka"
+        },
+        {
+          "cite": "O'Connell / Allen",
+          "claim": "umbral corto ~50 ka"
+        }
+      ]
+    },
+    {
+      "id": "peopling-europe-up",
+      "name": "Paleolítico superior europeo",
+      "name_en": "Paleolítico superior europeo",
+      "kind": "migration",
+      "start": -45000,
+      "end": -40000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Ranis / Zlatý kůň: población pequeña, split más profundo del linaje OoA muestreado; solapa ~5 ka con neandertales.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Fewlass et al. 2025 Nature",
+          "claim": "Ranis–Zlatý kůň, admixture 45–49 ka"
+        }
+      ]
+    },
+    {
+      "id": "beringia",
+      "name": "Beringia habitable",
+      "name_en": "Beringia habitable",
+      "kind": "climate",
+      "start": -30000,
+      "end": -11000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Puente y refugio. No es por sí sola el poblamiento americano.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "peopling-americas",
+      "name": "Poblamiento de las Américas",
+      "name_en": "Poblamiento de las Américas",
+      "kind": "migration",
+      "start": -23000,
+      "end": -13000,
+      "precision": "debated",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Ventana ancha: Cooper’s Ferry ~16 ka, Anzick Clovis ~12.8 ka, White Sands ~23 ka (debatido). Una o dos olas + posterior flujo ártica.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Moreno-Mayar / Raghavan / Willerslev",
+          "claim": "modelo genético Beringia"
+        },
+        {
+          "cite": "Bennett et al. 2021 Science",
+          "claim": "White Sands ~23 ka, debatido"
+        }
+      ]
+    },
+    {
+      "id": "lapita-spread",
+      "name": "Expansión Lapita",
+      "name_en": "Expansión Lapita",
+      "kind": "migration",
+      "start": -1600,
+      "end": -500,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Austronesia remota: Bismarck → Tonga/Samoa. Base del triángulo polinesio posterior.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social",
+        "cultural"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "polynesian-triangle",
+      "name": "Cierre del triángulo polinesio",
+      "name_en": "Cierre del triángulo polinesio",
+      "kind": "migration",
+      "start": 900,
+      "end": 1300,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "migraciones-hominina",
+      "region": "humanidad",
+      "notes": "Rapa Nui, Hawaiʻi, Aotearoa. Última gran colonización premoderna.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "social",
+        "cultural"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    }
+  ]
+}

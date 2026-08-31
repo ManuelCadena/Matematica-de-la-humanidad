@@ -5,3 +5,4 @@ __pycache__/
 .grok/
 frames_3d/
 *.mp4
+!media/*.mp4

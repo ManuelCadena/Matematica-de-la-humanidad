@@ -1,0 +1,1153 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "fecha": "2026-08-31",
+    "capa": "0.5-especie",
+    "nota": "Proyección al árbol humanidad. No produce conos de Estado.",
+    "fuentes_piso": "Wood & Boyle 2016/2019; IHO; Hublin 2017; Ragsdale 2023",
+    "nota_conteo": "n=37 items = 31 species + 5 period + 1 site. Todos proyectados al árbol. No faltan 6 taxones."
+  },
+  "n": 37,
+  "items": [
+    {
+      "id": "pan-homo-split",
+      "name": "Divergencia Pan–Homo",
+      "name_en": "Pan–Homo split",
+      "kind": "period",
+      "start": -10000000,
+      "end": -7000000,
+      "precision": "debated",
+      "level": 1,
+      "parent": "humanidad",
+      "region": "humanidad",
+      "notes": "Reloj molecular ~10–7 Ma. El corpus abre Hominina en −7 Ma; no modela paninos.",
+      "status": "open",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "filogenia"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Puschel et al. 2021",
+          "claim": "MRCA Pan-Homo ~7.5 Ma (8.6–6.6)"
+        }
+      ]
+    },
+    {
+      "id": "basal-hominina",
+      "name": "Homininos basales africanos",
+      "name_en": "African basal hominins",
+      "kind": "period",
+      "start": -7200000,
+      "end": -4300000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "hominina",
+      "region": "humanidad",
+      "notes": "Grado: posible bipedismo, caninos reducidos. Filogenia interna abierta.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "sahelanthropus",
+      "name": "Sahelanthropus tchadensis",
+      "name_en": "Sahelanthropus tchadensis",
+      "kind": "species",
+      "start": -7200000,
+      "end": -6800000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "basal-hominina",
+      "region": "humanidad",
+      "notes": "Toumaï (TM 266), Desierto de Djurab, Chad. Bipedismo y estatus hominino debatidos (Wood & Boyle FAD 7.2 LAD 6.8).",
+      "status": "debated_hominin",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Brunet et al. 2002",
+          "claim": "especie y cráneo TM 266"
+        },
+        {
+          "cite": "Wood & Boyle 2016/2019",
+          "claim": "FAD 7.2 LAD 6.8 Ma"
+        }
+      ],
+      "lon": 17.97,
+      "lat": 16.25,
+      "fad_ma": 7.2,
+      "lad_ma": 6.8
+    },
+    {
+      "id": "orrorin",
+      "name": "Orrorin tugenensis",
+      "name_en": "Orrorin tugenensis",
+      "kind": "species",
+      "start": -6100000,
+      "end": -5500000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "basal-hominina",
+      "region": "humanidad",
+      "notes": "Colinas Tugen, Kenia. Fémur con rasgos de bipedismo terrestre. Material escaso.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Senut et al. 2001",
+          "claim": "especie"
+        },
+        {
+          "cite": "Wood & Boyle 2016/2019",
+          "claim": "FAD 6.0–6.14 LAD 5.7–5.52"
+        }
+      ],
+      "lon": 35.8,
+      "lat": 0.75,
+      "fad_ma": 6.1,
+      "lad_ma": 5.5
+    },
+    {
+      "id": "ardipithecus-kadabba",
+      "name": "Ardipithecus kadabba",
+      "name_en": "Ardipithecus kadabba",
+      "kind": "species",
+      "start": -5800000,
+      "end": -5200000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "basal-hominina",
+      "region": "humanidad",
+      "notes": "Middle Awash, Etiopía. Canino con honed residual. A menudo tratado como cronoespecie de Ar. ramidus.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Haile-Selassie 2001",
+          "claim": "especie"
+        },
+        {
+          "cite": "Wood & Boyle",
+          "claim": "FAD 6.3/6.7 LAD 5.2"
+        }
+      ],
+      "lon": 40.5,
+      "lat": 10.5,
+      "fad_ma": 5.8,
+      "lad_ma": 5.2
+    },
+    {
+      "id": "ardipithecus",
+      "name": "Ardipithecus ramidus",
+      "name_en": "Ardipithecus ramidus",
+      "kind": "species",
+      "start": -4500000,
+      "end": -4300000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "basal-hominina",
+      "region": "humanidad",
+      "notes": "Ardi (ARA-VP-6/500), Middle Awash. Bipedismo facultativo + hallux prensil. Cerebro ~300–350 cc.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "White et al. 2009",
+          "claim": "esqueleto Ardi ~4.4 Ma"
+        }
+      ],
+      "lon": 40.3,
+      "lat": 10.3,
+      "fad_ma": 4.5,
+      "lad_ma": 4.3
+    },
+    {
+      "id": "australopithecus",
+      "name": "Australopithecus (grado)",
+      "name_en": "Australopithecus (grado)",
+      "kind": "period",
+      "start": -4200000,
+      "end": -1800000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "hominina",
+      "region": "humanidad",
+      "notes": "Grado no monofilético estricto. Bipedismo habitual, cerebro ~400–550 cc, África.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "anamensis",
+      "name": "Australopithecus anamensis",
+      "name_en": "Australopithecus anamensis",
+      "kind": "species",
+      "start": -4200000,
+      "end": -3900000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "australopithecus",
+      "region": "humanidad",
+      "notes": "Kanapoi / Allia Bay, Kenia; también Woranso-Mille. Probable ancestro de afarensis (cronoespecie).",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Leakey et al. 1995",
+          "claim": "especie"
+        },
+        {
+          "cite": "Wood & Boyle",
+          "claim": "FAD 4.2 LAD 3.9"
+        }
+      ],
+      "lon": 36.3,
+      "lat": 4.3,
+      "fad_ma": 4.2,
+      "lad_ma": 3.9
+    },
+    {
+      "id": "afarensis",
+      "name": "Australopithecus afarensis",
+      "name_en": "Australopithecus afarensis",
+      "kind": "species",
+      "start": -3900000,
+      "end": -3000000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "australopithecus",
+      "region": "humanidad",
+      "notes": "Hadar (Lucy AL 288-1), Laetoli (huellas 3.66 Ma), Dikika. Cerebro ~430 cc. Coexiste con otros austrolopitecos.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Johanson & White 1978",
+          "claim": "especie"
+        },
+        {
+          "cite": "Leakey & Hay 1979",
+          "claim": "huellas Laetoli"
+        }
+      ],
+      "lon": 40.6,
+      "lat": 11.3,
+      "fad_ma": 3.7,
+      "lad_ma": 3.0
+    },
+    {
+      "id": "bahrelghazali",
+      "name": "Australopithecus bahrelghazali",
+      "name_en": "Australopithecus bahrelghazali",
+      "kind": "species",
+      "start": -3600000,
+      "end": -3500000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "australopithecus",
+      "region": "humanidad",
+      "notes": "Koro Toro, Chad. ¿Afarensis occidental o especie distinta? Material mandibular.",
+      "status": "debated",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Brunet et al. 1996",
+          "claim": "especie"
+        }
+      ],
+      "lon": 17.5,
+      "lat": 16.0,
+      "fad_ma": 3.6,
+      "lad_ma": 3.5
+    },
+    {
+      "id": "deyiremeda",
+      "name": "Australopithecus deyiremeda",
+      "name_en": "Australopithecus deyiremeda",
+      "kind": "species",
+      "start": -3500000,
+      "end": -3300000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "australopithecus",
+      "region": "humanidad",
+      "notes": "Woranso-Mille, Etiopía. Coetáneo de afarensis; validez específica discutida.",
+      "status": "debated",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Haile-Selassie et al. 2015",
+          "claim": "especie"
+        }
+      ],
+      "lon": 40.5,
+      "lat": 11.7,
+      "fad_ma": 3.5,
+      "lad_ma": 3.3
+    },
+    {
+      "id": "kenyanthropus",
+      "name": "Kenyanthropus platyops",
+      "name_en": "Kenyanthropus platyops",
+      "kind": "species",
+      "start": -3500000,
+      "end": -3300000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "australopithecus",
+      "region": "humanidad",
+      "notes": "Lomekwi, Kenia Occidental. Cara plana; cráneo distorsionado. ¿Género propio o afarensis?",
+      "status": "debated",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Leakey et al. 2001",
+          "claim": "especie"
+        }
+      ],
+      "lon": 36.4,
+      "lat": 3.9,
+      "fad_ma": 3.5,
+      "lad_ma": 3.3
+    },
+    {
+      "id": "africanus",
+      "name": "Australopithecus africanus",
+      "name_en": "Australopithecus africanus",
+      "kind": "species",
+      "start": -3300000,
+      "end": -2100000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "australopithecus",
+      "region": "humanidad",
+      "notes": "Taung 1924; Sterkfontein (Mrs Ples). Sudáfrica. Cerebro ~450 cc.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Dart 1925",
+          "claim": "Taung y especie"
+        }
+      ],
+      "lon": 27.4,
+      "lat": -28.6,
+      "fad_ma": 3.3,
+      "lad_ma": 2.1
+    },
+    {
+      "id": "garhi",
+      "name": "Australopithecus garhi",
+      "name_en": "Australopithecus garhi",
+      "kind": "species",
+      "start": -2500000,
+      "end": -2450000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "australopithecus",
+      "region": "humanidad",
+      "notes": "Bouri, Etiopía. Asociado a huesos con marcas de corte. Candidato a puente hacia Homo.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Asfaw et al. 1999",
+          "claim": "especie ~2.5 Ma"
+        }
+      ],
+      "lon": 40.6,
+      "lat": 10.3,
+      "fad_ma": 2.5,
+      "lad_ma": 2.45
+    },
+    {
+      "id": "a-sediba",
+      "name": "Australopithecus sediba",
+      "name_en": "Australopithecus sediba",
+      "kind": "species",
+      "start": -2000000,
+      "end": -1800000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "australopithecus",
+      "region": "humanidad",
+      "notes": "Malapa, Sudáfrica. Mezcla de rasgos austrolopitecinos y Homo. No consenso como ancestro directo.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Berger et al. 2010",
+          "claim": "especie"
+        }
+      ],
+      "lon": 27.67,
+      "lat": -25.9,
+      "fad_ma": 1.98,
+      "lad_ma": 1.8
+    },
+    {
+      "id": "paranthropus",
+      "name": "Paranthropus (robustos)",
+      "name_en": "Paranthropus (robustos)",
+      "kind": "period",
+      "start": -2700000,
+      "end": -1000000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "hominina",
+      "region": "humanidad",
+      "notes": "Rama colateral de masticación pesada. No ancestro de sapiens. Tres especies de consenso.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "aethiopicus",
+      "name": "Paranthropus aethiopicus",
+      "name_en": "Paranthropus aethiopicus",
+      "kind": "species",
+      "start": -2700000,
+      "end": -2300000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "paranthropus",
+      "region": "humanidad",
+      "notes": "Black Skull KNM-WT 17000, West Turkana. Grado temprano robusto.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Walker et al. 1986",
+          "claim": "KNM-WT 17000"
+        }
+      ],
+      "lon": 36.3,
+      "lat": 4.3,
+      "fad_ma": 2.7,
+      "lad_ma": 2.3
+    },
+    {
+      "id": "boisei",
+      "name": "Paranthropus boisei",
+      "name_en": "Paranthropus boisei",
+      "kind": "species",
+      "start": -2300000,
+      "end": -1200000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "paranthropus",
+      "region": "humanidad",
+      "notes": "OH 5 Zinjanthropus, Olduvai; Koobi Fora; Konso. Este de África.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Leakey 1959",
+          "claim": "OH 5"
+        }
+      ],
+      "lon": 35.35,
+      "lat": -2.99,
+      "fad_ma": 2.3,
+      "lad_ma": 1.2
+    },
+    {
+      "id": "robustus",
+      "name": "Paranthropus robustus",
+      "name_en": "Paranthropus robustus",
+      "kind": "species",
+      "start": -2000000,
+      "end": -1000000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "paranthropus",
+      "region": "humanidad",
+      "notes": "Swartkrans, Drimolen, Kromdraai. Sudáfrica.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Broom 1938",
+          "claim": "especie"
+        }
+      ],
+      "lon": 27.5,
+      "lat": -25.9,
+      "fad_ma": 2.0,
+      "lad_ma": 1.0
+    },
+    {
+      "id": "homo-genus",
+      "name": "Género Homo",
+      "name_en": "Género Homo",
+      "kind": "period",
+      "start": -2800000,
+      "end": 2026,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "hominina",
+      "region": "humanidad",
+      "notes": "FAD abierto: Ledi-Geraru ~2.8 Ma (atribución discutida). Incluye sapiens.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "ledi-geraru",
+      "name": "Mandíbula Ledi-Geraru (LD 350-1)",
+      "name_en": "Mandíbula Ledi-Geraru (LD 350-1)",
+      "kind": "site",
+      "start": -2800000,
+      "end": -2750000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Afar, Etiopía. Primer candidato a Homo; también leído como austrolopiteco tardío.",
+      "status": "open",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Villmoare et al. 2015",
+          "claim": "~2.8 Ma, rasgos Homo"
+        }
+      ],
+      "lon": 40.4,
+      "lat": 11.4
+    },
+    {
+      "id": "habilis",
+      "name": "Homo habilis",
+      "name_en": "Homo habilis",
+      "kind": "species",
+      "start": -2300000,
+      "end": -1600000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Olduvai OH 7 (tipo); Koobi Fora 1813 group. ~610 cc. Sensu stricto, separado de rudolfensis.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Leakey, Tobias & Napier 1964",
+          "claim": "especie"
+        },
+        {
+          "cite": "Wood & Boyle",
+          "claim": "FAD 2.35 LAD 1.65"
+        }
+      ],
+      "lon": 35.35,
+      "lat": -2.99,
+      "fad_ma": 2.3,
+      "lad_ma": 1.65
+    },
+    {
+      "id": "rudolfensis",
+      "name": "Homo rudolfensis",
+      "name_en": "Homo rudolfensis",
+      "kind": "species",
+      "start": -2100000,
+      "end": -1800000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "KNM-ER 1470, Koobi Fora. Cara ancha, ~750–800 cc. Especie distinta de habilis en el consenso actual.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Alexeev 1986 / Wood 1992",
+          "claim": "especie"
+        }
+      ],
+      "lon": 36.37,
+      "lat": 3.95,
+      "fad_ma": 2.1,
+      "lad_ma": 1.8
+    },
+    {
+      "id": "erectus",
+      "name": "Homo erectus sensu lato",
+      "name_en": "Homo erectus sensu lato",
+      "kind": "species",
+      "start": -1900000,
+      "end": -108000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Grado más persistente del género. África (ergaster), Dmanisi, Java, China. Fuego y Acheulense asociados de forma desigual. Ngandong ~108–117 ka.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Dubois 1893",
+          "claim": "Trinil tipo"
+        },
+        {
+          "cite": "Herries 2020 / Mussi 2023",
+          "claim": "FAD africano ~2.0 Ma posible"
+        }
+      ],
+      "lon": 36.3,
+      "lat": 4.0,
+      "fad_ma": 1.9,
+      "lad_ma": 0.11
+    },
+    {
+      "id": "ergaster",
+      "name": "Homo ergaster (grado africano)",
+      "name_en": "Homo ergaster (grado africano)",
+      "kind": "species",
+      "start": -1800000,
+      "end": -1000000,
+      "precision": "debated",
+      "level": 4,
+      "parent": "erectus",
+      "region": "humanidad",
+      "notes": "KNM-ER 3733, Turkana Boy WT 15000. Muchos autores lo hunden en erectus s.l.",
+      "status": "grade",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Groves & Mazák 1975",
+          "claim": "nombre"
+        }
+      ],
+      "lon": 36.27,
+      "lat": 4.14,
+      "fad_ma": 1.8,
+      "lad_ma": 1.0
+    },
+    {
+      "id": "dmanisi-georgicus",
+      "name": "Homo erectus / georgicus (Dmanisi)",
+      "name_en": "Homo erectus / georgicus (Dmanisi)",
+      "kind": "species",
+      "start": -1850000,
+      "end": -1770000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "erectus",
+      "region": "humanidad",
+      "notes": "Cinco cráneos, variación enorme (D3444 edéntulo). Primera ocupación euroasiática bien datada.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Gabunia & Vekua 1995; Lordkipanidze et al. 2013",
+          "claim": "serie Dmanisi 1.85–1.77 Ma"
+        }
+      ],
+      "lon": 44.42,
+      "lat": 41.14,
+      "fad_ma": 1.85,
+      "lad_ma": 1.77
+    },
+    {
+      "id": "erectus-asia",
+      "name": "Homo erectus asiático",
+      "name_en": "Homo erectus asiático",
+      "kind": "species",
+      "start": -1800000,
+      "end": -108000,
+      "precision": "millenium",
+      "level": 4,
+      "parent": "erectus",
+      "region": "humanidad",
+      "notes": "Sangiran / Trinil / Ngandong (Java); Zhoukoudian, Nanjing, Hexian (China). Desaparición china ~400–300 ka; Java hasta ~110 ka.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Zhu et al. 2018",
+          "claim": "Shangchen tools 2.12 Ma, especie abierta"
+        }
+      ],
+      "fad_ma": 1.8,
+      "lad_ma": 0.11
+    },
+    {
+      "id": "antecessor",
+      "name": "Homo antecessor",
+      "name_en": "Homo antecessor",
+      "kind": "species",
+      "start": -1200000,
+      "end": -800000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Gran Dolina TD6, Atapuerca. Cara moderna-ish; propuesto como hermano del clade sapiens–neandertal.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Bermúdez de Castro et al. 1997",
+          "claim": "especie"
+        }
+      ],
+      "lon": -3.52,
+      "lat": 42.35,
+      "fad_ma": 1.2,
+      "lad_ma": 0.8
+    },
+    {
+      "id": "heidelbergensis",
+      "name": "Homo heidelbergensis (grado)",
+      "name_en": "Homo heidelbergensis (grado)",
+      "kind": "species",
+      "start": -700000,
+      "end": -200000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Mauer 1907. Grado euroafricano del Pleistoceno medio; muchos lo parten en rhodesiensis (África) y antecesor neandertal (Europa).",
+      "status": "grade",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Schoetensack 1908",
+          "claim": "Mauer"
+        }
+      ],
+      "lon": 8.68,
+      "lat": 49.37,
+      "fad_ma": 0.7,
+      "lad_ma": 0.2
+    },
+    {
+      "id": "rhodesiensis",
+      "name": "Homo rhodesiensis / Kabwe",
+      "name_en": "Homo rhodesiensis / Kabwe",
+      "kind": "species",
+      "start": -600000,
+      "end": -240000,
+      "precision": "debated",
+      "level": 4,
+      "parent": "heidelbergensis",
+      "region": "humanidad",
+      "notes": "Kabwe (Broken Hill), Zambia; Bodo, Etiopía. Grado africano medio. Datación de Kabwe revisada ~299 ka (2020).",
+      "status": "grade",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Woodward 1921; Grün et al. 2020",
+          "claim": "Kabwe ~299 ka"
+        }
+      ],
+      "lon": 28.7,
+      "lat": -14.4,
+      "fad_ma": 0.6,
+      "lad_ma": 0.24
+    },
+    {
+      "id": "naledi",
+      "name": "Homo naledi",
+      "name_en": "Homo naledi",
+      "kind": "species",
+      "start": -335000,
+      "end": -236000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Rising Star, Sudáfrica. Cerebro pequeño (~465–560 cc) en fecha de sapiens temprano. Comportamiento funerario debatido.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Berger et al. 2015; Dirks et al. 2017",
+          "claim": "especie y fechas 335–236 ka"
+        }
+      ],
+      "lon": 27.71,
+      "lat": -25.92,
+      "fad_ma": 0.335,
+      "lad_ma": 0.236
+    },
+    {
+      "id": "floresiensis",
+      "name": "Homo floresiensis",
+      "name_en": "Homo floresiensis",
+      "kind": "species",
+      "start": -190000,
+      "end": -50000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Liang Bua, Flores. ~417 cc. Ocupación de la isla mucho más antigua (herramientas ~1 Ma). Insularidad / erectus enano / linaje temprano.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Brown et al. 2004",
+          "claim": "especie"
+        }
+      ],
+      "lon": 120.43,
+      "lat": -8.53,
+      "fad_ma": 0.19,
+      "lad_ma": 0.05
+    },
+    {
+      "id": "luzonensis",
+      "name": "Homo luzonensis",
+      "name_en": "Homo luzonensis",
+      "kind": "species",
+      "start": -67000,
+      "end": -50000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Cueva Callao, Luzón. Dientes y huesos de pie/mano. Otro hominino insular del SE asiático.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Détroit et al. 2019",
+          "claim": "especie 67–50 ka"
+        }
+      ],
+      "lon": 121.22,
+      "lat": 16.31,
+      "fad_ma": 0.067,
+      "lad_ma": 0.05
+    },
+    {
+      "id": "neanderthal",
+      "name": "Homo neanderthalensis",
+      "name_en": "Homo neanderthalensis",
+      "kind": "species",
+      "start": -430000,
+      "end": -40000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Sima de los Huesos ~430 ka ya en el linaje; clásicos europeos ~130–40 ka. Últimos en Gibraltar / Altai. Genoma 2010.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "King 1864; Green et al. 2010; Arsuaga / Meyer Sima",
+          "claim": "especie, genoma, Sima ~430 ka"
+        }
+      ],
+      "lon": 6.95,
+      "lat": 51.23,
+      "fad_ma": 0.43,
+      "lad_ma": 0.04
+    },
+    {
+      "id": "denisova",
+      "name": "Denisovanos",
+      "name_en": "Denisovanos",
+      "kind": "species",
+      "start": -300000,
+      "end": -40000,
+      "precision": "debated",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Definidos por ADN (Denisova Cave, Altai; Xiahe / Gansu; posible Harbin / H. longi). Pocas piezas diagnósticas. Introgresión en Asia y Sahul.",
+      "status": "open",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Krause et al. 2010; Chen et al. 2019 Xiahe",
+          "claim": "linaje genético"
+        }
+      ],
+      "lon": 84.68,
+      "lat": 51.4,
+      "fad_ma": 0.3,
+      "lad_ma": 0.04
+    },
+    {
+      "id": "longi",
+      "name": "Homo longi / Harbin (cráneo del dragón)",
+      "name_en": "Homo longi / Harbin (cráneo del dragón)",
+      "kind": "species",
+      "start": -300000,
+      "end": -130000,
+      "precision": "debated",
+      "level": 4,
+      "parent": "denisova",
+      "region": "humanidad",
+      "notes": "Harbin, China. Propuesto como denisovano o hermana de sapiens. No hay consenso 2026.",
+      "status": "open",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Ji et al. 2021",
+          "claim": "especie H. longi"
+        }
+      ],
+      "lon": 126.6,
+      "lat": 45.8,
+      "fad_ma": 0.3,
+      "lad_ma": 0.13
+    },
+    {
+      "id": "sapiens",
+      "name": "Homo sapiens",
+      "name_en": "Homo sapiens",
+      "kind": "species",
+      "start": -300000,
+      "end": 2026,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "homo-genus",
+      "region": "humanidad",
+      "notes": "Jebel Irhoud ~315–286 ka; Florisbad ~260; Omo Kibish ~233; Herto ~160. Modelo pan-africano (no un Edén oriental). Fusión de dos stems ~300 ka.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Hublin et al. 2017",
+          "claim": "Irhoud ~300 ka"
+        },
+        {
+          "cite": "Ragsdale et al. 2023",
+          "claim": "dos stems africanos"
+        },
+        {
+          "cite": "Stringer / Scerri",
+          "claim": "origen pan-africano"
+        }
+      ],
+      "lon": -8.87,
+      "lat": 31.85,
+      "fad_ma": 0.3,
+      "lad_ma": 0.0
+    }
+  ]
+}

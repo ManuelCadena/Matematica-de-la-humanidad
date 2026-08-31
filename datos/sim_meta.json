@@ -1,0 +1,1116 @@
+{
+  "years": [
+    -4000,
+    -3900,
+    -3800,
+    -3700,
+    -3600,
+    -3500,
+    -3400,
+    -3300,
+    -3200,
+    -3100,
+    -3000,
+    -2900,
+    -2800,
+    -2700,
+    -2600,
+    -2500,
+    -2400,
+    -2300,
+    -2200,
+    -2100,
+    -2000,
+    -1900,
+    -1800,
+    -1700,
+    -1600,
+    -1500,
+    -1400,
+    -1300,
+    -1200,
+    -1100,
+    -1000,
+    -900,
+    -800,
+    -700,
+    -600,
+    -500,
+    -400,
+    -300,
+    -200,
+    -100,
+    0,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    300,
+    325,
+    350,
+    375,
+    400,
+    425,
+    450,
+    475,
+    500,
+    525,
+    550,
+    575,
+    600,
+    625,
+    650,
+    675,
+    700,
+    725,
+    750,
+    775,
+    800,
+    825,
+    850,
+    875,
+    900,
+    925,
+    950,
+    975,
+    1000,
+    1025,
+    1050,
+    1075,
+    1100,
+    1125,
+    1150,
+    1175,
+    1200,
+    1225,
+    1250,
+    1275,
+    1300,
+    1325,
+    1350,
+    1375,
+    1400,
+    1425,
+    1450,
+    1475,
+    1500,
+    1525,
+    1550,
+    1575,
+    1600,
+    1625,
+    1650,
+    1675,
+    1700,
+    1725,
+    1750,
+    1775,
+    1800,
+    1810,
+    1820,
+    1830,
+    1840,
+    1850,
+    1860,
+    1870,
+    1880,
+    1890,
+    1900,
+    1910,
+    1920,
+    1930,
+    1940,
+    1950,
+    1960,
+    1970,
+    1980,
+    1990,
+    2000,
+    2010,
+    2020,
+    2026
+  ],
+  "n_cones": 81,
+  "regla": "origen -4000 (Uruk/Egipto/Caral). Meso: San Lorenzo -> La Venta -> Cuicuilco/Mirador -> Teotihuacan -> Tula -> Tenochtitlan",
+  "conos": [
+    {
+      "id": "teotihuacan",
+      "name": "Teotihuacan",
+      "xy": [
+        -98.84,
+        19.69
+      ],
+      "t0": -100,
+      "t1": 650,
+      "peak": 1.0,
+      "src": "teotihuacan"
+    },
+    {
+      "id": "tula",
+      "name": "Tula / Tolteca",
+      "xy": [
+        -99.34,
+        20.06
+      ],
+      "t0": 900,
+      "t1": 1150,
+      "peak": 0.55,
+      "src": "tolteca"
+    },
+    {
+      "id": "tenochtitlan",
+      "name": "Tenochtitlan",
+      "xy": [
+        -99.13,
+        19.43
+      ],
+      "t0": 1325,
+      "t1": 1521,
+      "peak": 0.9,
+      "src": "tenochtitlan"
+    },
+    {
+      "id": "tikal",
+      "name": "Tikal",
+      "xy": [
+        -89.62,
+        17.22
+      ],
+      "t0": 200,
+      "t1": 900,
+      "peak": 0.7,
+      "src": "tikal"
+    },
+    {
+      "id": "chichen",
+      "name": "Chichen Itza",
+      "xy": [
+        -88.57,
+        20.68
+      ],
+      "t0": 750,
+      "t1": 1200,
+      "peak": 0.5,
+      "src": "chichen"
+    },
+    {
+      "id": "chavin",
+      "name": "Chavin",
+      "xy": [
+        -77.18,
+        -9.59
+      ],
+      "t0": -900,
+      "t1": -200,
+      "peak": 0.45,
+      "src": "chavin"
+    },
+    {
+      "id": "moche",
+      "name": "Moche",
+      "xy": [
+        -79.14,
+        -8.13
+      ],
+      "t0": 100,
+      "t1": 800,
+      "peak": 0.5,
+      "src": "moche"
+    },
+    {
+      "id": "tiwanaku",
+      "name": "Tiwanaku",
+      "xy": [
+        -68.67,
+        -16.55
+      ],
+      "t0": 500,
+      "t1": 1000,
+      "peak": 0.55,
+      "src": "tiwanaku"
+    },
+    {
+      "id": "wari",
+      "name": "Wari",
+      "xy": [
+        -74.22,
+        -13.16
+      ],
+      "t0": 600,
+      "t1": 1000,
+      "peak": 0.5,
+      "src": "wari"
+    },
+    {
+      "id": "cuzco",
+      "name": "Cuzco / Inca",
+      "xy": [
+        -71.97,
+        -13.52
+      ],
+      "t0": 1438,
+      "t1": 1572,
+      "peak": 0.95,
+      "src": "tawantinsuyu"
+    },
+    {
+      "id": "rome",
+      "name": "Roma",
+      "xy": [
+        12.5,
+        41.9
+      ],
+      "t0": -50,
+      "t1": 476,
+      "peak": 1.0,
+      "src": "rome occidente 476"
+    },
+    {
+      "id": "constantinopla",
+      "name": "Constantinopla",
+      "xy": [
+        28.98,
+        41.01
+      ],
+      "t0": 330,
+      "t1": 1453,
+      "peak": 0.8,
+      "src": "byzantium"
+    },
+    {
+      "id": "atenas",
+      "name": "Atenas",
+      "xy": [
+        23.73,
+        37.97
+      ],
+      "t0": -500,
+      "t1": 30,
+      "peak": 0.55,
+      "src": "hellas clasica"
+    },
+    {
+      "id": "aquisgran",
+      "name": "Aquisgran",
+      "xy": [
+        6.08,
+        50.78
+      ],
+      "t0": 768,
+      "t1": 888,
+      "peak": 0.45,
+      "src": "carolingio"
+    },
+    {
+      "id": "menfis",
+      "name": "Menfis/Nilo",
+      "xy": [
+        31.22,
+        29.85
+      ],
+      "t0": -3000,
+      "t1": 30,
+      "peak": 0.85,
+      "src": "egypt hasta Actium"
+    },
+    {
+      "id": "aksum",
+      "name": "Aksum",
+      "xy": [
+        38.72,
+        14.13
+      ],
+      "t0": 100,
+      "t1": 940,
+      "peak": 0.55,
+      "src": "aksum"
+    },
+    {
+      "id": "meroe",
+      "name": "Meroe",
+      "xy": [
+        31.82,
+        18.53
+      ],
+      "t0": -270,
+      "t1": 350,
+      "peak": 0.4,
+      "src": "kush"
+    },
+    {
+      "id": "babilonia",
+      "name": "Babilonia",
+      "xy": [
+        44.42,
+        32.54
+      ],
+      "t0": -1800,
+      "t1": -539,
+      "peak": 0.7,
+      "src": "mesopotamia"
+    },
+    {
+      "id": "persepolis",
+      "name": "Persepolis",
+      "xy": [
+        52.89,
+        29.94
+      ],
+      "t0": -550,
+      "t1": -330,
+      "peak": 0.85,
+      "src": "achaemenid"
+    },
+    {
+      "id": "ctesifonte",
+      "name": "Ctesifonte",
+      "xy": [
+        44.58,
+        33.09
+      ],
+      "t0": -141,
+      "t1": 637,
+      "peak": 0.7,
+      "src": "partho-sasanida"
+    },
+    {
+      "id": "bagdad",
+      "name": "Bagdad abbasi",
+      "xy": [
+        44.39,
+        33.34
+      ],
+      "t0": 762,
+      "t1": 1258,
+      "peak": 1.0,
+      "src": "abbasid"
+    },
+    {
+      "id": "elcairo",
+      "name": "El Cairo mameluco",
+      "xy": [
+        31.24,
+        30.04
+      ],
+      "t0": 1250,
+      "t1": 1517,
+      "peak": 0.65,
+      "src": "mamluk"
+    },
+    {
+      "id": "kumbi",
+      "name": "Wagadu/Ghana",
+      "xy": [
+        -8.16,
+        15.78
+      ],
+      "t0": 300,
+      "t1": 1240,
+      "peak": 0.45,
+      "src": "ghana-wagadu"
+    },
+    {
+      "id": "timbuktu",
+      "name": "Mali / Timbuktu",
+      "xy": [
+        -3.01,
+        16.77
+      ],
+      "t0": 1235,
+      "t1": 1460,
+      "peak": 0.8,
+      "src": "mali"
+    },
+    {
+      "id": "gao",
+      "name": "Songhai / Gao",
+      "xy": [
+        -0.04,
+        16.27
+      ],
+      "t0": 1460,
+      "t1": 1591,
+      "peak": 0.7,
+      "src": "songhai"
+    },
+    {
+      "id": "pataliputra",
+      "name": "Pataliputra",
+      "xy": [
+        85.13,
+        25.61
+      ],
+      "t0": -321,
+      "t1": 550,
+      "peak": 0.8,
+      "src": "maurya+gupta"
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "xy": [
+        77.23,
+        28.66
+      ],
+      "t0": 1206,
+      "t1": 1526,
+      "peak": 0.75,
+      "src": "delhi"
+    },
+    {
+      "id": "changan",
+      "name": "Changan",
+      "xy": [
+        108.94,
+        34.27
+      ],
+      "t0": -221,
+      "t1": 907,
+      "peak": 1.0,
+      "src": "qin-han-tang"
+    },
+    {
+      "id": "kaifeng",
+      "name": "Kaifeng Song",
+      "xy": [
+        114.31,
+        34.8
+      ],
+      "t0": 960,
+      "t1": 1127,
+      "peak": 0.85,
+      "src": "song"
+    },
+    {
+      "id": "hangzhou",
+      "name": "Hangzhou Song",
+      "xy": [
+        120.16,
+        30.25
+      ],
+      "t0": 1127,
+      "t1": 1279,
+      "peak": 0.8,
+      "src": "song sur"
+    },
+    {
+      "id": "dadu",
+      "name": "Dadu Yuan",
+      "xy": [
+        116.41,
+        39.9
+      ],
+      "t0": 1271,
+      "t1": 1368,
+      "peak": 0.85,
+      "src": "yuan-ch"
+    },
+    {
+      "id": "nanjing-ming",
+      "name": "Nanjing Ming",
+      "xy": [
+        118.78,
+        32.06
+      ],
+      "t0": 1368,
+      "t1": 1421,
+      "peak": 0.75,
+      "src": "ming"
+    },
+    {
+      "id": "beijing-ming",
+      "name": "Beijing Ming",
+      "xy": [
+        116.41,
+        39.9
+      ],
+      "t0": 1421,
+      "t1": 1644,
+      "peak": 0.8,
+      "src": "ming"
+    },
+    {
+      "id": "nara",
+      "name": "Nara/Heian",
+      "xy": [
+        135.77,
+        34.69
+      ],
+      "t0": 710,
+      "t1": 1185,
+      "peak": 0.5,
+      "src": "nara+heian"
+    },
+    {
+      "id": "kamakura",
+      "name": "Kamakura",
+      "xy": [
+        139.55,
+        35.32
+      ],
+      "t0": 1185,
+      "t1": 1333,
+      "peak": 0.45,
+      "src": "kamakura"
+    },
+    {
+      "id": "seoul",
+      "name": "Goryeo",
+      "xy": [
+        126.98,
+        37.57
+      ],
+      "t0": 918,
+      "t1": 1392,
+      "peak": 0.4,
+      "src": "goryeo"
+    },
+    {
+      "id": "angkor",
+      "name": "Angkor",
+      "xy": [
+        103.87,
+        13.41
+      ],
+      "t0": 802,
+      "t1": 1431,
+      "peak": 0.75,
+      "src": "angkor"
+    },
+    {
+      "id": "srivijaya",
+      "name": "Srivijaya",
+      "xy": [
+        104.76,
+        -2.99
+      ],
+      "t0": 670,
+      "t1": 1025,
+      "peak": 0.5,
+      "src": "srivijaya"
+    },
+    {
+      "id": "majapahit",
+      "name": "Majapahit",
+      "xy": [
+        112.23,
+        -7.47
+      ],
+      "t0": 1293,
+      "t1": 1527,
+      "peak": 0.55,
+      "src": "majapahit"
+    },
+    {
+      "id": "karakorum",
+      "name": "Karakorum",
+      "xy": [
+        102.84,
+        47.21
+      ],
+      "t0": 1206,
+      "t1": 1260,
+      "peak": 1.0,
+      "src": "mongol"
+    },
+    {
+      "id": "istanbul",
+      "name": "Estambul / Osmanli",
+      "xy": [
+        28.98,
+        41.01
+      ],
+      "t0": 1453,
+      "t1": 1922,
+      "peak": 0.95,
+      "src": "ottoman"
+    },
+    {
+      "id": "isfahan",
+      "name": "Isfahan safavi",
+      "xy": [
+        51.67,
+        32.65
+      ],
+      "t0": 1501,
+      "t1": 1736,
+      "peak": 0.7,
+      "src": "safavid"
+    },
+    {
+      "id": "agra",
+      "name": "Agra / Mughal",
+      "xy": [
+        78.01,
+        27.18
+      ],
+      "t0": 1526,
+      "t1": 1857,
+      "peak": 0.85,
+      "src": "mughal"
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid / Monarquia Hispanica",
+      "xy": [
+        -3.7,
+        40.42
+      ],
+      "t0": 1479,
+      "t1": 1898,
+      "peak": 0.8,
+      "src": "habsburg-spain"
+    },
+    {
+      "id": "lima",
+      "name": "Lima virreinal",
+      "xy": [
+        -77.03,
+        -12.05
+      ],
+      "t0": 1542,
+      "t1": 1824,
+      "peak": 0.55,
+      "src": "virrey-peru"
+    },
+    {
+      "id": "mexico-virrey",
+      "name": "Mexico virreinal",
+      "xy": [
+        -99.13,
+        19.43
+      ],
+      "t0": 1535,
+      "t1": 1821,
+      "peak": 0.6,
+      "src": "nva-espana"
+    },
+    {
+      "id": "london",
+      "name": "Londres / Imperio britanico",
+      "xy": [
+        -0.13,
+        51.51
+      ],
+      "t0": 1583,
+      "t1": 1997,
+      "peak": 1.0,
+      "src": "british-empire"
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam / VOC",
+      "xy": [
+        4.9,
+        52.37
+      ],
+      "t0": 1602,
+      "t1": 1975,
+      "peak": 0.65,
+      "src": "dutch-empire"
+    },
+    {
+      "id": "paris-mod",
+      "name": "Paris moderno",
+      "xy": [
+        2.35,
+        48.86
+      ],
+      "t0": 1589,
+      "t1": 2026,
+      "peak": 0.7,
+      "src": "france-capet/bourbon"
+    },
+    {
+      "id": "vienna",
+      "name": "Viena habsburg",
+      "xy": [
+        16.37,
+        48.21
+      ],
+      "t0": 1526,
+      "t1": 1918,
+      "peak": 0.65,
+      "src": "habsburg-aus"
+    },
+    {
+      "id": "moscow",
+      "name": "Moscu / Imperio ruso",
+      "xy": [
+        37.62,
+        55.75
+      ],
+      "t0": 1480,
+      "t1": 1917,
+      "peak": 0.8,
+      "src": "muscovy"
+    },
+    {
+      "id": "edo-tokyo",
+      "name": "Edo / Tokio",
+      "xy": [
+        139.69,
+        35.68
+      ],
+      "t0": 1603,
+      "t1": 2026,
+      "peak": 0.85,
+      "src": "edo+meiji+japan"
+    },
+    {
+      "id": "beijing-qing",
+      "name": "Beijing Qing",
+      "xy": [
+        116.41,
+        39.9
+      ],
+      "t0": 1644,
+      "t1": 1912,
+      "peak": 0.85,
+      "src": "qing"
+    },
+    {
+      "id": "seoul-joseon",
+      "name": "Seoul Joseon",
+      "xy": [
+        126.98,
+        37.57
+      ],
+      "t0": 1392,
+      "t1": 1897,
+      "peak": 0.45,
+      "src": "joseon"
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok Chakri",
+      "xy": [
+        100.5,
+        13.76
+      ],
+      "t0": 1782,
+      "t1": 2026,
+      "peak": 0.5,
+      "src": "chakri"
+    },
+    {
+      "id": "washington",
+      "name": "Washington",
+      "xy": [
+        -77.04,
+        38.91
+      ],
+      "t0": 1776,
+      "t1": 2026,
+      "peak": 1.0,
+      "src": "usa"
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "xy": [
+        13.41,
+        52.52
+      ],
+      "t0": 1871,
+      "t1": 2026,
+      "peak": 0.7,
+      "src": "germany-mod"
+    },
+    {
+      "id": "ussr-mos",
+      "name": "Moscu URSS",
+      "xy": [
+        37.62,
+        55.75
+      ],
+      "t0": 1922,
+      "t1": 1991,
+      "peak": 0.95,
+      "src": "ussr"
+    },
+    {
+      "id": "beijing-prc",
+      "name": "Beijing RPC",
+      "xy": [
+        116.41,
+        39.9
+      ],
+      "t0": 1949,
+      "t1": 2026,
+      "peak": 0.9,
+      "src": "prc"
+    },
+    {
+      "id": "mexico-mod",
+      "name": "Ciudad de Mexico",
+      "xy": [
+        -99.13,
+        19.43
+      ],
+      "t0": 1821,
+      "t1": 2026,
+      "peak": 0.5,
+      "src": "mexico"
+    },
+    {
+      "id": "rio",
+      "name": "Rio / Brasil",
+      "xy": [
+        -43.17,
+        -22.91
+      ],
+      "t0": 1822,
+      "t1": 2026,
+      "peak": 0.55,
+      "src": "brazil"
+    },
+    {
+      "id": "asante",
+      "name": "Kumasi / Asante",
+      "xy": [
+        -1.62,
+        6.69
+      ],
+      "t0": 1701,
+      "t1": 1901,
+      "peak": 0.45,
+      "src": "asante"
+    },
+    {
+      "id": "sokoto",
+      "name": "Sokoto",
+      "xy": [
+        5.23,
+        13.06
+      ],
+      "t0": 1804,
+      "t1": 1903,
+      "peak": 0.45,
+      "src": "sokoto"
+    },
+    {
+      "id": "jakarta",
+      "name": "Yakarta / Indonesia",
+      "xy": [
+        106.85,
+        -6.21
+      ],
+      "t0": 1945,
+      "t1": 2026,
+      "peak": 0.55,
+      "src": "indonesia"
+    },
+    {
+      "id": "delhi-mod",
+      "name": "Delhi / India",
+      "xy": [
+        77.21,
+        28.61
+      ],
+      "t0": 1947,
+      "t1": 2026,
+      "peak": 0.7,
+      "src": "india-mod"
+    },
+    {
+      "id": "cairo-mod",
+      "name": "El Cairo moderno",
+      "xy": [
+        31.24,
+        30.04
+      ],
+      "t0": 1805,
+      "t1": 2026,
+      "peak": 0.45,
+      "src": "egypt-rep"
+    },
+    {
+      "id": "addis",
+      "name": "Addis Abeba",
+      "xy": [
+        38.76,
+        9.03
+      ],
+      "t0": 1889,
+      "t1": 2026,
+      "peak": 0.35,
+      "src": "ethiopia-fed"
+    },
+    {
+      "id": "lisboa-imp",
+      "name": "Lisboa imperial",
+      "xy": [
+        -9.14,
+        38.72
+      ],
+      "t0": 1415,
+      "t1": 1975,
+      "peak": 0.6,
+      "src": "portugal"
+    },
+    {
+      "id": "san-lorenzo",
+      "name": "San Lorenzo olmeca",
+      "xy": [
+        -94.59,
+        17.75
+      ],
+      "t0": -1400,
+      "t1": -1000,
+      "peak": 0.7,
+      "src": "san-lorenzo"
+    },
+    {
+      "id": "la-venta",
+      "name": "La Venta olmeca",
+      "xy": [
+        -93.78,
+        18.1
+      ],
+      "t0": -900,
+      "t1": -400,
+      "peak": 0.75,
+      "src": "la-venta"
+    },
+    {
+      "id": "chalcatzingo",
+      "name": "Chalcatzingo",
+      "xy": [
+        -98.77,
+        18.68
+      ],
+      "t0": -1500,
+      "t1": -500,
+      "peak": 0.4,
+      "src": "chalcatzingo"
+    },
+    {
+      "id": "cuicuilco",
+      "name": "Cuicuilco",
+      "xy": [
+        -99.18,
+        19.3
+      ],
+      "t0": -700,
+      "t1": -100,
+      "peak": 0.45,
+      "src": "cuicuilco"
+    },
+    {
+      "id": "el-mirador",
+      "name": "El Mirador",
+      "xy": [
+        -89.92,
+        17.76
+      ],
+      "t0": -600,
+      "t1": 150,
+      "peak": 0.65,
+      "src": "el-mirador"
+    },
+    {
+      "id": "monte-alban",
+      "name": "Monte Alban",
+      "xy": [
+        -96.76,
+        17.04
+      ],
+      "t0": -500,
+      "t1": 850,
+      "peak": 0.55,
+      "src": "monte-alban"
+    },
+    {
+      "id": "kaminaljuyu",
+      "name": "Kaminaljuyu",
+      "xy": [
+        -90.55,
+        14.63
+      ],
+      "t0": -800,
+      "t1": 800,
+      "peak": 0.4,
+      "src": "kaminaljuyu"
+    },
+    {
+      "id": "caral",
+      "name": "Caral",
+      "xy": [
+        -77.52,
+        -10.89
+      ],
+      "t0": -3000,
+      "t1": -1800,
+      "peak": 0.5,
+      "src": "caral"
+    },
+    {
+      "id": "uruk",
+      "name": "Uruk",
+      "xy": [
+        45.64,
+        31.32
+      ],
+      "t0": -4000,
+      "t1": -3100,
+      "peak": 0.8,
+      "src": "uruk"
+    },
+    {
+      "id": "ur",
+      "name": "Ur",
+      "xy": [
+        46.1,
+        30.96
+      ],
+      "t0": -2100,
+      "t1": -2000,
+      "peak": 0.55,
+      "src": "ur-iii"
+    },
+    {
+      "id": "mohenjo",
+      "name": "Mohenjo-Daro",
+      "xy": [
+        68.14,
+        27.33
+      ],
+      "t0": -2600,
+      "t1": -1900,
+      "peak": 0.7,
+      "src": "harappa"
+    },
+    {
+      "id": "erlitou",
+      "name": "Erlitou",
+      "xy": [
+        112.69,
+        34.7
+      ],
+      "t0": -1900,
+      "t1": -1500,
+      "peak": 0.5,
+      "src": "erlitou"
+    },
+    {
+      "id": "anyang",
+      "name": "Anyang / Shang",
+      "xy": [
+        114.3,
+        36.12
+      ],
+      "t0": -1300,
+      "t1": -1046,
+      "peak": 0.6,
+      "src": "anyang"
+    }
+  ]
+}

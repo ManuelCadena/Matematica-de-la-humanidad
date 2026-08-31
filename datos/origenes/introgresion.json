@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "fecha": "2026-08-30",
+    "capa": "0.5-adn"
+  },
+  "n": 7,
+  "items": [
+    {
+      "id": "stem-fusion-300ka",
+      "name": "Fusión de dos stems africanos",
+      "name_en": "Fusión de dos stems africanos",
+      "kind": "admixture",
+      "start": -320000,
+      "end": -280000,
+      "precision": "debated",
+      "level": 2,
+      "parent": "sapiens",
+      "region": "humanidad",
+      "notes": "Ragsdale 2023; Cousins/Hawks 2025: dos poblaciones que se separan ~1.5 Ma se refundan ~300 ka (~80/20) y dan el tronco de sapiens vivos. Geografía de los stems desconocida.",
+      "status": "open",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "genetica"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Ragsdale et al. 2023 Nature",
+          "claim": "modelo de dos fuentes"
+        },
+        {
+          "cite": "Hawks 2025",
+          "claim": "80/20, split 1.5 Ma, merge 300 ka"
+        }
+      ]
+    },
+    {
+      "id": "admixture-nean-250ka",
+      "name": "Flujo sapiens → neandertal (250–200 ka)",
+      "name_en": "Flujo sapiens → neandertal (250–200 ka)",
+      "kind": "admixture",
+      "start": -250000,
+      "end": -200000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "sapiens",
+      "region": "humanidad",
+      "notes": "Li & Akey 2024 Science. Primer pulso detectable en genomas neandertales. Implica sapiens fuera de África o contacto en el Levante mucho antes de OoA-II.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "genetica"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Li, Akey et al. 2024 Science",
+          "claim": "admixture 250–200 ka"
+        }
+      ]
+    },
+    {
+      "id": "admixture-nean-120ka",
+      "name": "Flujo sapiens → neandertal (120–100 ka)",
+      "name_en": "Flujo sapiens → neandertal (120–100 ka)",
+      "kind": "admixture",
+      "start": -120000,
+      "end": -100000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "sapiens",
+      "region": "humanidad",
+      "notes": "Segundo pulso del mismo estudio. Encaja con Skhul/Qafzeh.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "genetica"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Li, Akey et al. 2024 Science",
+          "claim": "admixture 120–100 ka"
+        }
+      ]
+    },
+    {
+      "id": "admixture-nean-45ka",
+      "name": "Introgresión neandertal en no africanos",
+      "name_en": "Introgresión neandertal en no africanos",
+      "kind": "admixture",
+      "start": -49000,
+      "end": -45000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "ooa-ii-exitosa",
+      "region": "humanidad",
+      "notes": "Evento único compartido por todos los no africanos. Datado 49–45 ka por Ranis/Zlatý kůň (~80 generaciones antes de esos individuos).",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "genetica"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Fewlass et al. 2025 Nature",
+          "claim": "45–49 ka, un solo evento"
+        }
+      ]
+    },
+    {
+      "id": "admixture-denisova-sahul",
+      "name": "Introgresión denisovana en Sahul",
+      "name_en": "Introgresión denisovana en Sahul",
+      "kind": "admixture",
+      "start": -55000,
+      "end": -40000,
+      "precision": "debated",
+      "level": 2,
+      "parent": "peopling-sahul",
+      "region": "humanidad",
+      "notes": "~3–5 % en papúes y aborígenes. Posible denisovano distinto del de Denisova Cave (linaje insular).",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "genetica"
+      ],
+      "arbol": "humanidad",
+      "sources": [
+        {
+          "cite": "Reich et al. 2011; Browning 2018",
+          "claim": "ancestría denisovana alta en Sahul"
+        }
+      ]
+    },
+    {
+      "id": "admixture-denisova-easia",
+      "name": "Introgresión denisovana en Asia oriental",
+      "name_en": "Introgresión denisovana en Asia oriental",
+      "kind": "admixture",
+      "start": -50000,
+      "end": -40000,
+      "precision": "debated",
+      "level": 2,
+      "parent": "ooa-ii-exitosa",
+      "region": "humanidad",
+      "notes": "Pulso menor y distinto del de Sahul. Compatible con contacto en el continente (Xiahe / Harbin?).",
+      "status": "consensus",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "genetica"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "archaics-africa",
+      "name": "Arcaicos africanos no muestreados",
+      "name_en": "Arcaicos africanos no muestreados",
+      "kind": "admixture",
+      "start": -400000,
+      "end": -30000,
+      "precision": "debated",
+      "level": 2,
+      "parent": "sapiens",
+      "region": "humanidad",
+      "notes": "Señales de 'ghost' arcaicos en África (hasta 2–19 % según modelos). No hay fósil asignado. No confundir con naledi.",
+      "status": "open",
+      "lentes": [
+        "cientifico"
+      ],
+      "tags": [
+        "origenes",
+        "genetica"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    }
+  ]
+}

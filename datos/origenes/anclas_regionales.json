@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "fecha": "2026-08-30",
+    "nota": "Raíces prehistóricas que conectan orígenes con árboles políticos."
+  },
+  "n": 9,
+  "items": [
+    {
+      "id": "peiligang",
+      "name": "Peiligang",
+      "name_en": "Peiligang",
+      "kind": "culture",
+      "start": -7000,
+      "end": -5000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "china",
+      "region": "easia",
+      "notes": "Neolítico temprano del río Amarillo. Mijo. Ancla el árbol sínico antes de Shang.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "cultural"
+      ],
+      "tags": [
+        "neolitico"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "yangshao",
+      "name": "Yangshao",
+      "name_en": "Yangshao",
+      "kind": "culture",
+      "start": -5000,
+      "end": -3000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "china",
+      "region": "easia",
+      "notes": "Cerámica pintada, medio Amarillo.",
+      "status": "consensus",
+      "lentes": [
+        "cultural",
+        "cientifico"
+      ],
+      "tags": [
+        "neolitico"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "longshan",
+      "name": "Longshan",
+      "name_en": "Longshan",
+      "kind": "culture",
+      "start": -3000,
+      "end": -1900,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "china",
+      "region": "easia",
+      "notes": "Ciudades, jade, violencia. Umbral del Estado erlitou/Shang.",
+      "status": "consensus",
+      "lentes": [
+        "cultural",
+        "historico"
+      ],
+      "tags": [
+        "neolitico"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "erlitou",
+      "name": "Erlitou",
+      "name_en": "Erlitou",
+      "kind": "culture",
+      "start": -1900,
+      "end": -1500,
+      "precision": "debated",
+      "level": 3,
+      "parent": "china",
+      "region": "easia",
+      "notes": "A menudo identificado con Xia. Bronce. No es todavía Shang.",
+      "status": "consensus",
+      "lentes": [
+        "historico",
+        "cientifico"
+      ],
+      "tags": [
+        "bronce"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "hoabinhian",
+      "name": "Hoabinhiense",
+      "name_en": "Hoabinhiense",
+      "kind": "culture",
+      "start": -10000,
+      "end": -2000,
+      "precision": "millenium",
+      "level": 2,
+      "parent": "seasia",
+      "region": "seasia",
+      "notes": "Technocomplex del SE asiático tardiglacial–Holoceno. Base previa a Funan/Dông Sơn.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "cultural"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "stillbay",
+      "name": "Still Bay",
+      "name_en": "Still Bay",
+      "kind": "technocomplex",
+      "start": -75000,
+      "end": -70000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "middle-stone-afr",
+      "region": "humanidad",
+      "notes": "Puntas bifaciales MSA sudafricana. Pulso cultural breve.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "cultural"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "howiesons-poort",
+      "name": "Howiesons Poort",
+      "name_en": "Howiesons Poort",
+      "kind": "technocomplex",
+      "start": -65000,
+      "end": -59000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "middle-stone-afr",
+      "region": "humanidad",
+      "notes": "Hojas, segmentos, ocre. Coetáneo del umbral OoA-II.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "cultural"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "kebaran",
+      "name": "Kebarense",
+      "name_en": "Kebarense",
+      "kind": "culture",
+      "start": -18000,
+      "end": -12000,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "paleolitico",
+      "region": "humanidad",
+      "notes": "Epipaleolítico levantino. Precede al Natufiense y al PPN.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "cultural"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    },
+    {
+      "id": "natufian",
+      "name": "Natufiense",
+      "name_en": "Natufiense",
+      "kind": "culture",
+      "start": -12500,
+      "end": -9500,
+      "precision": "millenium",
+      "level": 3,
+      "parent": "neolitico-paq",
+      "region": "humanidad",
+      "notes": "Sedentismo previo a la agricultura plena en el Levante.",
+      "status": "consensus",
+      "lentes": [
+        "cientifico",
+        "cultural",
+        "social"
+      ],
+      "tags": [
+        "origenes"
+      ],
+      "arbol": "humanidad",
+      "sources": []
+    }
+  ]
+}

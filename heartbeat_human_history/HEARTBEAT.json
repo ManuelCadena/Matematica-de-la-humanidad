@@ -1,20 +1,27 @@
 {
-  "schema": "heartbeat.v1",
-  "t": "2026-08-30T23:30:00Z",
+  "schema": "heartbeat.v1.1",
+  "protocol_version": "1.1.0",
+  "t": "2026-08-31T01:42:00Z",
   "status": "degraded",
   "repo": "ManuelCadena/Matematica-de-la-humanidad",
   "branch": "main",
-  "layers": ["0-lentes", "0.5-origenes", "1-fibrado", "2-mandala", "3-cono"],
+  "layers": [
+    "0-lentes",
+    "0.5-origenes",
+    "1-fibrado",
+    "2-mandala",
+    "3-cono"
+  ],
   "invariants_ok": true,
   "corpus": {
     "cronologia_mundial_arbol": {
-      "version": "6.2.1-origenes",
-      "n_nodes": 2259,
+      "version": "6.3.0-gaps",
+      "n_nodes": 2296,
       "path": "datos/cronologia_mundial_arbol.json"
     },
     "historia_ontologia": {
-      "version": "7.1.1-origenes",
-      "n_nodos": 2485,
+      "version": "7.2.0-gaps",
+      "n_nodos": 2522,
       "path": "datos/historia_ontologia.json"
     },
     "civilizaciones_fibras": {
@@ -22,37 +29,102 @@
       "path": "datos/civilizaciones_fibras.json"
     },
     "origenes": {
-      "species": 31,
-      "sites": 57,
-      "migrations": 13,
+      "species": 37,
+      "sites": 41,
+      "migrations": 14,
       "admixture": 7,
+      "anclas": 9,
       "path": "datos/origenes/"
     },
     "sim_meta": {
-      "n_conos": 42,
-      "note": "conos politicos; kind SPEC_05 no entra"
+      "n_conos": 81,
+      "year_span": [
+        -4000,
+        2026
+      ],
+      "note": "conos politicos datados; kind SPEC_05 no entra"
     }
   },
+  "attestation": {
+    "method": "validate_heartbeat.py",
+    "t": "2026-08-31T01:55:00Z",
+    "measured": {
+      "cronologia_n_nodes": 2296,
+      "ontologia_n_nodos": 2522,
+      "fibras": 22,
+      "sim_meta_n_conos": 81,
+      "origenes": {
+        "species": 37,
+        "sites": 41,
+        "migrations": 14,
+        "admixture": 7,
+        "anclas": 9
+      }
+    },
+    "hashes": {
+      "datos/cronologia_mundial_arbol.json": "6d5fb8a1c65c986aba72a28f5dc06d995c5897f185e8f4267f352b76ebbe5a3c",
+      "datos/historia_ontologia.json": "ae431427584d09b354f4355c6df4ee87e9311663ce31c7a0cff3eb6662d8b43d",
+      "datos/civilizaciones_fibras.json": "27fd1239e20168ba93e5dd05122285f3c49c73a205e2804ee59fbce3070ce5e8",
+      "datos/sim_meta.json": "021a161616dee4001356cdda80546fdd0cb05fb93fad13534b60a18d0ed74ffd",
+      "datos/origenes/homininos.json": "322c467d9d6a77d1dd21d607971a8c56c1dcda97269b239978b89884813e491c",
+      "datos/origenes/yacimientos.json": "d593ab349a6bf8a128cf8da643d2d164c1886491e4c7339eed929ecbc85ce753",
+      "datos/origenes/migraciones.json": "d06e46e045b16b6c4ed1e6ad3e949727ca6824b73942f00d0f22dccd5bfbb793",
+      "datos/origenes/introgresion.json": "87924e8c1344eec65cb1e86be99ba396470a8ed40a2f77e3da51f9c7ba7eb5b8",
+      "datos/origenes/anclas_regionales.json": "a2209931952b8f56e0b3d58ce894738aaedc19461ea046f58f4f6de799078983"
+    },
+    "invariants": {
+      "teotihuacan_interval": [
+        -100,
+        650
+      ],
+      "teotihuacan_off_at_700": true,
+      "n_cone_ids": 81,
+      "overlap_species_cones": [],
+      "overlap_sites_cones": [],
+      "overlap_migrations_cones": [],
+      "overlap_admixture_cones": []
+    }
+  },
+  "chain": {
+    "prev_session_id": "2026-08-31-gaps-v7",
+    "prev_sha256": "3586fbe8a5b98f5929532692ba6080e81c2c7ee7a918688a316d492e7b3104c2"
+  },
   "github_lag": [
-    "docs/SPEC_03-05 y referencia_modelos.py",
+    "docs/SPEC_03-05 full (remote stubs)",
+    "docs/referencia_modelos.py",
     "modelo/",
-    "datos/origenes/ y JSON grandes",
-    "app/"
+    "datos/origenes/",
+    "datos/cronologia_mundial_arbol.json",
+    "datos/historia_ontologia.json",
+    "datos/civilizaciones_fibras.json",
+    "app/",
+    "skills/heartbeat-human-history/",
+    "skills/sota-agent-heartbeat/ v1.2.0 (remote still v1.1 partial; missing validate_heartbeat.py README protocol.md)",
+    "heartbeat_human_history/log/*.md",
+    "heartbeat_human_history/HEARTBEAT.json (remoto aun v1)",
+    "branch skill-v1.2-full-corpus created @ 8458842, no new blobs yet"
   ],
   "pending": [
-    "subir corpus grande y specs 03-05 a GitHub (issue #1)",
-    "extender conos sim_meta a todo el Holoceno con mapa",
-    "taladro dinastico restante por region"
+    "GitHub corpus incompleto: faltan JSON canónicos, origenes, sim_meta, fibras, app, modelo, SPEC_04-05 íntegros, media",
+    "Contents API 1MB: árbol pretty 1.48MB / ontología 1.82MB — usar compacto o git local",
+    "video_cgi_globo_conos.mp4 4.2MB no cabe por Contents API"
   ],
   "last_session": {
-    "id": "2026-08-30-heartbeat",
+    "id": "2026-08-31-repo-corpus-push",
     "agent": "Grok 4.6",
-    "activity": "heartbeat",
-    "log": "log/2026-08-30_heartbeat.md"
+    "activity": "repo-push",
+    "log": "log/2026-08-31_repo-corpus-push.md",
+    "sha256": "e7e4cfa0b3bede053624a13811912cd9f8eb1fdca0f8208895f1f08c5b6e6ec2"
   },
   "protocol": {
     "readme": "heartbeat_human_history/README.md",
     "skill": "skills/heartbeat-human-history/SKILL.md",
+    "portable_skill": "skills/sota-agent-heartbeat/SKILL.md",
     "agents_md": "AGENTS.md"
+  },
+  "sota_check": {
+    "via": "Consensus MCP 2026-08-30 + implementacion v1.2 2026-08-31",
+    "verdict": "aligned-subset-plus",
+    "note": "Zip generico v1.2.0 listo localmente. GitHub main 8458842 sigue detras. Issue #1 comentado."
   }
 }
