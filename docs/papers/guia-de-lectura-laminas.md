@@ -64,7 +64,7 @@ En todas las láminas, −2000 es el año 2000 antes de nuestra era. El archivo 
 
 **II.1. Gráfica 1 — Quién está vivo a la vez**
 
-<img src="docs/papers/figuras/media/39dc5c1ea13963b0857eb60114a1c7f3cca5bb12.png" title="Relieve de conos y series" style="width:6.25in;height:4.21875in" alt="Figura 1. Tres mapas de un mismo relieve (años 100, 700 y 1400) y, abajo a la derecha, tres cuentas a lo largo del tiempo." />
+<img src="figuras/media/grafica_01_complejo_morse_reeb.png" title="Relieve de conos y series" style="width:6.25in;height:4.21875in" alt="Figura 1. Tres mapas de un mismo relieve (años 100, 700 y 1400) y, abajo a la derecha, tres cuentas a lo largo del tiempo." />
 
 *Figura 1. Tres mapas de un mismo relieve (años 100, 700 y 1400) y, abajo a la derecha, tres cuentas a lo largo del tiempo.*
 
@@ -118,7 +118,7 @@ Más cimas no es «más civilización» ni «progreso». Después de 1500 la lí
 
 **II.2. Gráfica 2 — Cuánto dura un poder que tiene fecha**
 
-<img src="docs/papers/figuras/media/d5ff3c606a42d80151509513afb31271b8accc5e.png" title="Barras de duracion y diagrama nacimiento-muerte" style="width:6.25in;height:3.23958in" alt="Figura 2. A la izquierda, cada raya es una polidad viva entre dos años. A la derecha, cada punto es esa misma polidad vista como nacimiento contra muerte." />
+<img src="figuras/media/grafica_02_persistencia.png" title="Barras de duracion y diagrama nacimiento-muerte" style="width:6.25in;height:3.23958in" alt="Figura 2. A la izquierda, cada raya es una polidad viva entre dos años. A la derecha, cada punto es esa misma polidad vista como nacimiento contra muerte." />
 
 *Figura 2. A la izquierda, cada raya es una polidad viva entre dos años. A la derecha, cada punto es esa misma polidad vista como nacimiento contra muerte.*
 
@@ -162,7 +162,7 @@ Una barra larga no es «más grandeza». Puede ser un corte perezoso. Una barra 
 
 **II.3. Gráfica 3 — Por dónde viaja lo que viaja**
 
-<img src="docs/papers/figuras/media/665ff4229d9b8cc640cc97a8c091a3815ee010c8.png" title="Matrices de acople y espectro" style="width:6.25in;height:3.28125in" alt="Figura 3. Arriba, cuatro tableros de 22 por 22: quién empuja a quién en cada ventana de siglos. Abajo, el «retrato» de esa red en un plano." />
+<img src="figuras/media/grafica_03_operador_espectro.png" title="Matrices de acople y espectro" style="width:6.25in;height:3.28125in" alt="Figura 3. Arriba, cuatro tableros de 22 por 22: quién empuja a quién en cada ventana de siglos. Abajo, el «retrato» de esa red en un plano." />
 
 *Figura 3. Arriba, cuatro tableros de 22 por 22: quién empuja a quién en cada ventana de siglos. Abajo, el «retrato» de esa red en un plano.*
 
@@ -204,7 +204,7 @@ Una casilla roja no es «más historia». Es un tipo de cruce con un peso alto e
 
 **II.4. Gráfica 4 — Cuándo se mueve el mapa**
 
-<img src="docs/papers/figuras/media/57c31e8a954ec5bd6d7fe2e3bce52e85bf777d4e.png" title="Distancia y velocidad del relieve" style="width:6.25in;height:3.61458in" alt="Figura 4. Arriba, cuánta masa hay que mover para pasar del mapa de un año al del siguiente. Abajo, esa misma cantidad dividida por los años del salto." />
+<img src="figuras/media/grafica_04_velocidad_historica.png" title="Distancia y velocidad del relieve" style="width:6.25in;height:3.61458in" alt="Figura 4. Arriba, cuánta masa hay que mover para pasar del mapa de un año al del siguiente. Abajo, esa misma cantidad dividida por los años del salto." />
 
 *Figura 4. Arriba, cuánta masa hay que mover para pasar del mapa de un año al del siguiente. Abajo, esa misma cantidad dividida por los años del salto.*
 
@@ -244,7 +244,7 @@ Velocidad alta no es progreso ni catástrofe. Es recambio de capitales fichadas.
 
 **II.5. Gráfica 5 — Si los vecinos se relevos o se montan**
 
-<img src="docs/papers/figuras/media/144b98d844b93fcbd846480a7220399e9a53eb60.png" title="Relaciones de Allen y perfil regional" style="width:6.25in;height:3.0625in" alt="Figura 5. A la izquierda, cuántos pares de polidades vecinas caen en cada una de las trece maneras de mirarse en el tiempo. A la derecha, qué manera predomina en cada región." />
+<img src="figuras/media/grafica_05_relaciones_allen.png" title="Relaciones de Allen y perfil regional" style="width:6.25in;height:3.0625in" alt="Figura 5. A la izquierda, cuántos pares de polidades vecinas caen en cada una de las trece maneras de mirarse en el tiempo. A la derecha, qué manera predomina en cada región." />
 
 *Figura 5. A la izquierda, cuántos pares de polidades vecinas caen en cada una de las trece maneras de mirarse en el tiempo. A la derecha, qué manera predomina en cada región.*
 
@@ -286,7 +286,7 @@ No prueba que «en China hay orden y en Mesoamérica caos». Prueba que dos trad
 
 **II.6. Gráfica 6 — El año mil, cortado en seis preguntas**
 
-<img src="docs/papers/figuras/media/1753b430018029e285c070780d98aa5b564ffc7e.png" title="Seis sabanas en el anio 1000" style="width:6.25in;height:3.13542in" alt="Figura 6. Seis mapas del mismo año 1000. Cambia la pregunta (la lente). El contorno se parece porque, hoy, todas comparten el radio del cono político." />
+<img src="figuras/media/grafica_06_seis_sabanas.png" title="Seis sabanas en el anio 1000" style="width:6.25in;height:3.13542in" alt="Figura 6. Seis mapas del mismo año 1000. Cambia la pregunta (la lente). El contorno se parece porque, hoy, todas comparten el radio del cono político." />
 
 *Figura 6. Seis mapas del mismo año 1000. Cambia la pregunta (la lente). El contorno se parece porque, hoy, todas comparten el radio del cono político.*
 
@@ -320,7 +320,7 @@ No significa que «en el año mil todas las dimensiones coinciden». Coinciden l
 
 **II.7. Gráfica 7 — La rejilla del tiempo largo**
 
-<img src="docs/papers/figuras/media/7c5fbbdca99a173f6ee3bce9ac22b79c5df5bfa6.png" title="Rejilla region tiempo lente" style="width:6.25in;height:4.19792in" alt="Figura 7. Seis calendarios. Cada uno es una lente. Filas = regiones. Columnas = bloques de doscientos años. Color = cuántas fichas. Rayas azules = un acople de esa lente." />
+<img src="figuras/media/grafica_07_rejilla_region_tiempo_lente.png" title="Rejilla region tiempo lente" style="width:6.25in;height:4.19792in" alt="Figura 7. Seis calendarios. Cada uno es una lente. Filas = regiones. Columnas = bloques de doscientos años. Color = cuántas fichas. Rayas azules = un acople de esa lente." />
 
 *Figura 7. Seis calendarios. Cada uno es una lente. Filas = regiones. Columnas = bloques de doscientos años. Color = cuántas fichas. Rayas azules = un acople de esa lente.*
 
@@ -348,7 +348,7 @@ La fila transversal no es «el resto del mundo». Es lo que el territorio no alc
 
 **II.8. Dos láminas de apoyo: dónde está la tinta**
 
-<img src="docs/papers/figuras/media/ffc0155b81cf1afcfb966c55f0f0e2d5e5db7a4c.png" title="Masa de archivo por seccion y lente" style="width:4.58333in;height:5.69792in" alt="Figura 8. 22 secciones por 6 lentes. El número es el recuento de fichas. El color es el logaritmo de ese recuento, para que las fibras delgadas no desaparezcan." />
+<img src="figuras/media/ffc0155b81cf1afcfb966c55f0f0e2d5e5db7a4c.png" title="Masa de archivo por seccion y lente" style="width:4.58333in;height:5.69792in" alt="Figura 8. 22 secciones por 6 lentes. El número es el recuento de fichas. El color es el logaritmo de ese recuento, para que las fibras delgadas no desaparezcan." />
 
 *Figura 8. 22 secciones por 6 lentes. El número es el recuento de fichas. El color es el logaritmo de ese recuento, para que las fibras delgadas no desaparezcan.*
 
@@ -362,7 +362,7 @@ La fila transversal no es «el resto del mundo». Es lo que el territorio no alc
 
 Lo que enseña: la tinta está a la izquierda (política e histórica). Los Andes y el woodland cargan cultura de más respecto de su política. El Occidente latino y el Atlántico cargan lo social. El cero de la Hélade en religión no dice que Grecia no tuviera dioses: dice que esas fichas viven en el árbol transversal y no se clavaron a la sección.
 
-<img src="docs/papers/figuras/media/157a8f8626a37590edfa7a678023a00c4d9d6235.png" title="Correlacion entre lentes" style="width:5in;height:4.375in" alt="Figura 9. ¿Cuando una sección tiene mucha tinta política, tiene también mucha religiosa? Cada casilla compara dos lentes a través de las 22 secciones." />
+<img src="figuras/media/grafica_09_correlacion_lentes.png" title="Correlacion entre lentes" style="width:5in;height:4.375in" alt="Figura 9. ¿Cuando una sección tiene mucha tinta política, tiene también mucha religiosa? Cada casilla compara dos lentes a través de las 22 secciones." />
 
 *Figura 9. ¿Cuando una sección tiene mucha tinta política, tiene también mucha religiosa? Cada casilla compara dos lentes a través de las 22 secciones.*
 

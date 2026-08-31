@@ -74,7 +74,7 @@ Los 39 acoples son el esqueleto de las rutas. De 231 pares posibles entre 22 sec
 
 **Lámina 1. El relieve y sus collados**
 
-<img src="docs/papers/figuras/media/39dc5c1ea13963b0857eb60114a1c7f3cca5bb12.png" title="Relieve de conos" style="width:6.25in;height:4.21875in" alt="Figura 1. Relieve de influencias en los años 100, 700 y 1400, y evolución del número de cimas, de cruces entre discos y de cuencas separadas. Un punto dorado es un collado: dos conos se tocan." />
+<img src="figuras/media/grafica_01_complejo_morse_reeb.png" title="Relieve de conos" style="width:6.25in;height:4.21875in" alt="Figura 1. Relieve de influencias en los años 100, 700 y 1400, y evolución del número de cimas, de cruces entre discos y de cuencas separadas. Un punto dorado es un collado: dos conos se tocan." />
 
 *Figura 1. Relieve de influencias en los años 100, 700 y 1400, y evolución del número de cimas, de cruces entre discos y de cuencas separadas. Un punto dorado es un collado: dos conos se tocan.*
 
@@ -92,7 +92,7 @@ Error prohibido: contar cimas como «progreso». El año 100 no es un mundo pobr
 
 **Lámina 2. Cuánto dura un poder que tiene fecha**
 
-<img src="docs/papers/figuras/media/d5ff3c606a42d80151509513afb31271b8accc5e.png" title="Duracion de 81 polidades" style="width:6.25in;height:3.23958in" alt="Figura 2. Duración efectiva de las 81 polidades que levantan cono. Nacimiento y muerte son el primer y el último año en que el cono tiene masa perceptible. La mediana ronda los cuatro siglos." />
+<img src="figuras/media/grafica_02_persistencia.png" title="Duracion de 81 polidades" style="width:6.25in;height:3.23958in" alt="Figura 2. Duración efectiva de las 81 polidades que levantan cono. Nacimiento y muerte son el primer y el último año en que el cono tiene masa perceptible. La mediana ronda los cuatro siglos." />
 
 *Figura 2. Duración efectiva de las 81 polidades que levantan cono. Nacimiento y muerte son el primer y el último año en que el cono tiene masa perceptible. La mediana ronda los cuatro siglos.*
 
@@ -106,7 +106,7 @@ Error prohibido: leer la barra de Menfis como «Egipto duró tres mil años y po
 
 **Lámina 3. Las rutas que el archivo sí documenta**
 
-<img src="docs/papers/figuras/media/665ff4229d9b8cc640cc97a8c091a3815ee010c8.png" title="Rutas de transferencia" style="width:6.25in;height:3.28125in" alt="Figura 3. Cruce de secciones por ventanas de siglos. Cada celda es un acople tipado activo en esa ventana. El vector dominante nombra la ruta que el archivo sostiene, no la que un modelo desea." />
+<img src="figuras/media/grafica_03_operador_espectro.png" title="Rutas de transferencia" style="width:6.25in;height:3.28125in" alt="Figura 3. Cruce de secciones por ventanas de siglos. Cada celda es un acople tipado activo en esa ventana. El vector dominante nombra la ruta que el archivo sostiene, no la que un modelo desea." />
 
 *Figura 3. Cruce de secciones por ventanas de siglos. Cada celda es un acople tipado activo en esa ventana. El vector dominante nombra la ruta que el archivo sostiene, no la que un modelo desea.*
 
@@ -120,7 +120,7 @@ Error prohibido: leer el vector de 1500–1750 como «Occidente gana la historia
 
 **Lámina 4. Cuándo se mueve el mapa**
 
-<img src="docs/papers/figuras/media/57c31e8a954ec5bd6d7fe2e3bce52e85bf777d4e.png" title="Velocidad del relieve" style="width:6.25in;height:3.61458in" alt="Figura 4. Distancia entre el mapa de un año y el del siguiente, y esa distancia dividida por los años transcurridos. Los picos son siglos en los que las capitales activas cambian de lugar o de peso." />
+<img src="figuras/media/grafica_04_velocidad_historica.png" title="Velocidad del relieve" style="width:6.25in;height:3.61458in" alt="Figura 4. Distancia entre el mapa de un año y el del siguiente, y esa distancia dividida por los años transcurridos. Los picos son siglos en los que las capitales activas cambian de lugar o de peso." />
 
 *Figura 4. Distancia entre el mapa de un año y el del siguiente, y esa distancia dividida por los años transcurridos. Los picos son siglos en los que las capitales activas cambian de lugar o de peso.*
 
@@ -134,7 +134,7 @@ Error prohibido: traducir «velocidad alta» por «progreso» o por «catástrof
 
 **Lámina 5. Cómo se suceden los vecinos**
 
-<img src="docs/papers/figuras/media/144b98d844b93fcbd846480a7220399e9a53eb60.png" title="Relaciones temporales" style="width:6.25in;height:3.0625in" alt="Figura 5. Cómo se relacionan en el tiempo 71 348 pares de polidades vecinas que no distan más de dos siglos. La moda no es el relevo limpio: es el solape." />
+<img src="figuras/media/grafica_05_relaciones_allen.png" title="Relaciones temporales" style="width:6.25in;height:3.0625in" alt="Figura 5. Cómo se relacionan en el tiempo 71 348 pares de polidades vecinas que no distan más de dos siglos. La moda no es el relevo limpio: es el solape." />
 
 *Figura 5. Cómo se relacionan en el tiempo 71 348 pares de polidades vecinas que no distan más de dos siglos. La moda no es el relevo limpio: es el solape.*
 
@@ -148,7 +148,7 @@ Error prohibido: concluir que «en China hay orden y en Mesoamérica caos». Hay
 
 **Lámina 6. Seis sábanas en el año mil**
 
-<img src="docs/papers/figuras/media/1753b430018029e285c070780d98aa5b564ffc7e.png" title="Seis sabanas en el año 1000" style="width:6.25in;height:3.13542in" alt="Figura 6. El mismo año mil, cortado por las seis lentes. La forma se parece porque, hoy, todas comparten el radio del cono político. Cambia la masa. Esa semejanza es un límite del dibujo, no una tesis sobre el mundo." />
+<img src="figuras/media/grafica_06_seis_sabanas.png" title="Seis sabanas en el año 1000" style="width:6.25in;height:3.13542in" alt="Figura 6. El mismo año mil, cortado por las seis lentes. La forma se parece porque, hoy, todas comparten el radio del cono político. Cambia la masa. Esa semejanza es un límite del dibujo, no una tesis sobre el mundo." />
 
 *Figura 6. El mismo año mil, cortado por las seis lentes. La forma se parece porque, hoy, todas comparten el radio del cono político. Cambia la masa. Esa semejanza es un límite del dibujo, no una tesis sobre el mundo.*
 
@@ -162,7 +162,7 @@ Error prohibido: decir que «en el año mil todas las dimensiones coinciden». C
 
 **Lámina 7. La rejilla del tiempo largo**
 
-<img src="docs/papers/figuras/media/7c5fbbdca99a173f6ee3bce9ac22b79c5df5bfa6.png" title="Rejilla region-tiempo-lente" style="width:6.25in;height:4.19792in" alt="Figura 7. Región, bin de dos siglos y lente. La fila inferior —transversal— guarda lo que no se clava a un territorio. Las marcas azules son acoples cuya lente coincide con el panel." />
+<img src="figuras/media/grafica_07_rejilla_region_tiempo_lente.png" title="Rejilla region-tiempo-lente" style="width:6.25in;height:4.19792in" alt="Figura 7. Región, bin de dos siglos y lente. La fila inferior —transversal— guarda lo que no se clava a un territorio. Las marcas azules son acoples cuya lente coincide con el panel." />
 
 *Figura 7. Región, bin de dos siglos y lente. La fila inferior —transversal— guarda lo que no se clava a un territorio. Las marcas azules son acoples cuya lente coincide con el panel.*
 
@@ -176,11 +176,11 @@ Error prohibido: leer la fila transversal como «resto del mundo». Es la fila d
 
 **Dos figuras de apoyo: dónde está la tinta**
 
-<img src="docs/papers/figuras/media/ffc0155b81cf1afcfb966c55f0f0e2d5e5db7a4c.png" title="Masa de archivo por seccion" style="width:4.79167in;height:5.95833in" alt="Figura 8. Masa de archivo por sección civilizatoria y lente. Escala logarítmica. Fuente: civilizaciones_fibras.json, 22 secciones." />
+<img src="figuras/media/ffc0155b81cf1afcfb966c55f0f0e2d5e5db7a4c.png" title="Masa de archivo por seccion" style="width:4.79167in;height:5.95833in" alt="Figura 8. Masa de archivo por sección civilizatoria y lente. Escala logarítmica. Fuente: civilizaciones_fibras.json, 22 secciones." />
 
 *Figura 8. Masa de archivo por sección civilizatoria y lente. Escala logarítmica. Fuente: civilizaciones_fibras.json, 22 secciones.*
 
-<img src="docs/papers/figuras/media/157a8f8626a37590edfa7a678023a00c4d9d6235.png" title="Correlacion entre lentes" style="width:5.41667in;height:4.73958in" alt="Figura 9. Correlación de las masas de archivo entre lentes, a través de las 22 secciones." />
+<img src="figuras/media/grafica_09_correlacion_lentes.png" title="Correlacion entre lentes" style="width:5.41667in;height:4.73958in" alt="Figura 9. Correlación de las masas de archivo entre lentes, a través de las 22 secciones." />
 
 *Figura 9. Correlación de las masas de archivo entre lentes, a través de las 22 secciones.*
 

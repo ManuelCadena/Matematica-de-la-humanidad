@@ -92,3 +92,4 @@ sim_meta n_conos: 81
 ## Notes
 
 Conversión con `pandoc -f docx -t gfm --wrap=none --extract-media=docs/papers/figuras`.
+Adición posterior de 10 `.png` originales del `Downloads` renombrados por OCR: figuras 1–7, 9 y 2 conceptos. Rutas `<img src>` en `Paper_Evolucion_de_la_Humanidad.md` y `guia-de-lectura-laminas.md` corregidas a relativo.
