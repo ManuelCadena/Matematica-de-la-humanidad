@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ManuelCadena/Matematica-de-la-humanidad/heartbeat_human_history/heartbeat.schema.json",
+  "title": "Heartbeat of Human History pulse",
+  "type": "object",
+  "required": ["schema", "t", "status", "repo", "corpus", "last_session", "pending", "invariants_ok"],
+  "additionalProperties": true,
+  "properties": {
+    "schema": { "enum": ["heartbeat.v1", "heartbeat.v1.1"] },
+    "protocol_version": { "type": "string" },
+    "t": { "type": "string" },
+    "status": { "enum": ["ok", "degraded", "diverged", "blocked"] },
+    "repo": { "type": "string" },
+    "corpus": { "type": "object" },
+    "invariants_ok": { "type": "boolean" },
+    "pending": { "type": "array", "items": { "type": "string" } },
+    "last_session": { "type": "object" },
+    "chain": { "type": "object" },
+    "attestation": { "type": "object" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "heartbeat.config.v1",
+  "repo": "ManuelCadena/Matematica-de-la-humanidad",
+  "pulse_schema": "heartbeat.v1.1",
+  "files": [
+    {"id": "cronologia_mundial_arbol", "path": "datos/cronologia_mundial_arbol.json", "hash": true, "counts": [{"key": "n_nodes", "pointer": "/n_nodes"}]},
+    {"id": "historia_ontologia", "path": "datos/historia_ontologia.json", "hash": true, "counts": [{"key": "n_nodos", "pointer": "/meta/n_nodos"}]},
+    {"id": "sim_meta", "path": "datos/sim_meta.json", "hash": true, "counts": [{"key": "n_conos", "pointer": "/n_cones"}]}
+  ],
+  "invariants": [
+    {"id": "teotihuacan-interval", "path": "datos/sim_meta.json", "select": {"id": "teotihuacan"}, "equals": {"t0": -100, "t1": 650}}
+  ]
+}
