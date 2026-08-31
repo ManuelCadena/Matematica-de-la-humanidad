@@ -1,0 +1,70 @@
+{
+  "constantes": {
+    "alpha_deg": 52.0,
+    "HMAX": 16.0,
+    "AMP_MIN": 0.04,
+    "rise_fall": 40.0,
+    "pesos_SPEC_04": {
+      "trade": 0.15,
+      "exchange": 0.15,
+      "translation": 0.1,
+      "diffusion": 0.1,
+      "conversion": 0.12,
+      "diaspora": 0.12,
+      "conquest": 0.2,
+      "war": 0.2,
+      "succession": 0.25,
+      "fusion": 0.25,
+      "contact": 0.08,
+      "expansion": 0.08,
+      "coexist": 0.02,
+      "treaty": 0.2
+    },
+    "n_conos": 81,
+    "n_acoples": 39,
+    "n_civs": 22,
+    "n_flat": 2296
+  },
+  "g5": {
+    "n_nodos": 1135,
+    "n_pares": 71348,
+    "conteo": {
+      "overlapped_by": 11646,
+      "starts": 442,
+      "overlaps": 12898,
+      "precedes": 11836,
+      "during": 9612,
+      "preceded_by": 11696,
+      "contains": 10690,
+      "equals": 205,
+      "started_by": 416,
+      "finishes": 841,
+      "finished_by": 924,
+      "meets": 64,
+      "met_by": 78
+    }
+  },
+  "g6": {
+    "t": 1000,
+    "masa_malla": {
+      "politico": 3755.8725235909315,
+      "historico": 5408.6812925850045,
+      "religioso": 184.11148126775566,
+      "cientifico": 145.19894544913635,
+      "cultural": 283.5831481400886,
+      "social": 60.5296086778448
+    },
+    "conos_asignados": 77
+  },
+  "g7": {
+    "incidencias": {
+      "politico": 3604,
+      "historico": 1430,
+      "religioso": 6,
+      "cientifico": 8,
+      "cultural": 601,
+      "social": 9
+    },
+    "bins": "-4000…2000 paso 200"
+  }
+}
