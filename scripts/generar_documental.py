@@ -21,6 +21,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
 
 BASE = Path(__file__).resolve().parent.parent
 MEDIA = BASE / "media"
@@ -296,7 +298,7 @@ def conos_para_phi(year, conos, nodos_dict):
         lon, lat = REGIONES[regs[0]]["centroide"]
         n_nodes = c.get("n_nodes", 50)
         peak = min(1.0, math.log1p(n_nodes) / 5.0)
-        lista.append({"id": cid, "t0": c["support"]["t0"], "t1": c["support"]["t1"], "peak": peak, "xy": [lon, lat]})
+        lista.append({"id": cid, "t0": c["support"]["t0"], "t1": c["support"]["t1"], "peak": peak, "xy": [lon, lat], "region": regs[0]})
     return lista
 
 
@@ -347,30 +349,53 @@ def calcular_todo():
 # 5. Figuras
 # ============================================================
 def generar_mapa_conos(conos, nodos_dict, seg, year, out_path, video=False):
-    lons = np.linspace(-180, 180, 96)
-    lats = np.linspace(-60, 70, 54)
     clist = conos_para_phi(year, conos, nodos_dict)
 
-    Z = np.zeros((len(lats), len(lons)))
-    for i, lat in enumerate(lats):
-        for j, lon in enumerate(lons):
-            total, _ = ref.phi_at(year, clist, lon, lat)
-            Z[i, j] = total
+    figsize = (19.2, 10.8) if video else (12.8, 7.2)
+    fig = plt.figure(figsize=figsize, dpi=100, facecolor="#0f1115")
+    ax = plt.axes(projection=ccrs.PlateCarree())
+    ax.set_facecolor("#0f1115")
+    ax.set_extent([-180, 180, -60, 80], crs=ccrs.PlateCarree())
+    ax.add_feature(cfeature.LAND, facecolor="#1a1d24", edgecolor="none")
+    ax.add_feature(cfeature.OCEAN, facecolor="#0f1115", edgecolor="none")
+    ax.add_feature(cfeature.COASTLINE, linewidth=0.6, color="#5c6370")
+    ax.add_feature(cfeature.BORDERS, linestyle=":", linewidth=0.4, color="#3a404a")
 
-    if video:
-        fig = plt.figure(figsize=(19.2, 10.8), dpi=100)
-    else:
-        fig = plt.figure(figsize=(12.8, 7.2), dpi=100)
-    ax = fig.add_subplot(111)
-    im = ax.imshow(Z, extent=(-180, 180, -60, 70), origin="lower", cmap="magma", aspect="auto", vmin=0)
+    if not video:
+        lons = np.linspace(-180, 180, 96)
+        lats = np.linspace(-60, 70, 54)
+        Z = np.zeros((len(lats), len(lons)))
+        for i, lat in enumerate(lats):
+            for j, lon in enumerate(lons):
+                total, _ = ref.phi_at(year, clist, lon, lat)
+                Z[i, j] = total
+
+        if Z.max() > 0:
+            ax.imshow(Z, extent=(-180, 180, -60, 70), origin="lower", cmap="magma", aspect="auto", vmin=0, vmax=max(1.0, Z.max()), transform=ccrs.PlateCarree())
+
+    color_por_region = {
+        "am-north": "#ff6b6b", "meso": "#ff9f43", "andes": "#feca57",
+        "af-west": "#54a0ff", "af-nile": "#5f27cd", "af-cs": "#00d2d3",
+        "maghreb": "#1dd1a1", "eu-west": "#48dbfb", "eu-east": "#0abde3",
+        "near-east": "#ee5a24", "iran-steppe": "#f368e0", "sasia": "#ff9ff3",
+        "easia": "#54a0ff", "seasia": "#5f27cd", "oceania": "#1dd1a1",
+    }
     for c in clist:
-        ax.plot(c["xy"][0], c["xy"][1], "w+", markersize=6)
-    ax.set_title(f"Φ(x, t={year})")
-    ax.set_xlabel("Longitud")
-    ax.set_ylabel("Latitud")
-    fig.colorbar(im, ax=ax, label="Σ z_C")
+        lon, lat = c["xy"]
+        # amplitud del cono en este año
+        amp = ref.envelope(year, c["t0"], c["t1"])
+        if amp < 0.01:
+            continue
+        reg = c.get("region", "humanidad")
+        color = color_por_region.get(reg, "#ffffff")
+        size = 40 + 160 * c["peak"] * amp
+        ax.plot(lon, lat, "o", color=color, markersize=np.sqrt(size), alpha=0.5 + 0.4 * amp, transform=ccrs.PlateCarree())
+        ax.plot(lon, lat, "+", color="white", markersize=4, alpha=0.8, transform=ccrs.PlateCarree())
+
+    ax.text(0.02, 0.02, f"t = {year}", transform=ax.transAxes, color="white", fontsize=16, fontweight="bold", ha="left", va="bottom")
+    ax.set_title(f"Conos activos sobre el mundo · {year}", color="white")
     fig.tight_layout()
-    fig.savefig(out_path, facecolor="#1a1a1a", edgecolor="none")
+    fig.savefig(out_path, facecolor="#0f1115", edgecolor="none")
     plt.close(fig)
 
 
@@ -441,9 +466,9 @@ def generar_video():
     conos, _, nodos_dict, _ = cargar_datos()
     frames_dir = MEDIA / "global" / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
-    años = list(range(-3000, 2001, 80))
+    años = list(range(-3000, 2001, 20))
     for i, year in enumerate(años):
-        generar_mapa_conos(conos, nodos_dict, SEGMENTOS[2], year, frames_dir / f"frame_{i:04d}.png", video=True)
+        generar_mapa_conos(conos, nodos_dict, None, year, frames_dir / f"frame_{i:04d}.png", video=True)
 
     video_path = MEDIA / "global" / "video_mapa_conos_1080p60.mp4"
     cmd = [
@@ -556,10 +581,8 @@ Variación Wasserstein aproximada entre inicio y fin del segmento: <code>W₁ �
 INTRO_HTML = """
 <section class="section" id="cap-0">
 <h2>Capítulo 0 — Introducción y metodología</h2>
-<p>El <em>Modelo Matemático de la Humanidad</em> propone leer la historia como un fibrado multicapa sobre el plano espaciotemporal <code>B = R × T</code>, donde <code>R</code> es un grafo discreto de 16 regiones y <code>T</code> son los años enteros astronómicos. Cada nodo se proyecta a un intervalo <code>[t₀,t₁]</code>, un soporte regional y un conjunto de lentes analíticas.</p>
 <div class="eq">G = (V, D, E_intra, E_inter, I, σ, φ)<br>B = R × T, |D| = 6<br>v ↦ (I(v)=[t₀,t₁], σ(v)⊆R, φ(v)⊆D)</div>
-<p>Las seis lentes son: <code>politico</code>, <code>historico</code>, <code>religioso</code>, <code>cientifico</code>, <code>cultural</code> y <code>social</code>. Una civilización no es un nodo, sino una sección <code>C = (W_C, F_C)</code>. Los acoples entre civilizaciones son relaciones de Allen tipadas sobre el intervalo.</p>
-<p>Este documental se divide en segmentos para respetar los límites de la evidencia y evitar la tentación de comprimir la historia en una sola escala. Toda georreferenciación es una proyección de investigación opcional; el modelo formal no depende de ella.</p>
+@@narrative@@
 <div class="warning">
   El corpus contiene <strong>@@n_total_nodos@@</strong> nodos, <strong>@@n_total_conos@@</strong> civilizaciones/fibras y <strong>@@n_total_acoples@@</strong> acoples documentados. Estas cifras son densidad de archivo, no población ni poder histórico.
 </div>
@@ -615,16 +638,7 @@ def build_meso_html(meso, cap):
     return f"<p>Relaciones de Allen entre polidades mesoamericanas:</p>{rows}"
 
 
-NARRATIVAS = {
-    '0.5': 'Durante más de dos millones y medio de años, el género Homo y sus parientes recorren África y luego Eurasia. La capa de especie no es un cono político: es un soporte migratorio y genético. Los modelos demográficos pueden describir pulsos, no destinos.',
-    '1': 'El Neolítico enciende la primera "lámpara" de nodos densos: agricultura, aldeas estables, Jericó, Çatalhöyük, Uruk, San Lorenzo. La revolución no es un evento único, sino un paquete de fibras que se encienden en varios soportes regionales.',
-    '2': 'Egipto, Mesopotamia, el Valle del Indo, Shang, Olmeca/Maya Preclásico y Chavín construyen los primeros conos de Estado datados. Cada uno es un intervalo [t₀,t₁]; no una civilización eterna. Los acoples son intercambios, conflictos y sucesiones tipadas.',
-    '3': 'La Calzada de la Seda, el mundo islámico, los mongoles, el mar de la China y las polidades mesoamericanas (Teotihuacan, Tula, Tenochtitlan) solapan sus intervalos. Aquí la red A_t muestra el máximo de conectividad política del milenio 500–1500.',
-    '4': 'La conexión transatlántica reorganiza la red: colonias, comercio, esclavitud e intercambio biológico. La Revolución Industrial eleva el cono científico en Europa, pero la densidad del archivo no equivale a intensidad histórica uniforme.',
-    '5': 'Dos guerras mundiales y revoluciones transforman la matriz de acoples. Los conos de Estado se multiplican, se rompen y se suceden. El radio espectral de A_t refleja conectividad política extrema, no un destino.',
-    '6': 'Descolonización, Guerra Fría, tecnología nuclear y redes globales. La lente científica y social se densifica; el archivo digital empieza a cambiar la función de registro histórico.',
-    '7': 'Entre 2000 y 2026, internet, cambio climático, pandemias e inteligencia artificial multiplican los nodos de la lente social y científica. El sesgo de tinta nunca ha sido tan visible: más datos no son necesariamente más representatividad.',
-}
+NARRATIVAS = json.loads((DATOS / "narrativas_capitulos.json").read_text())
 
 
 def generar_htmls():
@@ -638,6 +652,7 @@ def generar_htmls():
     toc = "".join(f'<li><a href="#cap-{str(s["cap"]).replace(".", "-")}">{s["cap"]} — {s["title"]}</a></li>' for s in SEGMENTOS)
 
     intro = (INTRO_HTML
+        .replace("@@narrative@@", NARRATIVAS.get("0", ""))
         .replace("@@n_total_nodos@@", str(n_total_nodos))
         .replace("@@n_total_conos@@", str(n_total_conos))
         .replace("@@n_total_acoples@@", str(n_total_acoples)))
