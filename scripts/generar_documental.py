@@ -126,6 +126,17 @@ REGIONES = {
 for rid in REGION_IDS:
     REGIONES[rid]["adyacencias"] = ref.ADJ.get(rid, [])
 
+CENTROS_CONOS = json.loads((DATOS / "centros_conos.json").read_text())["centros"]
+
+COLOR_POR_REGION = {
+    "am-north": "#ff6b6b", "meso": "#ff9f43", "andes": "#feca57",
+    "af-west": "#54a0ff", "af-nile": "#5f27cd", "af-cs": "#00d2d3",
+    "maghreb": "#1dd1a1", "eu-west": "#48dbfb", "eu-east": "#0abde3",
+    "near-east": "#ee5a24", "iran-steppe": "#f368e0", "sasia": "#ff9ff3",
+    "easia": "#54a0ff", "seasia": "#5f27cd", "oceania": "#1dd1a1",
+    "humanidad": "#ffffff",
+}
+
 
 def guardar_regiones():
     out = {"meta": {"tipo": "proyeccion_investigacion", "aviso": "R es un grafo historiografico; estas coordenadas son un anclaje cartografico opcional, no constante del modelo."}, "regiones": REGIONES}
@@ -292,10 +303,14 @@ def conos_para_phi(year, conos, nodos_dict):
         amp = ref.envelope(year, c["support"]["t0"], c["support"]["t1"])
         if amp < 0.04:
             continue
-        regs = [r for r in c["support"]["regions"] if r in REGIONES]
-        if not regs:
-            continue
-        lon, lat = REGIONES[regs[0]]["centroide"]
+        if cid in CENTROS_CONOS:
+            lon, lat = CENTROS_CONOS[cid]
+            regs = c["support"]["regions"]
+        else:
+            regs = [r for r in c["support"]["regions"] if r in REGIONES]
+            if not regs:
+                continue
+            lon, lat = REGIONES[regs[0]]["centroide"]
         n_nodes = c.get("n_nodes", 50)
         peak = min(1.0, math.log1p(n_nodes) / 5.0)
         lista.append({"id": cid, "t0": c["support"]["t0"], "t1": c["support"]["t1"], "peak": peak, "xy": [lon, lat], "region": regs[0]})
@@ -373,13 +388,6 @@ def generar_mapa_conos(conos, nodos_dict, seg, year, out_path, video=False):
         if Z.max() > 0:
             ax.imshow(Z, extent=(-180, 180, -60, 70), origin="lower", cmap="magma", aspect="auto", vmin=0, vmax=max(1.0, Z.max()), transform=ccrs.PlateCarree())
 
-    color_por_region = {
-        "am-north": "#ff6b6b", "meso": "#ff9f43", "andes": "#feca57",
-        "af-west": "#54a0ff", "af-nile": "#5f27cd", "af-cs": "#00d2d3",
-        "maghreb": "#1dd1a1", "eu-west": "#48dbfb", "eu-east": "#0abde3",
-        "near-east": "#ee5a24", "iran-steppe": "#f368e0", "sasia": "#ff9ff3",
-        "easia": "#54a0ff", "seasia": "#5f27cd", "oceania": "#1dd1a1",
-    }
     for c in clist:
         lon, lat = c["xy"]
         # amplitud del cono en este año
@@ -387,7 +395,7 @@ def generar_mapa_conos(conos, nodos_dict, seg, year, out_path, video=False):
         if amp < 0.01:
             continue
         reg = c.get("region", "humanidad")
-        color = color_por_region.get(reg, "#ffffff")
+        color = COLOR_POR_REGION.get(reg, "#ffffff")
         size = 40 + 160 * c["peak"] * amp
         ax.plot(lon, lat, "o", color=color, markersize=np.sqrt(size), alpha=0.5 + 0.4 * amp, transform=ccrs.PlateCarree())
         ax.plot(lon, lat, "+", color="white", markersize=4, alpha=0.8, transform=ccrs.PlateCarree())
@@ -422,29 +430,41 @@ def generar_densidad_archivo(nodos_dict, seg, out_path):
 
 def generar_acoples(acoples, conos, seg, out_path):
     t0, t1 = seg["t0"], seg["t1"]
-    fig, ax = plt.subplots(figsize=(12.8, 7.2), dpi=100)
-    for cid in conos["civilizaciones"]:
-        if cid in REGIONES:
-            lon, lat = REGIONES[cid]["centroide"]
-            ax.plot(lon, lat, "o", markersize=8, color="navy")
-            ax.text(lon + 2, lat, cid, fontsize=7)
+    fig = plt.figure(figsize=(12.8, 7.2), dpi=100, facecolor="#0f1115")
+    ax = plt.axes(projection=ccrs.PlateCarree())
+    ax.set_facecolor("#0f1115")
+    ax.set_extent([-180, 180, -60, 80], crs=ccrs.PlateCarree())
+    ax.add_feature(cfeature.COASTLINE, linewidth=0.5, color="#5c6370")
+    ax.add_feature(cfeature.BORDERS, linestyle=":", linewidth=0.4, color="#3a404a")
+
+    colores_civ = {}
+    for i, cid in enumerate(conos["civilizaciones"]):
+        if cid not in CENTROS_CONOS:
+            continue
+        lon, lat = CENTROS_CONOS[cid]
+        colores_civ[cid] = COLOR_POR_REGION.get(conos["civilizaciones"][cid]["support"]["regions"][0], "#ffffff")
+        ax.plot(lon, lat, "o", markersize=5, color=colores_civ[cid], alpha=0.6, transform=ccrs.PlateCarree())
+        ax.text(lon + 2, lat, cid, fontsize=6, color="white", transform=ccrs.PlateCarree())
+
+    n = 0
     for e in acoples["acoples"]:
         if not ref.overlaps((t0, t1), (e["interval"]["t0"], e["interval"]["t1"])):
             continue
         i, j = e["from"], e["to"]
-        if i not in REGIONES or j not in REGIONES:
+        if i not in CENTROS_CONOS or j not in CENTROS_CONOS:
             continue
-        x1, y1 = REGIONES[i]["centroide"]
-        x2, y2 = REGIONES[j]["centroide"]
-        color = {"war": "red", "trade": "green", "conquest": "darkred", "exchange": "blue"}.get(e["type"], "gray")
-        ax.annotate("", xy=(x2, y2), xytext=(x1, y1), arrowprops=dict(arrowstyle="->", color=color, alpha=0.5))
-    ax.set_xlim(-180, 180)
-    ax.set_ylim(-60, 70)
-    ax.set_title(f"Acoples activos: capítulo {seg['cap']}")
-    ax.set_xlabel("Longitud")
-    ax.set_ylabel("Latitud")
+        x1, y1 = CENTROS_CONOS[i]
+        x2, y2 = CENTROS_CONOS[j]
+        color = {"war": "#ff6b6b", "trade": "#1dd1a1", "conquest": "#ee5a24", "exchange": "#54a0ff", "fusion": "#f368e0", "treaty": "#5f27cd"}.get(e["type"], "#aaaaaa")
+        ax.annotate("", xy=(x2, y2), xytext=(x1, y1), arrowprops=dict(arrowstyle="->", color=color, alpha=0.55, lw=1.2), transform=ccrs.PlateCarree())
+        n += 1
+
+    if n == 0:
+        ax.text(0.5, 0.5, f"Sin acoples documentados en [{t0}, {t1}]", transform=ax.transAxes, color="white", ha="center", va="center", fontsize=12)
+
+    ax.set_title(f"Acoples activos: capítulo {seg['cap']} (n={n})", color="white")
     fig.tight_layout()
-    fig.savefig(out_path, facecolor="white")
+    fig.savefig(out_path, facecolor="#0f1115", edgecolor="none")
     plt.close(fig)
 
 
@@ -466,7 +486,7 @@ def generar_video():
     conos, _, nodos_dict, _ = cargar_datos()
     frames_dir = MEDIA / "global" / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
-    años = list(range(-3000, 2001, 20))
+    años = list(range(-3000, 2027, 5))
     for i, year in enumerate(años):
         generar_mapa_conos(conos, nodos_dict, None, year, frames_dir / f"frame_{i:04d}.png", video=True)
 
@@ -517,6 +537,8 @@ INDEX_HTML = """<!doctype html>
 <body>
 <header><div class="container"><h1>Matemática de la Humanidad</h1><p>Documental matemático-geográfico: del origen del sapiens a 2026.</p></div></header>
 <div class="container">
+<h2>Figuras del modelo</h2>
+<p><a href="modelos_matematicos.html" style="color:var(--accent)">Siete modelos matemáticos explicados con gráficas</a></p>
 <h2>Índice de capítulos</h2>
 <ul class="toc">
   <li><a href="documental_consolidado.html#cap-0">0. Introducción y metodología</a></li>
@@ -602,8 +624,10 @@ CONSOLIDATED_HTML = """<!doctype html>
   <video width="100%" controls poster="../media/segmentos/2/mapa_conos_2.png">
     <source src="../media/global/video_mapa_conos_1080p60.mp4" type="video/mp4">
   </video>
-  <figcaption>Secuencia 1080p60 de Φ(x,t) desde -3000 hasta 2000. Nota: los conos son polidades datadas, no civilizaciones eternas.</figcaption>
+  <figcaption>Secuencia 1080p60 de conos simultáneos sobre mapa georreferenciado, 1920×1080, 60 fps, ~16.7 s. Los conos son polidades datadas; los centroides provienen del corpus georreferenciado.</figcaption>
 </figure>
+
+<p><a href="modelos_matematicos.html" style="color:var(--accent)">Ver las siete figuras del modelo matemático</a></p>
 
 @@intro@@
 @@sections@@

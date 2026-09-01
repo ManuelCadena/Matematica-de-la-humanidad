@@ -2,6 +2,7 @@
 
 Más reciente arriba. Una línea por sesión. El archivo completo vive junto a esta lista.
 
+- `2026-09-01-documental-v3` — Devin — docs — coordenadas corregidas con `Analizador_Humanidad`, video 1080p60 de ~16.7 s, acoples poblados y 7 figuras del modelo matemático; validación ok — [log](2026-09-01_documental-v3.md)
 - `2026-09-01-documental-v2` — Devin — docs — reescritura narrativa con arco de tres actos por capítulo, mapas Cartopy con conos georreferenciados y video 1080p60 simultáneo sobre mapa real; validación ok — [log](2026-09-01_documental-v2.md)
 - `2026-09-01-documental-consolidado` — Devin — docs — genera `app/documental_consolidado.html` final, `app/index.html`, `app/capitulo_*.html`, `datos/regiones_geograficas.{json,md}`, video `media/global/video_mapa_conos_1080p60.mp4` y `docs/estilo_documental.md`; selftest y heartbeat ok — [log](2026-09-01_documental-consolidado.md)
 - `2026-08-31-historia-modelada-html` — Devin — docs — genera `historia_modelada.html` consolidado: intro narrativa + modelo v6.4.0 + ensayo (5) + guía (4) + nuevos gráficos y videos; validación de scripts pendiente — [log](2026-08-31_historia-modelada-html.md)
@@ -14,5 +15,5 @@ Más reciente arriba. Una línea por sesión. El archivo completo vive junto a e
 - `2026-08-31-repo-push-sota-skill` — Grok 4.6 — repo-push — GitHub parcial + skill portable sota-agent-heartbeat — [log](2026-08-31_repo-push-sota-skill.md)
 - `2026-08-31-sota-v1.1` — Grok 4.6 — heartbeat — protocolo v1.1 attested + chain + invariantes ejecutables — [log](2026-08-31_sota-v1.1.md)
 - `2026-08-31-consensus-verify` — Grok 4.6 — heartbeat — Consensus SOTA + corrección counts pulso — [log](2026-08-31_consensus-verify.md)
-- `2026-08-31-heartbeat` — Grok 4.6 — heartbeat — protocolo + skill + pulso inicial — [log](2026-08-31-heartbeat.md)
-- `2026-08-31-origenes` — Grok 4.6 — add-origin — capa 0.5 homininos/migraciones, árbol 2259 / ontología 2485 — [log](2026-08-31-origenes.md)
+- `2026-08-31-heartbeat` — Grok 4.6 — heartbeat — protocolo + skill + pulgese — [log](2026-08-31_heartbeat.md)
+- `2026-08-31-origenes` — Grok 4.6 — add-origin — capa 0.5 homininos/migraciones, árbol 2259 / ontología 2485 — [log](2026-08-31_origenes.md)
