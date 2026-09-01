@@ -1,0 +1,561 @@
+{
+  "cap": 2,
+  "title": "Ejes antiguos",
+  "t0": -3000,
+  "t1": 500,
+  "n_conos_activos": 20,
+  "n_nodos_activos": 886,
+  "n_por_lente": {
+    "politico": 394,
+    "historico": 668,
+    "religioso": 117,
+    "cientifico": 53,
+    "cultural": 141,
+    "social": 41
+  },
+  "top_10_por_lente": {
+    "politico": [
+      {
+        "name": "Tierras altas de Nueva Guinea",
+        "start": -4000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "png-highlands"
+      },
+      {
+        "name": "Ártico",
+        "start": -2000,
+        "end": 2026,
+        "region": "am-north",
+        "id": "arctic"
+      },
+      {
+        "name": "China",
+        "start": -1600,
+        "end": 2026,
+        "region": "easia",
+        "id": "china"
+      },
+      {
+        "name": "Egipto dinástico",
+        "start": -3100,
+        "end": -30,
+        "region": "af-nile",
+        "id": "egypt"
+      },
+      {
+        "name": "Corea",
+        "start": -700,
+        "end": 2026,
+        "region": "easia",
+        "id": "korea"
+      },
+      {
+        "name": "Biblos / Gubla",
+        "start": -3000,
+        "end": -332,
+        "region": "near-east",
+        "id": "byblos"
+      },
+      {
+        "name": "Huasteca",
+        "start": -1000,
+        "end": 1520,
+        "region": "meso",
+        "id": "huasteca-full"
+      },
+      {
+        "name": "Dilmun",
+        "start": -3000,
+        "end": -500,
+        "region": "near-east",
+        "id": "dilmun"
+      },
+      {
+        "name": "Japón",
+        "start": -300,
+        "end": 2026,
+        "region": "easia",
+        "id": "japan"
+      },
+      {
+        "name": "Roma",
+        "start": -753,
+        "end": 1453,
+        "region": "eu-west",
+        "id": "rome"
+      }
+    ],
+    "historico": [
+      {
+        "name": "Humanidad (especie, clima, fe, ciencia, orden mundial)",
+        "start": -7000000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "humanidad"
+      },
+      {
+        "name": "Magreb",
+        "start": -145000,
+        "end": 2026,
+        "region": "maghreb",
+        "id": "maghreb"
+      },
+      {
+        "name": "Oceanía y Pacífico",
+        "start": -65000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "oceania"
+      },
+      {
+        "name": "África central y austral",
+        "start": -40000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "af-cs"
+      },
+      {
+        "name": "Cercana Oceanía pleistocena",
+        "start": -35000,
+        "end": -1600,
+        "region": "oceania",
+        "id": "near-oceania"
+      },
+      {
+        "name": "Artes visuales-ancla",
+        "start": -30000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "artes"
+      },
+      {
+        "name": "América del Norte y Ártico",
+        "start": -13000,
+        "end": 2026,
+        "region": "am-north",
+        "id": "am-north"
+      },
+      {
+        "name": "Mesoamérica y Caribe",
+        "start": -13000,
+        "end": 2026,
+        "region": "meso",
+        "id": "meso"
+      },
+      {
+        "name": "Clima del Holoceno",
+        "start": -11700,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "holoceno-clima"
+      },
+      {
+        "name": "Jōmon",
+        "start": -14000,
+        "end": -300,
+        "region": "easia",
+        "id": "jomon"
+      }
+    ],
+    "religioso": [
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Dreaming / Tjukurpa",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "dreaming-sahul"
+      },
+      {
+        "name": "Cosmología San / ǃKung",
+        "start": -20000,
+        "end": 2026,
+        "region": null,
+        "id": "san-rel"
+      },
+      {
+        "name": "Cosmologías indígenas",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "cosmologias-indigenas"
+      },
+      {
+        "name": "Religiones del antiguo Oriente",
+        "start": -3500,
+        "end": 400,
+        "region": null,
+        "id": "antiguo-oriente-rel"
+      },
+      {
+        "name": "Campo índico",
+        "start": -1500,
+        "end": 2026,
+        "region": null,
+        "id": "indicas"
+      },
+      {
+        "name": "Religión egipcia",
+        "start": -3100,
+        "end": 400,
+        "region": null,
+        "id": "egipto-rel"
+      },
+      {
+        "name": "Religión sumerio-acadia",
+        "start": -3500,
+        "end": -100,
+        "region": null,
+        "id": "mesopotamia-rel"
+      },
+      {
+        "name": "Cosmología mesoamericana",
+        "start": -1200,
+        "end": 2026,
+        "region": null,
+        "id": "meso-cosmov"
+      },
+      {
+        "name": "Tradiciones iranias",
+        "start": -1200,
+        "end": 2026,
+        "region": null,
+        "id": "iranias"
+      }
+    ],
+    "cientifico": [
+      {
+        "name": "Campo científico-técnico",
+        "start": -3000000,
+        "end": 2026,
+        "region": null,
+        "id": "cientifico-eje"
+      },
+      {
+        "name": "Género Homo",
+        "start": -2800000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "homo-genus"
+      },
+      {
+        "name": "Migraciones homininas",
+        "start": -2100000,
+        "end": 1500,
+        "region": "humanidad",
+        "id": "migraciones-hominina"
+      },
+      {
+        "name": "Homo sapiens",
+        "start": -300000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "sapiens"
+      },
+      {
+        "name": "Later Stone Age austral",
+        "start": -40000,
+        "end": -200,
+        "region": "af-cs",
+        "id": "af-cs-lsa"
+      },
+      {
+        "name": "Cercana Oceanía pleistocena",
+        "start": -35000,
+        "end": -1600,
+        "region": "oceania",
+        "id": "near-oceania"
+      },
+      {
+        "name": "Cosmología San / ǃKung",
+        "start": -20000,
+        "end": 2026,
+        "region": null,
+        "id": "san-rel"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Demografía",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "demografia"
+      },
+      {
+        "name": "Holoceno australiano",
+        "start": -10000,
+        "end": 1788,
+        "region": "oceania",
+        "id": "australia-holocene"
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Poblamiento de Sahul / Australia aborigen",
+        "start": -65000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "sahul"
+      },
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Dreaming / Tjukurpa",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "dreaming-sahul"
+      },
+      {
+        "name": "Campo cultural",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "cultural-eje"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Jōmon (paquete neolítico)",
+        "start": -14000,
+        "end": -300,
+        "region": "humanidad",
+        "id": "jomon-neol"
+      },
+      {
+        "name": "Cosmologías indígenas",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "cosmologias-indigenas"
+      },
+      {
+        "name": "Familias lingüísticas (ancla)",
+        "start": -8000,
+        "end": 2026,
+        "region": null,
+        "id": "lenguas-familia"
+      },
+      {
+        "name": "Hoabinhiense",
+        "start": -10000,
+        "end": -2000,
+        "region": "seasia",
+        "id": "hoabinhian"
+      },
+      {
+        "name": "Escritura como técnica",
+        "start": -3200,
+        "end": 2026,
+        "region": null,
+        "id": "escritura-como-tecnica"
+      }
+    ],
+    "social": [
+      {
+        "name": "Migraciones homininas",
+        "start": -2100000,
+        "end": 1500,
+        "region": "humanidad",
+        "id": "migraciones-hominina"
+      },
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Campo social",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "social"
+      },
+      {
+        "name": "Parentesco y género",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "parentesco"
+      },
+      {
+        "name": "Demografía",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "demografia"
+      },
+      {
+        "name": "Holoceno australiano",
+        "start": -10000,
+        "end": 1788,
+        "region": "oceania",
+        "id": "australia-holocene"
+      },
+      {
+        "name": "Esclavitud y servidumbre",
+        "start": -3000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "trabajo-servidumbre"
+      },
+      {
+        "name": "Patrilinealidad de Estado",
+        "start": -3000,
+        "end": 2026,
+        "region": null,
+        "id": "patrilineal-estado"
+      },
+      {
+        "name": "Trabajo, esclavitud, casta",
+        "start": -3000,
+        "end": 2026,
+        "region": null,
+        "id": "trabajo-campo"
+      }
+    ]
+  },
+  "sample_years": [
+    -3000,
+    -2300,
+    -1600,
+    -900,
+    -200,
+    500
+  ],
+  "A_t_rho": 0.0,
+  "W1_aproximado": 0.1272,
+  "civs_index": {
+    "aksum-et": 0,
+    "am-woodland": 1,
+    "andes-civ": 2,
+    "atlantic-mod": 3,
+    "china": 4,
+    "egypt": 5,
+    "hellas": 6,
+    "india": 7,
+    "iran": 8,
+    "islamicate": 9,
+    "japan-civ": 10,
+    "korea-civ": 11,
+    "kush-nubia": 12,
+    "latin-west": 13,
+    "levante": 14,
+    "mesoamerica": 15,
+    "mesopotamia": 16,
+    "oceania-civ": 17,
+    "rome": 18,
+    "sahel": 19,
+    "seasia-civ": 20,
+    "steppe": 21
+  },
+  "meso_overlap": [
+    {
+      "a": "san-lorenzo",
+      "b": "la-venta",
+      "allen": "precedes"
+    },
+    {
+      "a": "san-lorenzo",
+      "b": "cuicuilco",
+      "allen": "precedes"
+    },
+    {
+      "a": "san-lorenzo",
+      "b": "el-mirador",
+      "allen": "precedes"
+    },
+    {
+      "a": "san-lorenzo",
+      "b": "teotihuacan",
+      "allen": "precedes"
+    },
+    {
+      "a": "san-lorenzo",
+      "b": "tenochtitlan",
+      "allen": "precedes"
+    },
+    {
+      "a": "la-venta",
+      "b": "cuicuilco",
+      "allen": "overlaps"
+    },
+    {
+      "a": "la-venta",
+      "b": "el-mirador",
+      "allen": "overlaps"
+    },
+    {
+      "a": "la-venta",
+      "b": "teotihuacan",
+      "allen": "precedes"
+    },
+    {
+      "a": "la-venta",
+      "b": "tenochtitlan",
+      "allen": "precedes"
+    },
+    {
+      "a": "cuicuilco",
+      "b": "el-mirador",
+      "allen": "overlaps"
+    },
+    {
+      "a": "cuicuilco",
+      "b": "teotihuacan",
+      "allen": "overlaps"
+    },
+    {
+      "a": "cuicuilco",
+      "b": "tenochtitlan",
+      "allen": "precedes"
+    },
+    {
+      "a": "el-mirador",
+      "b": "teotihuacan",
+      "allen": "overlaps"
+    },
+    {
+      "a": "el-mirador",
+      "b": "tenochtitlan",
+      "allen": "precedes"
+    },
+    {
+      "a": "teotihuacan",
+      "b": "tenochtitlan",
+      "allen": "precedes"
+    }
+  ]
+}

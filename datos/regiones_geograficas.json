@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "tipo": "proyeccion_investigacion",
+    "aviso": "R es un grafo historiografico; estas coordenadas son un anclaje cartografico opcional, no constante del modelo."
+  },
+  "regiones": {
+    "am-north": {
+      "centroide": [
+        -100.0,
+        45.0
+      ],
+      "poligono": [
+        [
+          -130,
+          25
+        ],
+        [
+          -80,
+          25
+        ],
+        [
+          -60,
+          55
+        ],
+        [
+          -130,
+          55
+        ],
+        [
+          -130,
+          25
+        ]
+      ],
+      "adyacencias": [
+        "meso"
+      ]
+    },
+    "meso": {
+      "centroide": [
+        -92.0,
+        18.0
+      ],
+      "poligono": [
+        [
+          -105,
+          14
+        ],
+        [
+          -85,
+          14
+        ],
+        [
+          -80,
+          22
+        ],
+        [
+          -100,
+          22
+        ],
+        [
+          -105,
+          14
+        ]
+      ],
+      "adyacencias": [
+        "am-north",
+        "andes"
+      ]
+    },
+    "andes": {
+      "centroide": [
+        -72.0,
+        -15.0
+      ],
+      "poligono": [
+        [
+          -80,
+          -35
+        ],
+        [
+          -60,
+          -35
+        ],
+        [
+          -60,
+          5
+        ],
+        [
+          -80,
+          5
+        ],
+        [
+          -80,
+          -35
+        ]
+      ],
+      "adyacencias": [
+        "meso"
+      ]
+    },
+    "af-west": {
+      "centroide": [
+        -5.0,
+        12.0
+      ],
+      "poligono": [
+        [
+          -17,
+          4
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          -17,
+          20
+        ],
+        [
+          -17,
+          4
+        ]
+      ],
+      "adyacencias": [
+        "maghreb",
+        "af-nile",
+        "af-cs"
+      ]
+    },
+    "af-nile": {
+      "centroide": [
+        35.0,
+        20.0
+      ],
+      "poligono": [
+        [
+          25,
+          10
+        ],
+        [
+          45,
+          10
+        ],
+        [
+          45,
+          30
+        ],
+        [
+          25,
+          30
+        ],
+        [
+          25,
+          10
+        ]
+      ],
+      "adyacencias": [
+        "af-west",
+        "af-cs",
+        "maghreb",
+        "near-east"
+      ]
+    },
+    "af-cs": {
+      "centroide": [
+        25.0,
+        -18.0
+      ],
+      "poligono": [
+        [
+          10,
+          -35
+        ],
+        [
+          40,
+          -35
+        ],
+        [
+          40,
+          -5
+        ],
+        [
+          10,
+          -5
+        ],
+        [
+          10,
+          -35
+        ]
+      ],
+      "adyacencias": [
+        "af-west",
+        "af-nile"
+      ]
+    },
+    "maghreb": {
+      "centroide": [
+        5.0,
+        32.0
+      ],
+      "poligono": [
+        [
+          -10,
+          25
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          -10,
+          40
+        ],
+        [
+          -10,
+          25
+        ]
+      ],
+      "adyacencias": [
+        "af-west",
+        "af-nile",
+        "eu-west",
+        "near-east"
+      ]
+    },
+    "eu-west": {
+      "centroide": [
+        2.0,
+        47.0
+      ],
+      "poligono": [
+        [
+          -10,
+          36
+        ],
+        [
+          15,
+          36
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          -10,
+          60
+        ],
+        [
+          -10,
+          36
+        ]
+      ],
+      "adyacencias": [
+        "eu-east",
+        "maghreb",
+        "near-east"
+      ]
+    },
+    "eu-east": {
+      "centroide": [
+        28.0,
+        50.0
+      ],
+      "poligono": [
+        [
+          18,
+          42
+        ],
+        [
+          40,
+          42
+        ],
+        [
+          40,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          18,
+          42
+        ]
+      ],
+      "adyacencias": [
+        "eu-west",
+        "near-east",
+        "iran-steppe"
+      ]
+    },
+    "near-east": {
+      "centroide": [
+        42.0,
+        34.0
+      ],
+      "poligono": [
+        [
+          35,
+          28
+        ],
+        [
+          50,
+          28
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          35,
+          42
+        ],
+        [
+          35,
+          28
+        ]
+      ],
+      "adyacencias": [
+        "eu-west",
+        "eu-east",
+        "maghreb",
+        "af-nile",
+        "iran-steppe"
+      ]
+    },
+    "iran-steppe": {
+      "centroide": [
+        62.0,
+        36.0
+      ],
+      "poligono": [
+        [
+          45,
+          25
+        ],
+        [
+          80,
+          25
+        ],
+        [
+          80,
+          48
+        ],
+        [
+          45,
+          48
+        ],
+        [
+          45,
+          25
+        ]
+      ],
+      "adyacencias": [
+        "near-east",
+        "eu-east",
+        "sasia",
+        "easia"
+      ]
+    },
+    "sasia": {
+      "centroide": [
+        78.0,
+        22.0
+      ],
+      "poligono": [
+        [
+          68,
+          8
+        ],
+        [
+          90,
+          8
+        ],
+        [
+          90,
+          35
+        ],
+        [
+          68,
+          35
+        ],
+        [
+          68,
+          8
+        ]
+      ],
+      "adyacencias": [
+        "iran-steppe",
+        "easia",
+        "seasia"
+      ]
+    },
+    "easia": {
+      "centroide": [
+        108.0,
+        35.0
+      ],
+      "poligono": [
+        [
+          95,
+          20
+        ],
+        [
+          125,
+          20
+        ],
+        [
+          125,
+          45
+        ],
+        [
+          95,
+          45
+        ],
+        [
+          95,
+          20
+        ]
+      ],
+      "adyacencias": [
+        "sasia",
+        "iran-steppe",
+        "seasia"
+      ]
+    },
+    "seasia": {
+      "centroide": [
+        115.0,
+        12.0
+      ],
+      "poligono": [
+        [
+          95,
+          -10
+        ],
+        [
+          135,
+          -10
+        ],
+        [
+          135,
+          25
+        ],
+        [
+          95,
+          25
+        ],
+        [
+          95,
+          -10
+        ]
+      ],
+      "adyacencias": [
+        "sasia",
+        "easia",
+        "oceania"
+      ]
+    },
+    "oceania": {
+      "centroide": [
+        140.0,
+        -25.0
+      ],
+      "poligono": [
+        [
+          110,
+          -45
+        ],
+        [
+          170,
+          -45
+        ],
+        [
+          170,
+          -5
+        ],
+        [
+          110,
+          -5
+        ],
+        [
+          110,
+          -45
+        ]
+      ],
+      "adyacencias": [
+        "seasia"
+      ]
+    },
+    "humanidad": {
+      "centroide": [
+        0.0,
+        0.0
+      ],
+      "poligono": [
+        [
+          -180,
+          -90
+        ],
+        [
+          180,
+          -90
+        ],
+        [
+          180,
+          90
+        ],
+        [
+          -180,
+          90
+        ],
+        [
+          -180,
+          -90
+        ]
+      ],
+      "adyacencias": []
+    }
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "cap": "0.5",
+  "title": "Origen del ser humano",
+  "t0": -2500000,
+  "t1": -10000,
+  "n_conos_activos": 1,
+  "n_nodos_activos": 140,
+  "n_por_lente": {
+    "politico": 0,
+    "historico": 17,
+    "religioso": 7,
+    "cientifico": 99,
+    "cultural": 66,
+    "social": 19
+  },
+  "top_10_por_lente": {
+    "politico": [],
+    "historico": [
+      {
+        "name": "Humanidad (especie, clima, fe, ciencia, orden mundial)",
+        "start": -7000000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "humanidad"
+      },
+      {
+        "name": "Hominina",
+        "start": -7000000,
+        "end": -300000,
+        "region": "humanidad",
+        "id": "hominina"
+      },
+      {
+        "name": "Paleolítico",
+        "start": -3300000,
+        "end": -10000,
+        "region": "humanidad",
+        "id": "paleolitico"
+      },
+      {
+        "name": "Magreb",
+        "start": -145000,
+        "end": 2026,
+        "region": "maghreb",
+        "id": "maghreb"
+      },
+      {
+        "name": "Oceanía y Pacífico",
+        "start": -65000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "oceania"
+      },
+      {
+        "name": "Pleistoceno tardío australiano",
+        "start": -65000,
+        "end": -10000,
+        "region": "oceania",
+        "id": "sahul-late-pleist"
+      },
+      {
+        "name": "África central y austral",
+        "start": -40000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "af-cs"
+      },
+      {
+        "name": "Paleolítico superior",
+        "start": -50000,
+        "end": -10000,
+        "region": "humanidad",
+        "id": "upper-pal"
+      },
+      {
+        "name": "Cercana Oceanía pleistocena",
+        "start": -35000,
+        "end": -1600,
+        "region": "oceania",
+        "id": "near-oceania"
+      },
+      {
+        "name": "Artes visuales-ancla",
+        "start": -30000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "artes"
+      }
+    ],
+    "religioso": [
+      {
+        "name": "Práctica ritual paleolítica",
+        "start": -100000,
+        "end": -10000,
+        "region": null,
+        "id": "ritual-paleo"
+      },
+      {
+        "name": "Enterramientos intencionales",
+        "start": -120000,
+        "end": -40000,
+        "region": null,
+        "id": "enterramiento-paleo"
+      },
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Dreaming / Tjukurpa",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "dreaming-sahul"
+      },
+      {
+        "name": "Arte parietal como práctica",
+        "start": -40000,
+        "end": -12000,
+        "region": null,
+        "id": "arte-parietal"
+      },
+      {
+        "name": "Cosmología San / ǃKung",
+        "start": -20000,
+        "end": 2026,
+        "region": null,
+        "id": "san-rel"
+      },
+      {
+        "name": "Cosmologías indígenas",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "cosmologias-indigenas"
+      }
+    ],
+    "cientifico": [
+      {
+        "name": "Campo científico-técnico",
+        "start": -3000000,
+        "end": 2026,
+        "region": null,
+        "id": "cientifico-eje"
+      },
+      {
+        "name": "Género Homo",
+        "start": -2800000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "homo-genus"
+      },
+      {
+        "name": "Australopithecus (grado)",
+        "start": -4200000,
+        "end": -1800000,
+        "region": "humanidad",
+        "id": "australopithecus"
+      },
+      {
+        "name": "Migraciones homininas",
+        "start": -2100000,
+        "end": 1500,
+        "region": "humanidad",
+        "id": "migraciones-hominina"
+      },
+      {
+        "name": "Homo erectus sensu lato",
+        "start": -1900000,
+        "end": -108000,
+        "region": "humanidad",
+        "id": "erectus"
+      },
+      {
+        "name": "Olduvai",
+        "start": -1800000,
+        "end": -40000,
+        "region": "humanidad",
+        "id": "site-olduvai"
+      },
+      {
+        "name": "Paranthropus (robustos)",
+        "start": -2700000,
+        "end": -1000000,
+        "region": "humanidad",
+        "id": "paranthropus"
+      },
+      {
+        "name": "Homo erectus asiático",
+        "start": -1800000,
+        "end": -108000,
+        "region": "humanidad",
+        "id": "erectus-asia"
+      },
+      {
+        "name": "Australopithecus africanus",
+        "start": -3300000,
+        "end": -2100000,
+        "region": "humanidad",
+        "id": "africanus"
+      },
+      {
+        "name": "Sterkfontein",
+        "start": -3300000,
+        "end": -2100000,
+        "region": "humanidad",
+        "id": "site-sterkfontein"
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Olduvai",
+        "start": -1800000,
+        "end": -40000,
+        "region": "humanidad",
+        "id": "site-olduvai"
+      },
+      {
+        "name": "Acheulense",
+        "start": -1760000,
+        "end": -150000,
+        "region": "humanidad",
+        "id": "acheulean"
+      },
+      {
+        "name": "Sterkfontein",
+        "start": -3300000,
+        "end": -2100000,
+        "region": "humanidad",
+        "id": "site-sterkfontein"
+      },
+      {
+        "name": "Olduvayense",
+        "start": -2600000,
+        "end": -1700000,
+        "region": "humanidad",
+        "id": "oldowan"
+      },
+      {
+        "name": "Shangchen",
+        "start": -2120000,
+        "end": -1260000,
+        "region": "humanidad",
+        "id": "site-shangchen"
+      },
+      {
+        "name": "Sangiran",
+        "start": -1800000,
+        "end": -1000000,
+        "region": "humanidad",
+        "id": "site-sangiran"
+      },
+      {
+        "name": "Koobi Fora",
+        "start": -2000000,
+        "end": -1400000,
+        "region": "humanidad",
+        "id": "site-koobi-fora"
+      },
+      {
+        "name": "Atapuerca Gran Dolina TD6",
+        "start": -1200000,
+        "end": -800000,
+        "region": "humanidad",
+        "id": "site-atapuerca-td6"
+      },
+      {
+        "name": "Zhoukoudian (Hombre de Pekín)",
+        "start": -770000,
+        "end": -400000,
+        "region": "humanidad",
+        "id": "site-zhoukoudian"
+      },
+      {
+        "name": "Taung",
+        "start": -2800000,
+        "end": -2500000,
+        "region": "humanidad",
+        "id": "site-taung"
+      }
+    ],
+    "social": [
+      {
+        "name": "Migraciones homininas",
+        "start": -2100000,
+        "end": 1500,
+        "region": "humanidad",
+        "id": "migraciones-hominina"
+      },
+      {
+        "name": "Out of Africa I (erectus s.l.)",
+        "start": -1850000,
+        "end": -1500000,
+        "region": "humanidad",
+        "id": "ooa-i-erectus"
+      },
+      {
+        "name": "Industria asiática previa a Dmanisi",
+        "start": -2120000,
+        "end": -1800000,
+        "region": "humanidad",
+        "id": "ooa-0-tools"
+      },
+      {
+        "name": "Dispersión del grado medio a Europa",
+        "start": -700000,
+        "end": -500000,
+        "region": "humanidad",
+        "id": "heidelbergensis-europa"
+      },
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Ocupación Skhul / Qafzeh",
+        "start": -130000,
+        "end": -90000,
+        "region": "humanidad",
+        "id": "sapiens-skhul-qafzeh"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Dispersión OoA de sapiens",
+        "start": -70000,
+        "end": -50000,
+        "region": "humanidad",
+        "id": "out-of-africa"
+      },
+      {
+        "name": "Out of Africa II (dispersión exitosa)",
+        "start": -70000,
+        "end": -50000,
+        "region": "humanidad",
+        "id": "ooa-ii-exitosa"
+      },
+      {
+        "name": "Sapiens en Misliya (Levante)",
+        "start": -194000,
+        "end": -177000,
+        "region": "humanidad",
+        "id": "sapiens-misliya"
+      }
+    ]
+  },
+  "sample_years": [
+    -2500000,
+    -2002000,
+    -1504000,
+    -1006000,
+    -508000,
+    -10000
+  ],
+  "A_t_rho": 0.0,
+  "W1_aproximado": 0.1176,
+  "civs_index": {
+    "aksum-et": 0,
+    "am-woodland": 1,
+    "andes-civ": 2,
+    "atlantic-mod": 3,
+    "china": 4,
+    "egypt": 5,
+    "hellas": 6,
+    "india": 7,
+    "iran": 8,
+    "islamicate": 9,
+    "japan-civ": 10,
+    "korea-civ": 11,
+    "kush-nubia": 12,
+    "latin-west": 13,
+    "levante": 14,
+    "mesoamerica": 15,
+    "mesopotamia": 16,
+    "oceania-civ": 17,
+    "rome": 18,
+    "sahel": 19,
+    "seasia-civ": 20,
+    "steppe": 21
+  },
+  "meso_overlap": []
+}

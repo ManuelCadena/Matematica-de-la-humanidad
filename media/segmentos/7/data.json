@@ -1,0 +1,485 @@
+{
+  "cap": 7,
+  "title": "Presente y horizonte",
+  "t0": 2000,
+  "t1": 2026,
+  "n_conos_activos": 9,
+  "n_nodos_activos": 316,
+  "n_por_lente": {
+    "politico": 109,
+    "historico": 153,
+    "religioso": 140,
+    "cientifico": 20,
+    "cultural": 51,
+    "social": 64
+  },
+  "top_10_por_lente": {
+    "politico": [
+      {
+        "name": "Tierras altas de Nueva Guinea",
+        "start": -4000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "png-highlands"
+      },
+      {
+        "name": "Ártico",
+        "start": -2000,
+        "end": 2026,
+        "region": "am-north",
+        "id": "arctic"
+      },
+      {
+        "name": "China",
+        "start": -1600,
+        "end": 2026,
+        "region": "easia",
+        "id": "china"
+      },
+      {
+        "name": "Corea",
+        "start": -700,
+        "end": 2026,
+        "region": "easia",
+        "id": "korea"
+      },
+      {
+        "name": "Japón",
+        "start": -300,
+        "end": 2026,
+        "region": "easia",
+        "id": "japan"
+      },
+      {
+        "name": "Haida",
+        "start": 500,
+        "end": 2026,
+        "region": "am-north",
+        "id": "haida"
+      },
+      {
+        "name": "Tlingit",
+        "start": 500,
+        "end": 2026,
+        "region": "am-north",
+        "id": "tlingit"
+      },
+      {
+        "name": "Noruega",
+        "start": 872,
+        "end": 2026,
+        "region": "eu-west",
+        "id": "norway"
+      },
+      {
+        "name": "Inglaterra / Gran Bretaña / RU",
+        "start": 927,
+        "end": 2026,
+        "region": "eu-west",
+        "id": "england"
+      },
+      {
+        "name": "Dinamarca",
+        "start": 965,
+        "end": 2026,
+        "region": "eu-west",
+        "id": "denmark"
+      }
+    ],
+    "historico": [
+      {
+        "name": "Humanidad (especie, clima, fe, ciencia, orden mundial)",
+        "start": -7000000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "humanidad"
+      },
+      {
+        "name": "Magreb",
+        "start": -145000,
+        "end": 2026,
+        "region": "maghreb",
+        "id": "maghreb"
+      },
+      {
+        "name": "Oceanía y Pacífico",
+        "start": -65000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "oceania"
+      },
+      {
+        "name": "África central y austral",
+        "start": -40000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "af-cs"
+      },
+      {
+        "name": "Artes visuales-ancla",
+        "start": -30000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "artes"
+      },
+      {
+        "name": "América del Norte y Ártico",
+        "start": -13000,
+        "end": 2026,
+        "region": "am-north",
+        "id": "am-north"
+      },
+      {
+        "name": "Mesoamérica y Caribe",
+        "start": -13000,
+        "end": 2026,
+        "region": "meso",
+        "id": "meso"
+      },
+      {
+        "name": "Clima del Holoceno",
+        "start": -11700,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "holoceno-clima"
+      },
+      {
+        "name": "Asia meridional",
+        "start": -7000,
+        "end": 2026,
+        "region": "sasia",
+        "id": "sasia"
+      },
+      {
+        "name": "Kuk Swamp (agricultura)",
+        "start": -7000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "kuk-swamp"
+      }
+    ],
+    "religioso": [
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Dreaming / Tjukurpa",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "dreaming-sahul"
+      },
+      {
+        "name": "Cosmología San / ǃKung",
+        "start": -20000,
+        "end": 2026,
+        "region": null,
+        "id": "san-rel"
+      },
+      {
+        "name": "Cosmologías indígenas",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "cosmologias-indigenas"
+      },
+      {
+        "name": "Campo índico",
+        "start": -1500,
+        "end": 2026,
+        "region": null,
+        "id": "indicas"
+      },
+      {
+        "name": "Cosmología mesoamericana",
+        "start": -1200,
+        "end": 2026,
+        "region": null,
+        "id": "meso-cosmov"
+      },
+      {
+        "name": "Tradiciones iranias",
+        "start": -1200,
+        "end": 2026,
+        "region": null,
+        "id": "iranias"
+      },
+      {
+        "name": "Zoroastrismo",
+        "start": -1000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "zoroaster"
+      },
+      {
+        "name": "Yahvismo / judaísmo",
+        "start": -1000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "yahwism-judaism"
+      },
+      {
+        "name": "Tradiciones de Norteamérica",
+        "start": -1000,
+        "end": 2026,
+        "region": null,
+        "id": "na-cosmov"
+      }
+    ],
+    "cientifico": [
+      {
+        "name": "Campo científico-técnico",
+        "start": -3000000,
+        "end": 2026,
+        "region": null,
+        "id": "cientifico-eje"
+      },
+      {
+        "name": "Género Homo",
+        "start": -2800000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "homo-genus"
+      },
+      {
+        "name": "Homo sapiens",
+        "start": -300000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "sapiens"
+      },
+      {
+        "name": "Cosmología San / ǃKung",
+        "start": -20000,
+        "end": 2026,
+        "region": null,
+        "id": "san-rel"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Demografía",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "demografia"
+      },
+      {
+        "name": "Familias lingüísticas (ancla)",
+        "start": -8000,
+        "end": 2026,
+        "region": null,
+        "id": "lenguas-familia"
+      },
+      {
+        "name": "Escritura como técnica",
+        "start": -3200,
+        "end": 2026,
+        "region": null,
+        "id": "escritura-como-tecnica"
+      },
+      {
+        "name": "Patrilinealidad de Estado",
+        "start": -3000,
+        "end": 2026,
+        "region": null,
+        "id": "patrilineal-estado"
+      },
+      {
+        "name": "Revoluciones científicas (categoría de Kuhn)",
+        "start": 1543,
+        "end": 2026,
+        "region": null,
+        "id": "revoluciones-ciencia"
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Poblamiento de Sahul / Australia aborigen",
+        "start": -65000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "sahul"
+      },
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Dreaming / Tjukurpa",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "dreaming-sahul"
+      },
+      {
+        "name": "Campo cultural",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "cultural-eje"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Cosmologías indígenas",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "cosmologias-indigenas"
+      },
+      {
+        "name": "Familias lingüísticas (ancla)",
+        "start": -8000,
+        "end": 2026,
+        "region": null,
+        "id": "lenguas-familia"
+      },
+      {
+        "name": "Escritura como técnica",
+        "start": -3200,
+        "end": 2026,
+        "region": null,
+        "id": "escritura-como-tecnica"
+      },
+      {
+        "name": "Cánones literarios",
+        "start": -2100,
+        "end": 2026,
+        "region": null,
+        "id": "canon-letras"
+      },
+      {
+        "name": "Campo índico",
+        "start": -1500,
+        "end": 2026,
+        "region": null,
+        "id": "indicas"
+      }
+    ],
+    "social": [
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Campo social",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "social"
+      },
+      {
+        "name": "Parentesco y género",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "parentesco"
+      },
+      {
+        "name": "Demografía",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "demografia"
+      },
+      {
+        "name": "Esclavitud y servidumbre",
+        "start": -3000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "trabajo-servidumbre"
+      },
+      {
+        "name": "Patrilinealidad de Estado",
+        "start": -3000,
+        "end": 2026,
+        "region": null,
+        "id": "patrilineal-estado"
+      },
+      {
+        "name": "Trabajo, esclavitud, casta",
+        "start": -3000,
+        "end": 2026,
+        "region": null,
+        "id": "trabajo-campo"
+      },
+      {
+        "name": "Religiones tradicionales africanas",
+        "start": -1000,
+        "end": 2026,
+        "region": null,
+        "id": "atr"
+      },
+      {
+        "name": "Cosmología andina (huaca, ayni, Inti)",
+        "start": -900,
+        "end": 2026,
+        "region": null,
+        "id": "andes-cosmov"
+      }
+    ]
+  },
+  "sample_years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020,
+    2025
+  ],
+  "A_t_rho": 0.0,
+  "W1_aproximado": 0.0014,
+  "civs_index": {
+    "aksum-et": 0,
+    "am-woodland": 1,
+    "andes-civ": 2,
+    "atlantic-mod": 3,
+    "china": 4,
+    "egypt": 5,
+    "hellas": 6,
+    "india": 7,
+    "iran": 8,
+    "islamicate": 9,
+    "japan-civ": 10,
+    "korea-civ": 11,
+    "kush-nubia": 12,
+    "latin-west": 13,
+    "levante": 14,
+    "mesoamerica": 15,
+    "mesopotamia": 16,
+    "oceania-civ": 17,
+    "rome": 18,
+    "sahel": 19,
+    "seasia-civ": 20,
+    "steppe": 21
+  },
+  "meso_overlap": []
+}

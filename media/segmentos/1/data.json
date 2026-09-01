@@ -1,0 +1,478 @@
+{
+  "cap": 1,
+  "title": "Primeras lámparas",
+  "t0": -10000,
+  "t1": -3000,
+  "n_conos_activos": 5,
+  "n_nodos_activos": 112,
+  "n_por_lente": {
+    "politico": 10,
+    "historico": 51,
+    "religioso": 9,
+    "cientifico": 44,
+    "cultural": 36,
+    "social": 13
+  },
+  "top_10_por_lente": {
+    "politico": [
+      {
+        "name": "Tierras altas de Nueva Guinea",
+        "start": -4000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "png-highlands"
+      },
+      {
+        "name": "Egipto dinástico",
+        "start": -3100,
+        "end": -30,
+        "region": "af-nile",
+        "id": "egypt"
+      },
+      {
+        "name": "Biblos / Gubla",
+        "start": -3000,
+        "end": -332,
+        "region": "near-east",
+        "id": "byblos"
+      },
+      {
+        "name": "Dilmun",
+        "start": -3000,
+        "end": -500,
+        "region": "near-east",
+        "id": "dilmun"
+      },
+      {
+        "name": "Sumer / Uruk",
+        "start": -3500,
+        "end": -2000,
+        "region": "near-east",
+        "id": "sumer"
+      },
+      {
+        "name": "Caral-Supe / Norte Chico",
+        "start": -3000,
+        "end": -1800,
+        "region": "andes",
+        "id": "caral"
+      },
+      {
+        "name": "Vichama / Áspero complejo",
+        "start": -3000,
+        "end": -1800,
+        "region": "andes",
+        "id": "viro-yp"
+      },
+      {
+        "name": "Aspero",
+        "start": -3000,
+        "end": -1800,
+        "region": "andes",
+        "id": "asperó"
+      },
+      {
+        "name": "Bandurria",
+        "start": -3200,
+        "end": -2000,
+        "region": "andes",
+        "id": "bandurria"
+      },
+      {
+        "name": "Dinastía I",
+        "start": -3100,
+        "end": -2890,
+        "region": "af-nile",
+        "id": "egy-d1"
+      }
+    ],
+    "historico": [
+      {
+        "name": "Humanidad (especie, clima, fe, ciencia, orden mundial)",
+        "start": -7000000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "humanidad"
+      },
+      {
+        "name": "Paleolítico",
+        "start": -3300000,
+        "end": -10000,
+        "region": "humanidad",
+        "id": "paleolitico"
+      },
+      {
+        "name": "Magreb",
+        "start": -145000,
+        "end": 2026,
+        "region": "maghreb",
+        "id": "maghreb"
+      },
+      {
+        "name": "Oceanía y Pacífico",
+        "start": -65000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "oceania"
+      },
+      {
+        "name": "Pleistoceno tardío australiano",
+        "start": -65000,
+        "end": -10000,
+        "region": "oceania",
+        "id": "sahul-late-pleist"
+      },
+      {
+        "name": "África central y austral",
+        "start": -40000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "af-cs"
+      },
+      {
+        "name": "Paleolítico superior",
+        "start": -50000,
+        "end": -10000,
+        "region": "humanidad",
+        "id": "upper-pal"
+      },
+      {
+        "name": "Cercana Oceanía pleistocena",
+        "start": -35000,
+        "end": -1600,
+        "region": "oceania",
+        "id": "near-oceania"
+      },
+      {
+        "name": "Artes visuales-ancla",
+        "start": -30000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "artes"
+      },
+      {
+        "name": "América del Norte y Ártico",
+        "start": -13000,
+        "end": 2026,
+        "region": "am-north",
+        "id": "am-north"
+      }
+    ],
+    "religioso": [
+      {
+        "name": "Práctica ritual paleolítica",
+        "start": -100000,
+        "end": -10000,
+        "region": null,
+        "id": "ritual-paleo"
+      },
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Dreaming / Tjukurpa",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "dreaming-sahul"
+      },
+      {
+        "name": "Cosmología San / ǃKung",
+        "start": -20000,
+        "end": 2026,
+        "region": null,
+        "id": "san-rel"
+      },
+      {
+        "name": "Cosmologías indígenas",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "cosmologias-indigenas"
+      },
+      {
+        "name": "Religiones del antiguo Oriente",
+        "start": -3500,
+        "end": 400,
+        "region": null,
+        "id": "antiguo-oriente-rel"
+      },
+      {
+        "name": "Religión egipcia",
+        "start": -3100,
+        "end": 400,
+        "region": null,
+        "id": "egipto-rel"
+      },
+      {
+        "name": "Religión sumerio-acadia",
+        "start": -3500,
+        "end": -100,
+        "region": null,
+        "id": "mesopotamia-rel"
+      },
+      {
+        "name": "Gheo-Shih",
+        "start": -7600,
+        "end": -7500,
+        "region": "meso",
+        "id": "gheo-shih"
+      }
+    ],
+    "cientifico": [
+      {
+        "name": "Campo científico-técnico",
+        "start": -3000000,
+        "end": 2026,
+        "region": null,
+        "id": "cientifico-eje"
+      },
+      {
+        "name": "Género Homo",
+        "start": -2800000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "homo-genus"
+      },
+      {
+        "name": "Migraciones homininas",
+        "start": -2100000,
+        "end": 1500,
+        "region": "humanidad",
+        "id": "migraciones-hominina"
+      },
+      {
+        "name": "Homo sapiens",
+        "start": -300000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "sapiens"
+      },
+      {
+        "name": "Práctica ritual paleolítica",
+        "start": -100000,
+        "end": -10000,
+        "region": null,
+        "id": "ritual-paleo"
+      },
+      {
+        "name": "Later Stone Age austral",
+        "start": -40000,
+        "end": -200,
+        "region": "af-cs",
+        "id": "af-cs-lsa"
+      },
+      {
+        "name": "Cercana Oceanía pleistocena",
+        "start": -35000,
+        "end": -1600,
+        "region": "oceania",
+        "id": "near-oceania"
+      },
+      {
+        "name": "Cosmología San / ǃKung",
+        "start": -20000,
+        "end": 2026,
+        "region": null,
+        "id": "san-rel"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Iberomaurusiense",
+        "start": -23000,
+        "end": -9000,
+        "region": "maghreb",
+        "id": "iberomaurusian"
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Poblamiento de Sahul / Australia aborigen",
+        "start": -65000,
+        "end": 2026,
+        "region": "oceania",
+        "id": "sahul"
+      },
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Dreaming / Tjukurpa",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "dreaming-sahul"
+      },
+      {
+        "name": "Campo cultural",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "cultural-eje"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Iberomaurusiense",
+        "start": -23000,
+        "end": -9000,
+        "region": "maghreb",
+        "id": "iberomaurusian"
+      },
+      {
+        "name": "Jōmon (paquete neolítico)",
+        "start": -14000,
+        "end": -300,
+        "region": "humanidad",
+        "id": "jomon-neol"
+      },
+      {
+        "name": "Cosmologías indígenas",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "cosmologias-indigenas"
+      },
+      {
+        "name": "Familias lingüísticas (ancla)",
+        "start": -8000,
+        "end": 2026,
+        "region": null,
+        "id": "lenguas-familia"
+      },
+      {
+        "name": "Hoabinhiense",
+        "start": -10000,
+        "end": -2000,
+        "region": "seasia",
+        "id": "hoabinhian"
+      }
+    ],
+    "social": [
+      {
+        "name": "Migraciones homininas",
+        "start": -2100000,
+        "end": 1500,
+        "region": "humanidad",
+        "id": "migraciones-hominina"
+      },
+      {
+        "name": "Campo religioso",
+        "start": -40000,
+        "end": 2026,
+        "region": null,
+        "id": "religioso"
+      },
+      {
+        "name": "Tradiciones Khoe-San",
+        "start": -20000,
+        "end": 2026,
+        "region": "af-cs",
+        "id": "khoesan-anc"
+      },
+      {
+        "name": "Campo social",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "social"
+      },
+      {
+        "name": "Parentesco y género",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "parentesco"
+      },
+      {
+        "name": "Demografía",
+        "start": -10000,
+        "end": 2026,
+        "region": null,
+        "id": "demografia"
+      },
+      {
+        "name": "Holoceno australiano",
+        "start": -10000,
+        "end": 1788,
+        "region": "oceania",
+        "id": "australia-holocene"
+      },
+      {
+        "name": "Esclavitud y servidumbre",
+        "start": -3000,
+        "end": 2026,
+        "region": "humanidad",
+        "id": "trabajo-servidumbre"
+      },
+      {
+        "name": "Patrilinealidad de Estado",
+        "start": -3000,
+        "end": 2026,
+        "region": null,
+        "id": "patrilineal-estado"
+      },
+      {
+        "name": "Trabajo, esclavitud, casta",
+        "start": -3000,
+        "end": 2026,
+        "region": null,
+        "id": "trabajo-campo"
+      }
+    ]
+  },
+  "sample_years": [
+    -10000,
+    -8600,
+    -7200,
+    -5800,
+    -4400,
+    -3000
+  ],
+  "A_t_rho": 0.0,
+  "W1_aproximado": 0.0472,
+  "civs_index": {
+    "aksum-et": 0,
+    "am-woodland": 1,
+    "andes-civ": 2,
+    "atlantic-mod": 3,
+    "china": 4,
+    "egypt": 5,
+    "hellas": 6,
+    "india": 7,
+    "iran": 8,
+    "islamicate": 9,
+    "japan-civ": 10,
+    "korea-civ": 11,
+    "kush-nubia": 12,
+    "latin-west": 13,
+    "levante": 14,
+    "mesoamerica": 15,
+    "mesopotamia": 16,
+    "oceania-civ": 17,
+    "rome": 18,
+    "sahel": 19,
+    "seasia-civ": 20,
+    "steppe": 21
+  },
+  "meso_overlap": []
+}
