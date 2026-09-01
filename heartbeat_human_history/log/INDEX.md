@@ -2,6 +2,7 @@
 
 Más reciente arriba. Una línea por sesión. El archivo completo vive junto a esta lista.
 
+- `2026-08-31-historia-modelada-html` — Devin — docs — genera `historia_modelada.html` consolidado: intro narrativa + modelo v6.4.0 + ensayo (5) + guía (4) + nuevos gráficos y videos; validación de scripts pendiente — [log](2026-08-31_historia-modelada-html.md)
 - `2026-08-31-docs-paper-figuras` — Devin — docs — integra ensayos e imágenes de `Paper_Evolucion_de_la_Humanidad` (5) y su guía de lectura (4); validación de scripts ok — [log](2026-08-31_docs-paper-figuras.md)
 - `2026-08-31-higiene-taladro-40` — Claude Fable 5 — add-node — higiene (precision enum, 16 conos re-trazados src_ids, 20 notas capital≠polidad) + taladro 40 nodos; árbol 2296→2336 / ontología 2522→2562 — [log](2026-08-31_higiene-taladro-40.md)
 - `2026-08-31-repo-corpus-push` — Grok 4.6 — repo-push — SPEC_03+schema+packer en main; JSON canónicos aún fuera (lock + techo 1MB) — [log](2026-08-31_repo-corpus-push.md)

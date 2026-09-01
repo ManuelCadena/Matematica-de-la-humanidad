@@ -1,7 +1,7 @@
 {
   "schema": "heartbeat.v1.1",
   "protocol_version": "1.1.0",
-  "t": "2026-08-31T19:10:00Z",
+  "t": "2026-09-01T00:17:56.178327Z",
   "status": "degraded",
   "repo": "ManuelCadena/Matematica-de-la-humanidad",
   "branch": "main",
@@ -86,8 +86,8 @@
     }
   },
   "chain": {
-    "prev_session_id": "2026-08-31-gaps-v7",
-    "prev_sha256": "3586fbe8a5b98f5929532692ba6080e81c2c7ee7a918688a316d492e7b3104c2"
+    "prev_session_id": "2026-08-31-higiene-taladro-40",
+    "prev_sha256": "16d96946f048faef1f7cf160d91fd05f7bf17ae6a36a1f3d9ebb1d034371623f"
   },
   "github_lag": [
     "docs/SPEC_03-05 full (remote stubs)",
@@ -112,11 +112,11 @@
     "acople kush->egypt (Dinastia XXV) documentado y pendiente de alta"
   ],
   "last_session": {
-    "id": "2026-08-31-higiene-taladro-40",
-    "agent": "Claude Fable 5",
-    "activity": "add-node",
-    "log": "log/2026-08-31_higiene-taladro-40.md",
-    "sha256": "16d96946f048faef1f7cf160d91fd05f7bf17ae6a36a1f3d9ebb1d034371623f"
+    "id": "2026-08-31-historia-modelada-html",
+    "agent": "Devin v1.0",
+    "activity": "docs",
+    "log": "log/2026-08-31_historia-modelada-html.md",
+    "sha256": "0285fdb7355edbc976a6d9dc0675941721a97e01d86306ba04eeb2c8523bad79"
   },
   "protocol": {
     "readme": "heartbeat_human_history/README.md",
